@@ -1,20 +1,22 @@
 English | [Russian](REDISTRIBUTION_STATUS.ru.md)
 
-# Source and binary release status
+# Source and binary distribution
 
 <!-- section:source -->
-## Source-only gate
+## Source code
 
-Source publication is independent of the blocked portable executable. The prepared tree contains no native runtime distributions or development history. Bilingual, language, privacy and build checks must pass. The owner approved Apache-2.0, Copyright 2026 shinKatana0, public author shinKatana0 and intended repository shinKatana0/GeoStack. LICENSE contains the official Apache-2.0 text. The owner confirmed original-artwork redistribution rights and the exact GitHub-provided noreply address. External publication remains unauthorized.
+GeoStack-owned source and original branding are licensed under Apache-2.0, Copyright 2026 shinKatana0. The repository includes compact geographic data and the applicable notices. It does not include the native media-tool distributions. See [LICENSE](../LICENSE), [NOTICE](../NOTICE) and [third-party notices](../THIRD_PARTY_NOTICES.md) for the separate rights involved.
 
 <!-- section:binary -->
-## Concise binary compliance matrix
+## Windows packages
+
+Official Windows binaries are not yet distributed. The outstanding requirements apply to the exact bundled tools and data, independently of GeoStack's source license.
 
 | Component | Status and missing material |
 |---|---|
-| FFmpeg GPL-3.0-or-later | BLOCKED: exact complete corresponding sources, patches and build/install recipes. |
-| ExifTool/Perl native modules | BLOCKED: exact Brotli/Win32::FindFile and other native source/build/notice gaps. |
-| Geographic data | Source arrangement includes attribution and entire adapted data; binary ZIP must integrate its required materials separately. |
-| Public signing | Not established; no self-signed trust mechanism is offered. |
+| FFmpeg GPL-3.0-or-later | BLOCKED: matching complete corresponding source, patches and build/install recipes. |
+| ExifTool/Perl native modules | BLOCKED: matching native source/build provenance and required notices for Brotli, Win32::FindFile and other components. |
+| Geographic data | A binary package must include its own required attribution and data-access materials; the source tree already includes the source-scope materials. |
+| Code signing | Public signing is not established. Do not use a self-signed certificate as a public trust mechanism. |
 
-LGPL-labelled replacements are not automatically compliant. No new binary release, upload or public repository is authorized by this source proposal.
+An LGPL-labelled replacement still needs its exact binary, source and redistribution obligations checked. A successful local build does not clear a package for redistribution.

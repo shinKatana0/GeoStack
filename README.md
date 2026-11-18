@@ -2,51 +2,85 @@ English | [Русский](README.ru.md)
 
 # GeoStack
 
-<!-- section:overview -->
-## Offline geographic media library
+<img src="assets/branding/GeoStack-256.png" width="64" alt="GeoStack logo">
 
-<img src="assets/branding/GeoStack-256.png" width="80" alt="GeoStack logo">
+**An offline photo and video organizer for Windows.**
 
-GeoStack 0.5.5 is a portable Windows 11 x64 photo and video organizer built with C#, .NET 10 and WPF. Browse media on an offline map and organize selected files into country/city folders. English/Russian interfaces and System/Light/Dark themes are supported.
+GeoStack puts your photos and videos on a map using the GPS information saved in each file. Browse a trip by place, view photos taken near one another, and copy or move selected files into country/city folders. Use JPEG, HEIC, supported RAW files and videos together, and download more detailed maps when you need them.
 
-**This is a source-only publication proposal. No public Windows download is approved.** GeoStack-owned source is licensed under Apache-2.0, Copyright 2026 shinKatana0. The owner confirmed redistribution rights for original GeoStack branding; portable binary redistribution is separately blocked. See [LICENSE](LICENSE) and [NOTICE](NOTICE). See [release status](docs/REDISTRIBUTION_STATUS.md).
+**Source code is available. Official Windows binaries are not yet distributed.** [Build and run locally](BUILD.md).
+
+![World map with photo groups and the Media Library](docs/screenshots/world-Light.png)
+
+*Photos grouped by place, with individual files in the Media Library. Screenshots use demonstration media.*
 
 <!-- section:features -->
-## Everyday use
+## What you can do
 
-- Open folders or drop files/folders from Explorer. Imports are additive and deduplicate source paths.
-- Browse JPEG, HEIC/HEIF, supported RAW files and MOV/MP4 or other supported containers. Codec/content determines actual support; an extension is not a decode guarantee.
-- Use Ctrl/Shift selection, Ctrl+A, GPS filters, double-click map navigation and F4 preview. Catalog removal preserves originals and persists exclusions.
-- Geographic stacks and off-screen indicators keep distant locations accessible. Optional detailed maps complement the compact global atlas.
-- Copy is the default. Copy preserves originals. Move removes sources only after a verified destination is committed; review uncertainty and destinations before confirming.
+- **Add folders or individual files.** Open a folder or drag files from Explorer. New additions join your library; repeated imports do not add duplicates.
+- **Browse by location.** Nearby photos share a stack on the map. Double-click a geotagged item to go to its location. Files without GPS stay available in the library.
+- **Choose the files you need.** Filter by GPS, select with Ctrl or Shift, and preview with F4. Removing an item from the library leaves it on disk and keeps it out of folder rescans.
+- **Organize files by place.** Preview country/city folders before copying or moving a selection. You can adjust uncertain locations instead of guessing where a file belongs.
 
-[Media Library](docs/MEDIA_LIBRARY.md) · [Copy/Move and recovery](docs/GEOGRAPHIC_ORGANIZATION.md)
+The interface is available in English and Russian, with System, Light and Dark themes. Folder-naming language is a separate setting.
 
-<!-- section:privacy -->
-## Offline operation and safety
+<!-- section:source -->
+## Try it from source
 
-Normal browsing is offline, without accounts or telemetry. Map downloads start only after explicit confirmation. Regional requests disclose the chosen area, not media, filenames, EXIF or individual photo-coordinate lists. Map detail and localized labels depend on actual coverage.
+GeoStack 0.5.5 uses C#, .NET 10 and WPF and runs on Windows 11 x64. Install the SDK selected in `global.json`, then run these commands from the repository root:
 
-Keep independent backups. Move is deliberate and destructive after verified transfer; no arbitrary-filesystem or power-loss transaction guarantee is promised. Interrupted/partial operations require review. Never disable Windows protections to run an unsigned build.
+```powershell
+. ./scripts/environment.ps1
+dotnet restore GeoStack.sln --ignore-failed-sources -p:NuGetAudit=false
+dotnet build GeoStack.sln -c Release --no-restore
+```
 
-[Offline maps](docs/OFFLINE_MAPS.md) · [Limitations](docs/KNOWN_LIMITATIONS.md) · [Security](SECURITY.md)
+The offline world atlas is included. Import and previews need separately supplied ExifTool and FFmpeg tools. [BUILD](BUILD.md) explains setup and launch with an isolated profile.
+
+<!-- section:maps -->
+## Maps for your library
+
+The world map works offline. For more local detail, open **Maps → Download Detailed Maps for My Library**. Review the proposed areas, coverage and storage requirements, then choose what to download. Installed maps can be used offline afterward.
+
+The built-in atlas is an overview, not a worldwide street map. Detail and translated place names depend on installed data. See [offline maps](docs/OFFLINE_MAPS.md).
+
+<!-- section:formats -->
+## Media formats
+
+JPEG, HEIC/HEIF, supported RAW formats, MOV and MP4 can be browsed together. Preview support varies by camera format, codec and local media tools. See [Media Library and formats](docs/MEDIA_LIBRARY.md).
+
+<!-- section:safety -->
+## Your files and privacy
+
+Normal browsing works offline, without accounts, telemetry or cloud uploads. Map downloads start only after confirmation. They request geographic areas, not your photos, filenames or individual photo-coordinate lists.
+
+Copy preserves originals and is the default. Move is a separate choice: GeoStack checks the destination before removing the source file. Review the folders, keep backups and check interrupted operations before continuing. See [copy, move and recovery](docs/GEOGRAPHIC_ORGANIZATION.md).
 
 <!-- section:gallery -->
-## Screenshots
+## A closer look
 
-These existing application-window captures use procedural scenery and synthetic GPS, not personal photographs. They show the accepted Windows application, not a new physical acceptance test. Optional Prague detail is not worldwide default coverage.
+<details>
+<summary>Photo groups, detailed maps and folder previews</summary>
 
-![World map and Media Library](docs/screenshots/world-Light.png)
+![Nearby photos grouped on a map of Tokyo, with individual files in the sidebar](docs/screenshots/photo-stacks-Light.png)
 
-![Detailed Prague map](docs/screenshots/detailed-city-Light.png)
+*A photo stack near Tokyo, shown with regional map context.*
 
-![Dark atlas and multi-selection](docs/screenshots/world-Dark.png)
+![Downloaded Prague city map in the Dark theme](docs/screenshots/detailed-city-Dark.png)
 
-[Stacks, organization and downloads](docs/screenshots/README.md). Map attribution remains visible.
+*Downloaded city detail in Prague, using the Dark theme.*
 
-<!-- section:development -->
-## Build, license and future work
+![Copy to Location preview showing country and city destination folders](docs/screenshots/organization-Light.png)
 
-See [BUILD](BUILD.md), [contribution guide](CONTRIBUTING.md), [changelog](CHANGELOG.md) and [third-party notices](THIRD_PARTY_NOTICES.md). No installer or system-wide .NET is needed for a self-contained portable build, but this source tree contains no native media-tool binaries. Building or obtaining dependencies does not authorize redistributing them.
+*Preview country/city folders before copying, or select Move to Location.*
 
-No advertising, registration, paid tiers or mandatory cloud services. Android is a separate future milestone; [handoff](docs/ANDROID_HANDOFF.md) contains no Android implementation. Publication requires explicit owner approval.
+</details>
+
+[More screenshots](docs/screenshots/README.md) · [Known limitations](docs/KNOWN_LIMITATIONS.md) · [Security](SECURITY.md)
+
+<!-- section:license -->
+## License and acknowledgments
+
+GeoStack-owned source and original branding are licensed under [Apache-2.0](LICENSE), Copyright 2026 shinKatana0. Map data and other third-party material keep their own licenses; see [NOTICE](NOTICE) and [third-party notices](THIRD_PARTY_NOTICES.md). The atlas uses Natural Earth and OpenStreetMap-derived data through Protomaps.
+
+[Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md) · [Architecture](ARCHITECTURE.md)

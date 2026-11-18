@@ -1,20 +1,20 @@
 English | [Russian](README.ru.md)
 
-# Screenshot provenance and captions
+# Screenshots
 
 <!-- section:privacy -->
-## Demonstration profile
+## Demo media
 
-All 12 existing application-window PNG captures use procedural scenery, test video and synthetic GPS. They are cropped application content, not desktop captures. Filenames and profile/destination labels are generic; no personal photographs or account details are intended. Embedded metadata is inspected on publication copies. No new physical interaction or DPI acceptance is claimed; the images show the accepted Windows application with English UI. Map attribution is retained.
+These application-window screenshots use generated illustrations, test video and example locations. They contain no personal photo collection. The interface is shown in English; GeoStack also has a Russian interface. Detailed city maps shown here are optional downloads, not worldwide street coverage.
 
 <!-- section:gallery -->
 ## Gallery
 
-- [World / library, Light](world-Light.png), [Dark](world-Dark.png).
-- [Shanghai global context, Light](urban-context-Light.png), [Dark](urban-context-Dark.png).
-- [Optional Prague detail, Light](detailed-city-Light.png), [Dark](detailed-city-Dark.png).
-- [Tokyo geographic stacks, Light](photo-stacks-Light.png), [Dark](photo-stacks-Dark.png).
-- [Geographic organization preview, Light](organization-Light.png), [Dark](organization-Dark.png).
-- [User-confirmed map planning, Light](download-preview-Light.png), [Dark](download-preview-Dark.png).
+- [World map and Media Library, Light](world-Light.png), [Dark](world-Dark.png).
+- [Shanghai regional context, Light](urban-context-Light.png), [Dark](urban-context-Dark.png).
+- [Detailed Prague map, Light](detailed-city-Light.png), [Dark](detailed-city-Dark.png).
+- [Photo stacks near Tokyo, Light](photo-stacks-Light.png), [Dark](photo-stacks-Dark.png).
+- [Country/city folder preview, Light](organization-Light.png), [Dark](organization-Dark.png).
+- [Map download selection, Light](download-preview-Light.png), [Dark](download-preview-Dark.png).
 
-Natural Earth public-domain data and OSM/Protomaps-derived map works keep their independent rights. Optional city detail in a screenshot is not bundled worldwide street coverage. The project source license is Apache-2.0, Copyright 2026 shinKatana0. The owner confirmed original-artwork redistribution rights; third-party maps retain their own terms.
+Map attribution remains visible. Natural Earth and OSM/Protomaps-derived data retain their independent terms; see [third-party notices](../../THIRD_PARTY_NOTICES.md). Original GeoStack branding uses Apache-2.0, Copyright 2026 shinKatana0.

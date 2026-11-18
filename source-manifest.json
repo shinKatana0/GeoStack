@@ -102,28 +102,28 @@
       "SHA256": "075e4c2d56c07046714100c78a7945c75c13c1e1e49b1b9cb3f0dc7ccb43e9a1"
     },
     "BUILD.md": {
-      "Bytes": 2170,
-      "SHA256": "4af37f3ab96b293126b3984f4b3da243c658d8047ae835b66b9e91b8e1f018b8"
+      "Bytes": 2596,
+      "SHA256": "4a733289b415faa631f28ab579e5ecde06401fe70056f3f28ba4ff2833f58a50"
     },
     "BUILD.ru.md": {
-      "Bytes": 3754,
-      "SHA256": "946b822cdf269f6739ea2d1763e0ef1e1bedfca680df2835500222926b6416a3"
+      "Bytes": 4346,
+      "SHA256": "3343ce8990539001842aa3b7fc439cc8026e931bc12656f1dc22955a030fc610"
     },
     "CHANGELOG.md": {
-      "Bytes": 880,
-      "SHA256": "6e42ca97e73eaf82164eee4294e956e79e8e4aa7b6e40455477be2416bd49d9b"
+      "Bytes": 820,
+      "SHA256": "40ae1ed43a42e7e5e323818e7661ec1e609868ba0b3c418defedd6ac5b7e8d63"
     },
     "CHANGELOG.ru.md": {
-      "Bytes": 1639,
-      "SHA256": "5b0ab947c3995b17f0aa5f018e988862b3414867c59ed336de45640c4aae575f"
+      "Bytes": 1451,
+      "SHA256": "d1d484293b2704aea5dbff8a353b226e52ac402e097429a5ef0c4fc49975f6ea"
     },
     "CONTRIBUTING.md": {
-      "Bytes": 1361,
-      "SHA256": "91aefc0684fb4506e007d47b6b52e623ef69220ec7fbb11fbaa75d8e8b64afd8"
+      "Bytes": 1219,
+      "SHA256": "a4be375208bc1a0e89a88c97dc15c58d046005f9da731df2dd57c0dfbcc3038a"
     },
     "CONTRIBUTING.ru.md": {
-      "Bytes": 2617,
-      "SHA256": "f63497eba0a57c96e55e6bcb51f14b9e8c373d681b6a511c2068950602b4b867"
+      "Bytes": 2395,
+      "SHA256": "2d2772c310b0cb67b3c6edd4e100f962521357b53fa9a500105a35c3f7c8cd86"
     },
     "Directory.Build.props": {
       "Bytes": 185,
@@ -138,12 +138,12 @@
       "SHA256": "0051d113b62d44de5ae75cbb9de82f6f26e5f99acf60f1afccea2ee819d15f09"
     },
     "docs/BRANDING.md": {
-      "Bytes": 926,
-      "SHA256": "aa921c7624353483fe85c7522e679bdf8e5062f71eec1cb64d29ffede53c6666"
+      "Bytes": 870,
+      "SHA256": "eea28965e6d35b025024c39879c521281fa16820b61cc5249443590c0e476ad0"
     },
     "docs/BRANDING.ru.md": {
-      "Bytes": 1696,
-      "SHA256": "62dfd412d05f7bf3af2d19445347c5ea531aa8f82bd2f4f25990cba3aa1bf372"
+      "Bytes": 1635,
+      "SHA256": "2bdf69654eb56a081fd09f539b3114958af4846e00f47afdb6048af4ce28549b"
     },
     "docs/GEOGRAPHIC_DATASETS.md": {
       "Bytes": 2974,
@@ -162,12 +162,12 @@
       "SHA256": "518a63fe151da3c3f899258c46e17143e6bb9c3be38739622c249aac8b9b688b"
     },
     "docs/KNOWN_LIMITATIONS.md": {
-      "Bytes": 1137,
-      "SHA256": "59a274d6f5eeb16ca899b453d416c406e16c9c544e6d258eeea37ff6b908183a"
+      "Bytes": 1390,
+      "SHA256": "70a516f25b339de91366a1075d3ef5b4ee3010f21076e08ac523af72459dad8c"
     },
     "docs/KNOWN_LIMITATIONS.ru.md": {
-      "Bytes": 2107,
-      "SHA256": "16e12eca734cc1073ce6d714ba3e6202ddf079a285396668b511c0b3c1de61df"
+      "Bytes": 2764,
+      "SHA256": "8519a898bc1413587470e813a4193750db82ff39a4b67bc127e88725235c8768"
     },
     "docs/MAP_DOWNLOAD_PROVIDERS.md": {
       "Bytes": 1430,
@@ -210,20 +210,20 @@
       "SHA256": "325259c9fef77975b9cb5956b94d2d27c506da6113adda89056b9e9e8a705f64"
     },
     "docs/PROJECT_LICENSE_PROPOSAL.md": {
-      "Bytes": 944,
-      "SHA256": "a875c9d67db8bed2ca9fa3043864a605b6424fbcb704fc681f53370a11770482"
+      "Bytes": 750,
+      "SHA256": "08536cb8480e7ae40c7062542668b6141e28a6f03167cbb9b897b87a326356b8"
     },
     "docs/PROJECT_LICENSE_PROPOSAL.ru.md": {
-      "Bytes": 1549,
-      "SHA256": "50ece6c5608db49936bfdc27ecce2e8d6d82b0bbef57b78ac36b8618f53bdf3e"
+      "Bytes": 1271,
+      "SHA256": "c8916d30c1d19cf22f25ab75a035cc26b448b6c2e27de8a9f164cd9da2476269"
     },
     "docs/REDISTRIBUTION_STATUS.md": {
-      "Bytes": 1392,
-      "SHA256": "33335f3e6c2a5c51301e88eb7bfb2d6bc05dc6017478d98628b6d7c93bd0932b"
+      "Bytes": 1497,
+      "SHA256": "373b32570c051b5dcce7b82b99ed1a4e0957c38b152c4c9eb2873cf4b6ff5249"
     },
     "docs/REDISTRIBUTION_STATUS.ru.md": {
-      "Bytes": 2563,
-      "SHA256": "3a5494327e893457e4a620bfbda762f0398345c760e2ac53dce19c4b96034c4e"
+      "Bytes": 2608,
+      "SHA256": "fc805a3832513ab66d54e542660c71f86685561188efeab99a4493a9f9ef17bf"
     },
     "docs/screenshots/detailed-city-Dark.png": {
       "Bytes": 1157378,
@@ -258,12 +258,12 @@
       "SHA256": "2a9dfd266771736fc04060bf9ef065bf9a064fb07732e21a84a420dd47aa8962"
     },
     "docs/screenshots/README.md": {
-      "Bytes": 1540,
-      "SHA256": "982975a4924bf6859bab6960d05fc18925243bee7da04e93c0c321f80d57474e"
+      "Bytes": 1219,
+      "SHA256": "171a6cc09139590369d04c5d2b9aeafc351740a412a9012029a9006533705dd9"
     },
     "docs/screenshots/README.ru.md": {
-      "Bytes": 2694,
-      "SHA256": "59908bd256c24c322838e150dea3f2040fdb4a4530cfa04065d7f24848678bdc"
+      "Bytes": 2024,
+      "SHA256": "b40a3cf86f4f50392fdba17de3b7cb0209fe14d0cdd2b55d97edbf09162fcf9b"
     },
     "docs/screenshots/urban-context-Dark.png": {
       "Bytes": 532005,
@@ -342,12 +342,12 @@
       "SHA256": "f9a45f2c5634dcb9f0f7cb74c3133e63fa30242d54b2fd83758dbb9cba20257d"
     },
     "README.md": {
-      "Bytes": 3689,
-      "SHA256": "11dc8173ec657687b765a547ef53289c09513806eec54afe3c285617f00a292e"
+      "Bytes": 4775,
+      "SHA256": "5adf12466f6edbb27d03a14a151d7ed5eb55c8e3f9f2b4b0a282cc4d60b7c934"
     },
     "README.ru.md": {
-      "Bytes": 6628,
-      "SHA256": "b5d8aa5513d142f1cff7c5e88747211badfd88c65fa6a92c7e523fc7a95bf526"
+      "Bytes": 8592,
+      "SHA256": "40c7518b6122b40b7bacb79d1771002053da033b7f31767cbf26f464d51fbcda"
     },
     "release/compliance/GEOGRAPHIC_DATA_OFFER.md": {
       "Bytes": 1410,
@@ -382,8 +382,8 @@
       "SHA256": "03cc9d343a4bf17dbe95230fc43902c83a71bd66682d20f99bafda1110dd2663"
     },
     "release/publication-gate.json": {
-      "Bytes": 604,
-      "SHA256": "f35a66602482939dd92bf319820ef1585cc138492cc9e5cd9f2dec3666e7e294"
+      "Bytes": 453,
+      "SHA256": "f24a1719c01a29bfe71f90d1e94cbc2bdd1f3727d2b80fc24812aa9ae753eeb1"
     },
     "release/source-license.json": {
       "Bytes": 8603,
@@ -554,12 +554,12 @@
       "SHA256": "295a4588fc1a99f1f0dc4ac222774f5cd01c9864a93612b7b88c8ef0d646d25b"
     },
     "SECURITY.md": {
-      "Bytes": 1402,
-      "SHA256": "31271871ad3c4a0609038381acb970cea3290ab3036eea1260a7094752b1048a"
+      "Bytes": 1317,
+      "SHA256": "3589adfe80d26abfd22c1eeb358458278805fdc9215a930f1a76c16febcbcfa8"
     },
     "SECURITY.ru.md": {
-      "Bytes": 2716,
-      "SHA256": "fe5e18350c82350185f3b571631a8ae2d8e7cad551353751827ced9927536eb3"
+      "Bytes": 2435,
+      "SHA256": "fda0b373f3ad551fcf40612f05a342508013222bc7690371aea09be432a9b589"
     },
     "src/GeoStack.App/app.manifest": {
       "Bytes": 537,

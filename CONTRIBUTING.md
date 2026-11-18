@@ -5,7 +5,7 @@ English | [Russian](CONTRIBUTING.ru.md)
 <!-- section:scope -->
 ## Focused contributions
 
-Discuss a concrete issue and keep changes small. Preserve the offline Windows experience, source-file safety, English/Russian localization and all themes. Do not introduce telemetry, paid tiers, accounts or unrelated framework migrations. Android implementation is a separate milestone.
+Discuss a concrete issue and keep changes small. Preserve the offline Windows experience, source-file safety, English/Russian localization and all themes. Do not introduce telemetry, paid tiers, accounts or unrelated framework migrations. Android development is outside the current Windows scope.
 
 <!-- section:validation -->
 ## Engineering rules
@@ -15,4 +15,4 @@ Code, identifiers, comments, scripts, diagnostics, configuration and commits mus
 <!-- section:licensing -->
 ## Rights and review
 
-GeoStack-owned contributions use Apache-2.0, Copyright 2026 shinKatana0. The approved public author is shinKatana0; the exact GitHub-provided noreply email was confirmed by the owner for the initial commit. Do not submit material you cannot license. Preserve independent dataset/dependency notices. Describe what changed, why and actual validation; label unexecuted checks NOT_TESTED. Do not claim public binary clearance from a source build.
+Contributions to GeoStack use Apache-2.0; see LICENSE. Do not submit material you cannot license. Preserve independent dataset/dependency notices. Describe what changed, why and actual validation; label unexecuted checks NOT_TESTED. Do not claim public binary clearance from a source build.

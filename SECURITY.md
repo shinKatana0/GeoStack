@@ -3,16 +3,18 @@ English | [Russian](SECURITY.ru.md)
 # Security and privacy
 
 <!-- section:reporting -->
-## Report safely
+## Reporting a vulnerability
 
-Do not put credentials, original media, GPS/EXIF, indexes or private journals in public issues. The intended repository is shinKatana0/GeoStack, but it has not been published and no public security contact is configured; no invented address is provided. Once the approved repository exists, use its enabled private vulnerability-reporting route, or first request a private contact without disclosing the vulnerability publicly.
+Do not post credentials, personal media, GPS/EXIF data, indexes or operation journals in public issues. If private vulnerability reporting is available under this repository's Security tab, use it. Otherwise, open a brief issue asking for a private contact without disclosing the vulnerability or sensitive details.
 
 <!-- section:privacy -->
-## Application boundary
+## Files and map downloads
 
-Browsing is offline and has no telemetry. Downloads require explicit confirmation and expose geographic areas to the provider. Copy preserves originals. Move intentionally removes sources only after verified destination commitment; keep backups and review interrupted journals. Catalog removal never deletes files. Keep downloaded packages and media tools from trusted, verified sources.
+Browsing works offline without telemetry. Map downloads require confirmation and reveal the requested geographic areas to the provider. Copy preserves originals. Move removes sources only after a verified transfer; keep backups and review interrupted operations. Removing an item from the Media Library never deletes its file. Obtain map packages and media tools from trusted sources.
 
 <!-- section:limits -->
-## Checks and limits
+## Sharing data safely
 
-Local secret, path, language and image-metadata checks are finite safeguards, not a mathematical guarantee of privacy. Review findings with masked values. A real exposed credential requires owner-controlled rotation; do not rotate automatically. Do not disable Smart App Control, Defender or other protection. Unsigned builds can be blocked; source publication is not code signing.
+Review files, screenshots and logs before sharing them: automated privacy checks cannot find every sensitive detail. If a credential is exposed, revoke or rotate it with its provider; do not repeat its value in a public report.
+
+Keep Windows protections enabled. Unsigned builds may be blocked by Smart App Control or other security policy; an open-source license does not replace code signing.

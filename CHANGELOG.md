@@ -3,8 +3,12 @@ English | [Russian](CHANGELOG.ru.md)
 # Changelog
 
 <!-- section:version -->
-## 0.5.5 source publication proposal
+## 0.5.5
 
-The accepted Windows feature set includes the compact Hybrid Atlas/Urban Lite+ fallback, optional regional detail, user-confirmed map downloads, additive import, multi-selection, GPS filters and persistent catalog exclusions. Geographic organization supports verified copy and deliberate move with city-aware offline proposals, journaling and recovery review. English/Russian and System/Light/Dark remain available.
+- Browse photos and videos on the compact offline Hybrid Atlas, with optional regional and detailed city maps.
+- Download maps for locations in the Media Library after reviewing coverage and storage requirements.
+- Add files and folders by drag-and-drop, select multiple items, filter by GPS and remove items from the catalog without deleting their files.
+- Copy or move selected media into country/city folders with destination previews, file verification and recovery records.
+- Use English or Russian, with System, Light and Dark themes.
 
-This milestone prepares bilingual source documentation, privacy/language checks and source-only CI. It does not redesign the accepted application or publish a new binary. Apache-2.0 and Copyright 2026 shinKatana0 are approved. Original-branding rights and the exact public noreply address are owner-confirmed; binary redistribution remains blocked.
+This repository provides source code under Apache-2.0, Copyright 2026 shinKatana0. Official Windows binaries are not yet distributed; see [distribution status](docs/REDISTRIBUTION_STATUS.md).

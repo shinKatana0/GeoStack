@@ -1,16 +1,16 @@
 English | [Russian](BUILD.ru.md)
 
-# Build GeoStack
+# Build and run GeoStack
 
 <!-- section:requirements -->
 ## Requirements
 
-Use Windows 11 x64, the .NET 10 SDK selected by `global.json`, PowerShell and Python 3.10 or newer. WPF requires Windows. Restore uses NuGet; compilation and ordinary application browsing do not upload media. Use the repository-local environment. Packages restore into `.local/packages`; no pre-existing user-profile NuGet cache is required. Do not change global Git configuration or Windows security settings.
+Use Windows 11 x64, the .NET 10 SDK selected by `global.json`, PowerShell and Python 3.10 or newer. WPF requires Windows. NuGet restore needs network access unless the packages are already cached. The environment script keeps packages and CLI state in the repository's `.local` directory.
 
 <!-- section:commands -->
-## Compile source
+## Compile and start
 
-From the repository root:
+Run from the repository root:
 
 ```powershell
 . ./scripts/environment.ps1
@@ -19,26 +19,31 @@ dotnet build GeoStack.sln -c Release --no-restore
 python scripts/check-public-tree.py --root . --report .local/public-audit.json
 ```
 
-The source includes pinned compact geographic inputs and notices. Full-world high-density archives and optional city maps are not needed to compile. A deterministic compiler setting is not proof of independent byte-identical builds.
+The compact world atlas is included; no map generation is needed to compile or view it. To start with a separate local profile:
+
+```powershell
+$demoProfile = Join-Path $PWD '.local/demo-profile'
+dotnet run --project src/GeoStack.App -c Release --no-build -- --data $demoProfile
+```
+
+This command keeps the demo index and preferences separate from other profiles. Adding media and generating previews requires the tools below. Do not use personal files for transfer tests.
 
 <!-- section:tests -->
 ## Media tools and tests
 
-The full suite needs separately obtained ExifTool/Perl and FFmpeg in `tools/ExifTool` and `tools/FFmpeg`, plus small synthetic/licensed fixtures. These executables are deliberately not published here. Preserve their licenses and verify exact provenance; never use personal media for move tests.
+Supply ExifTool and FFmpeg separately. For a development run, the application looks for `tools/ExifTool/ExifTool.exe` and `tools/FFmpeg/ffmpeg.exe` under the repository root. Keep ExifTool's companion files with its executable. These tools are not included here; [the dependency inventory](release/dependencies.lock.json) records the versions and hashes used for the existing Windows package. Review each tool's license before obtaining or redistributing it.
+
+After supplying the tools, run the full test script:
 
 ```powershell
 ./scripts/test.ps1
 ```
 
-Fixture scripts may explicitly fetch licensed samples if absent. Optional map regeneration uses the documented Python requirements and pinned source inputs; it is not part of normal builds. Do not regenerate large atlas/benchmark data.
+The script uses synthetic/licensed fixtures and may download missing samples. The GitHub workflow runs only the tool-independent source checks and transfer tests. Optional map generators need additional source inputs or Python packages; ordinary builds do not run them.
 
 <!-- section:portable -->
-## Local portable builds
+## Portable packaging
 
-After supplying verified local tools:
+Compiling and running from source is separate from producing a portable package. `scripts/build-portable.ps1` remains a release-engineering script and needs additional packaging inputs and local tools; it is not a complete public packaging procedure for this source-only snapshot.
 
-```powershell
-./scripts/build-portable.ps1 -OutputFolder dist/GeoStack-local-review-win-x64
-```
-
-This produces a local self-contained Windows review only. It must not overwrite production. Exact binary-source/notice obligations remain unresolved, so do not upload the output or publish it through CI. See [compliance](docs/REDISTRIBUTION_STATUS.md).
+Windows binary distribution still has unresolved tool/source and notice requirements. Do not upload a locally generated portable package. See [distribution status](docs/REDISTRIBUTION_STATUS.md).

@@ -1,14 +1,12 @@
 {
-  "Status": "SOURCE_READY_FOR_LOCAL_INITIAL_COMMIT",
+  "Status": "SOURCE_ONLY",
   "OwnerLicenseApproved": true,
   "License": "Apache-2.0",
   "Copyright": "Copyright 2026 shinKatana0",
   "PublicAuthorName": "shinKatana0",
   "IntendedRepository": "shinKatana0/GeoStack",
   "PublicEmail": "shinKatana0@users.noreply.github.com",
-  "EmailEvidence": "Exact address supplied by owner from GitHub Settings",
-  "Branding": "OWNER_CONFIRMED_APACHE_2_0",
-  "PublicationAuthorized": false,
+  "Branding": "APACHE_2_0",
   "DependencyRedistribution": "BLOCKED",
   "SourceGate": "SOURCE_RELEASE_READY_FOR_PUBLICATION",
   "BinaryGate": "BINARY_RELEASE_BLOCKED_LICENSING"
