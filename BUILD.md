@@ -5,7 +5,7 @@ English | [Russian](BUILD.ru.md)
 <!-- section:requirements -->
 ## Requirements
 
-Use Windows 11 x64, the .NET 10 SDK selected by `global.json`, PowerShell and Python 3.10 or newer. WPF requires Windows. Restore uses NuGet; compilation and ordinary application browsing do not upload media. Use the repository-local environment. Do not change global Git configuration or Windows security settings.
+Use Windows 11 x64, the .NET 10 SDK selected by `global.json`, PowerShell and Python 3.10 or newer. WPF requires Windows. Restore uses NuGet; compilation and ordinary application browsing do not upload media. Use the repository-local environment. Packages restore into `.local/packages`; no pre-existing user-profile NuGet cache is required. Do not change global Git configuration or Windows security settings.
 
 <!-- section:commands -->
 ## Compile source

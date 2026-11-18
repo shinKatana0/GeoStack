@@ -102,12 +102,12 @@
       "SHA256": "075e4c2d56c07046714100c78a7945c75c13c1e1e49b1b9cb3f0dc7ccb43e9a1"
     },
     "BUILD.md": {
-      "Bytes": 2075,
-      "SHA256": "b0a36fa153f9453463dfa138d3c63713381f8aedf442798b61198ba92d3ded7f"
+      "Bytes": 2170,
+      "SHA256": "4af37f3ab96b293126b3984f4b3da243c658d8047ae835b66b9e91b8e1f018b8"
     },
     "BUILD.ru.md": {
-      "Bytes": 3569,
-      "SHA256": "e3a7d736945932ca945edbc7c4b1b3133a2ef0d8ac796da482f453a6dff5d256"
+      "Bytes": 3754,
+      "SHA256": "946b822cdf269f6739ea2d1763e0ef1e1bedfca680df2835500222926b6416a3"
     },
     "CHANGELOG.md": {
       "Bytes": 880,
@@ -318,8 +318,8 @@
       "SHA256": "3318ba3f4380a5e728e8b81308b60a75e9c09a3fa269ac78f5b0d4b81a9be024"
     },
     "NuGet.Config": {
-      "Bytes": 360,
-      "SHA256": "18a9f573165492a7d31fd6de40884b951bab1e840d0e12732e7dbe5412c3f932"
+      "Bytes": 239,
+      "SHA256": "bed3c705dc2c258275b8ee33cfbb505c81e312c96f4e295c4d14eabb6cacf4c9"
     },
     "offline-maps/atlas-pilot-compact/MANIFEST.json": {
       "Bytes": 6554,
