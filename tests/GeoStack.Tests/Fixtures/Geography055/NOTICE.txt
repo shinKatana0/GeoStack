@@ -1,0 +1,1 @@
+ODbL 1.0: OpenStreetMap contributors, geoBoundaries, Wambacher. Natural Earth country is public domain. Changes: select RU-SPE source polygon, explicit federal-city semantic review and SQLite R-tree indexing. Historical 2017 extent, not current legal precision. Full derived geometry is in conversion-source.geojson; no original photograph was used.

@@ -1,0 +1,13 @@
+title = "GeoStack source-only review"
+[extend]
+useDefault = true
+[[allowlists]]
+description = "Exact synthetic video GPS-tagging command; not an access key"
+condition = "AND"
+paths = ['(?:^|/)scripts/create-format-fixtures[.]ps1$']
+regexTarget = "line"
+regexes = ['''^& [$]exif -overwrite_original -n '-Keys:GPSCoordinates=37[.]7749 -122[.]4194 15' "[$]folder/Generated[.]MOV"[[:space:]]*$''']
+
+[[allowlists]]
+description = "Generated local CI/build output is not a publication input"
+paths = ['(?:^|/)(?:[.]local|bin|obj|[.]git)/']

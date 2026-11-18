@@ -1,0 +1,10 @@
+# Conversion/research only; these dependencies are never shipped or required by GeoStack.
+overturemaps==1.0.3
+pyarrow==21.0.0
+shapely==2.1.2
+numpy==2.2.6
+orjson==3.11.5
+click==8.3.1
+colorama==0.4.6
+pyfiglet==1.0.4
+tqdm==4.67.3

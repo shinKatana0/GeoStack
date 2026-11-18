@@ -1,0 +1,317 @@
+{
+  "CopyToLocation": [
+    "Copy to Location",
+    "Копировать по месту"
+  ],
+  "CopyStack": [
+    "Copy displayed group",
+    "Копировать всю группу"
+  ],
+  "CopyHistory": [
+    "Copy history",
+    "История копирования"
+  ],
+  "CopySafety": [
+    "Copy selected media. Originals are preserved. Review folders and confirm before copying.",
+    "Копирование выбранных файлов с сохранением оригиналов. Проверьте папки и подтвердите операцию."
+  ],
+  "DestinationRoot": [
+    "Choose destination",
+    "Выбрать папку назначения"
+  ],
+  "FolderLanguage": [
+    "Folder names",
+    "Названия папок"
+  ],
+  "CountryCity": [
+    "Country / City",
+    "Страна / Город"
+  ],
+  "CountryCityDistrict": [
+    "Country / City / District",
+    "Страна / Город / Район"
+  ],
+  "CountryRegionCity": [
+    "Country / Region / City",
+    "Страна / Регион / Город"
+  ],
+  "SkipMissingGps": [
+    "Skip files without GPS",
+    "Пропустить файлы без GPS"
+  ],
+  "CopyUnknownGps": [
+    "Copy without GPS to Unknown Location (editable)",
+    "Без GPS — в Unknown Location (можно изменить)"
+  ],
+  "BoundaryWarning": [
+    "Each file uses its own GPS. Review the location uncertainty column: missing city geometry falls back to a region or country. Optional boundary packages are managed under Maps / Geographic data. For manual placement without GPS, choose Unknown Location and edit the folder.",
+    "Каждый файл использует свои GPS. Проверьте неопределённость: без границы города используется регион или страна. Пакеты границ доступны в меню Карты / Географические данные. Для ручного размещения без GPS выберите Unknown Location и измените папку."
+  ],
+  "PreviewCopy": [
+    "Generate preview",
+    "Подготовить предпросмотр"
+  ],
+  "ConfirmCopy": [
+    "Confirm copy",
+    "Подтвердить копирование"
+  ],
+  "ConfirmCopyText": [
+    "Copy the included files using the edited folders? Existing files will never be overwritten. Conflicts are renamed and copied bytes are verified.",
+    "Копировать отмеченные файлы в указанные папки? Существующие файлы не перезаписываются. Конфликты разрешаются переименованием; содержимое копий проверяется."
+  ],
+  "Copying": [
+    "Copying",
+    "Копирование"
+  ],
+  "CopyFailed": [
+    "Copy could not complete",
+    "Не удалось завершить копирование"
+  ],
+  "OpenDestination": [
+    "Open destination",
+    "Открыть папку назначения"
+  ],
+  "Include": [
+    "Include",
+    "Включить"
+  ],
+  "Source": [
+    "Source",
+    "Источник"
+  ],
+  "Destination": [
+    "Destination",
+    "Назначение"
+  ],
+  "Location": [
+    "Detected location",
+    "Определённое место"
+  ],
+  "Bytes": [
+    "bytes",
+    "байт"
+  ],
+  "Status": [
+    "Status",
+    "Состояние"
+  ],
+  "MissingGps": [
+    "Missing GPS",
+    "Нет GPS"
+  ],
+  "Operations": [
+    "Operations",
+    "Операции"
+  ],
+  "Identical": [
+    "Identical",
+    "Совпадает"
+  ],
+  "Completed": [
+    "Completed",
+    "Завершено"
+  ],
+  "Timestamp": [
+    "Timestamp",
+    "Время"
+  ],
+  "Verification": [
+    "SHA-256",
+    "SHA-256"
+  ],
+  "Failure": [
+    "Failure reason",
+    "Причина ошибки"
+  ],
+  "JournalPrivacy": [
+    "This local journal contains source and destination paths. Started entries without a later terminal entry require review after interruption. They are never reported as completed.",
+    "Локальный журнал содержит пути исходных файлов и копий. После прерывания проверьте записи Started без итогового статуса: они не считаются завершёнными."
+  ],
+  "MapManager": [
+    "Maps",
+    "Карты"
+  ],
+  "MapManagerHint": [
+    "Import PNG/JPEG raster MBTiles by reference. External files are never deleted. The built-in world map is always available. Raster labels keep their original language and style.",
+    "Импорт растровых MBTiles (PNG/JPEG) по ссылке. Внешние файлы не удаляются. Встроенная карта мира всегда доступна. Подписи растра сохраняют исходный язык и оформление."
+  ],
+  "MapImportFailed": [
+    "Map operation failed",
+    "Ошибка операции с картой"
+  ],
+  "MapUnsupportedFormat": [
+    "Only raster MBTiles are supported",
+    "Поддерживаются только растровые MBTiles"
+  ],
+  "MapVectorUnsupported": [
+    "Vector packages are not supported",
+    "Векторные пакеты не поддерживаются"
+  ],
+  "MapEncodingUnsupported": [
+    "Unsupported or invalid tile encoding",
+    "Неподдерживаемый или неверный формат тайла"
+  ],
+  "MapEmpty": [
+    "The map has no tiles",
+    "В карте нет тайлов"
+  ],
+  "MapZoomInvalid": [
+    "Invalid zoom metadata",
+    "Неверные данные масштаба"
+  ],
+  "MapBoundsInvalid": [
+    "Invalid coverage metadata",
+    "Неверные данные покрытия"
+  ],
+  "MapSchemeUnsupported": [
+    "MBTiles must use TMS tile rows",
+    "MBTiles должны использовать строки TMS"
+  ],
+  "Name": [
+    "Name",
+    "Название"
+  ],
+  "Coverage": [
+    "Coverage",
+    "Покрытие"
+  ],
+  "Format": [
+    "Format",
+    "Формат"
+  ],
+  "Zoom": [
+    "Zoom range",
+    "Масштабы"
+  ],
+  "Attribution": [
+    "Attribution",
+    "Авторство"
+  ],
+  "Storage": [
+    "Storage location",
+    "Расположение"
+  ],
+  "Enabled": [
+    "Enabled",
+    "Включено"
+  ],
+  "Disabled": [
+    "Disabled",
+    "Выключено"
+  ],
+  "Available": [
+    "Available",
+    "Доступно"
+  ],
+  "Unavailable": [
+    "Unavailable",
+    "Недоступно"
+  ],
+  "InstalledStorage": [
+    "Referenced map storage",
+    "Объём карт по ссылкам"
+  ],
+  "PreferredMap": [
+    "Preferred map",
+    "Предпочитаемая карта"
+  ],
+  "BuiltInWorld": [
+    "Built-in world",
+    "Встроенная карта мира"
+  ],
+  "WorldCoverage": [
+    "World",
+    "Весь мир"
+  ],
+  "ImportMap": [
+    "Import MBTiles",
+    "Импорт MBTiles"
+  ],
+  "ToggleMap": [
+    "Enable / disable",
+    "Включить / выключить"
+  ],
+  "PreferMap": [
+    "Use as preferred",
+    "Использовать как основную"
+  ],
+  "RemoveReference": [
+    "Remove reference",
+    "Удалить ссылку"
+  ],
+  "RefreshMap": [
+    "Relocate / refresh",
+    "Найти файл / обновить"
+  ],
+  "Ready": [
+    "Ready",
+    "Готово"
+  ],
+  "Rename": [
+    "Rename conflict",
+    "Переименовать при конфликте"
+  ],
+  "Skipped": [
+    "Skipped",
+    "Пропущено"
+  ],
+  "Missing": [
+    "Source missing",
+    "Нет исходного файла"
+  ],
+  "Failed": [
+    "Failed",
+    "Ошибка"
+  ],
+  "Started": [
+    "Started",
+    "Начато"
+  ],
+  "Yes": [
+    "Yes",
+    "Да"
+  ],
+  "No": [
+    "No",
+    "Нет"
+  ],
+  "UnknownLocation": [
+    "Unknown Location",
+    "Неизвестное место"
+  ],
+  "CancelCopy": [
+    "Cancel",
+    "Отмена"
+  ],
+  "MoveFailed": ["Move failed or needs review", "Перенос не выполнен или требует проверки"],
+  "Moving": ["Moving", "Перенос"],
+  "OperationMode": ["Operation", "Операция"],
+  "MoveToLocation": ["Move to Location", "Перенести по месту"],
+  "ConfirmMove": ["Confirm Move", "Подтвердить перенос"],
+  "MoveSafety": ["Move removes originals only after a verified transfer. Copy remains the default.", "Перенос удаляет исходные файлы только после проверенной передачи. По умолчанию используется копирование."],
+  "ConfirmMoveText": ["Move the selected files? Original paths will be removed only after verified transfer. Review every destination before continuing.", "Перенести выбранные файлы? Исходные пути будут удалены только после проверенной передачи. Проверьте все папки назначения."],
+  "CityDataRequired": ["City containment is unavailable for some files. Country/region fallback is shown. Open Geographic Data to import or enable verified boundary packages, or edit the destination folders. Visual maps do not provide city boundaries.", "Для части файлов нет данных о границах города. Показана страна или регион. Откройте Географические данные и подключите проверенный пакет границ либо измените папки назначения. Визуальные карты не содержат данных о принадлежности к городу."],
+  "SourceRetained": ["Source retained — review transfer", "Исходный файл сохранён — проверьте перенос"],
+  "ReviewMoves": ["Review interrupted moves", "Проверить незавершённые переносы"],
+  "ReconcileMove": ["Reconcile verified destination in library", "Обновить медиатеку по проверенной копии"],
+  "ReconcileMoveConfirm": ["Update only the library and journal using this verified destination? No original or destination file will be deleted.", "Обновить только медиатеку и журнал по проверенному файлу? Исходные файлы и копии удаляться не будут."],
+  "SourceExists": ["Source exists", "Исходный файл существует"],
+  "SourceAbsenceConfirmed": ["Source absence confirmed", "Отсутствие исходного файла подтверждено"],
+  "NeedsReview": ["Transfer needs review", "Требуется проверка передачи"],
+  "TransferPhase": ["Transfer phase", "Этап передачи"],
+  "SourceVerified": ["Source verified", "Исходный файл проверен"],
+  "TransferIntent": ["Transfer intent recorded", "Путь передачи записан"],
+  "DestinationCommitted": ["Destination committed", "Файл размещён в папке назначения"],
+  "DestinationVerified": ["Destination verified", "Файл назначения проверен"],
+  "SourceRemovalRequested": ["Verified source removal requested", "Запрошено удаление проверенного исходного пути"],
+  "FilesystemCompleted": ["Transfer complete; catalog pending", "Передача завершена; ожидается обновление медиатеки"],
+  "CatalogReconciled": ["Library reconciled", "Медиатека обновлена"],
+  "Result": ["Result recorded", "Результат записан"],
+  "Copy": ["Copy", "Копирование"],
+  "Move": ["Move", "Перенос"],
+  "MoveRecovery": ["Interrupted moves need review in operation history. No source or destination will be deleted automatically.", "Незавершённые переносы требуют проверки в истории операций. Исходные файлы и копии не будут удалены автоматически."],
+  "DestinationFolder": [
+    "Folder",
+    "Папка"
+  ]
+}

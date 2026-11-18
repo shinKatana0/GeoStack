@@ -1,0 +1,23 @@
+{
+  "Id": "geoboundaries-ru-spe-selected",
+  "Name": "Saint Petersburg selected federal-city containment",
+  "Version": "gb-9469f09-RU-SPE-review1",
+  "Source": "geoBoundaries gbOpen / OpenStreetMap Wambacher; Natural Earth country",
+  "SourceUrl": "https://www.geoboundaries.org/api/current/gbOpen/RUS/ADM1/",
+  "License": "ODbL-1.0; Natural Earth public domain",
+  "LicenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "Attribution": "OpenStreetMap contributors; geoBoundaries; Wambacher; Natural Earth",
+  "Coverage": "Russia: selected Saint Petersburg federal-city extent only; no other Russian cities or districts",
+  "DataDate": "2017-01-01",
+  "Semantics": "Federal-city role reviewed separately from numeric ADM1. Government statistical source: https://www.rosstat.gov.ru/storage/mediabank/sJb8E6SZ/status-gorodov.pdf . No filename/nearest-city inference. Historic boundary requires uncertainty warning.",
+  "BoundaryToleranceDegrees": 1e-08,
+  "SourceSHA256": "47179a0b1f30097226bc057921e674d83a9ac9e2a44023e687351355cdb7fc1b",
+  "SourceFeature": {
+    "shapeName": "Saint Petersburg",
+    "shapeISO": "RU-SPE",
+    "shapeID": "28173009B8796515134902",
+    "shapeGroup": "RUS",
+    "shapeType": "ADM1"
+  },
+  "SourceCommit": "9469f09"
+}

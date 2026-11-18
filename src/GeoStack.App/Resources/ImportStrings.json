@@ -1,0 +1,122 @@
+{
+  "LibraryBusy": [
+    "The library is being updated. Please wait before adding media.",
+    "Медиатека обновляется. Дождитесь завершения, прежде чем добавлять файлы."
+  ],
+  "CompactLibraryHint": [
+    "Drop photos, videos, or folders to add them to your library.",
+    "Перетащите фото, видео или папку, чтобы добавить их в медиатеку."
+  ],
+  "RemoveFromLibrary": [
+    "Remove from Library",
+    "Убрать из медиатеки"
+  ],
+  "RemoveFromLibraryConfirm": [
+    "Remove this item from the library? The original file will remain unchanged.",
+    "Убрать файл из медиатеки? Исходный файл останется без изменений."
+  ],
+  "RemovedFromLibrary": [
+    "Removed from the library. The original is unchanged. Add the individual file to restore it.",
+    "Файл убран из медиатеки. Исходный файл не изменён. Добавьте его отдельно, чтобы восстановить."
+  ],
+  "RemoveFromLibraryFailed": [
+    "The item could not be removed from the library. The original is unchanged.",
+    "Не удалось убрать файл из медиатеки. Исходный файл не изменён."
+  ],
+  "DropToAdd": [
+    "Drop to add photos and videos",
+    "Отпустите, чтобы добавить фото и видео"
+  ],
+  "ImportBusy": [
+    "An import is running. Wait or cancel it before adding more media.",
+    "Импорт уже выполняется. Дождитесь завершения или отмените его."
+  ],
+  "ImportProgress": [
+    "Found {0:N0} · Scanned {1:N0} · Skipped {2:N0}",
+    "Найдено {0:N0} · Обработано {1:N0} · Пропущено {2:N0}"
+  ],
+  "ImportComplete": [
+    "Scanned {0:N0} · Added {1:N0} · Unchanged {2:N0} · Skipped {3:N0} · Warnings {4:N0}",
+    "Обработано {0:N0} · Добавлено {1:N0} · Без изменений {2:N0} · Пропущено {3:N0} · Предупреждений {4:N0}"
+  ],
+  "ImportFailed": [
+    "Import could not be completed. Existing media is preserved.",
+    "Не удалось завершить импорт. Ранее добавленные файлы сохранены."
+  ],
+  "AtlasFallback": [
+    "Atlas data is unavailable. Using the offline raster/world fallback.",
+    "Данные атласа недоступны. Используется резервная автономная карта."
+  ],
+  "MediaActions": [
+    "Media actions",
+    "Действия с файлом"
+  ],
+  "WithGps": [
+    "With GPS",
+    "С GPS"
+  ],
+  "ClearSelection": [
+    "Clear selection",
+    "Снять выделение"
+  ],
+  "RemoveSelected": [
+    "Remove Selected from Library",
+    "Убрать выбранное из медиатеки"
+  ],
+  "SelectionCount": [
+    "Selected: {0} · Hidden by filter/group: {1}",
+    "Выбрано: {0} · Скрыто фильтром/группой: {1}"
+  ],
+  "HiddenSelectionConfirm": [
+    "Copy exactly {0} selected files, including {1} hidden by the current filter/group? Review every destination in the copy preview.",
+    "Копировать выбранные файлы ({0}), включая скрытые ({1})? Проверьте папки в предпросмотре."
+  ],
+  "RemoveSelectedConfirm": [
+    "Remove exactly {0} selected items from the library ({1} hidden by filter/group)? Original files will remain unchanged.",
+    "Убрать выбранные файлы ({0}) из медиатеки, включая скрытые ({1})? Исходные файлы останутся без изменений."
+  ],
+  "RuntimeVersion": [
+    "Product version",
+    "Версия"
+  ],
+  "RuntimeCommit": [
+    "Build commit",
+    "Коммит сборки"
+  ],
+  "RuntimeChannel": [
+    "Channel",
+    "Канал"
+  ],
+  "RuntimeExecutable": [
+    "Executable",
+    "Приложение"
+  ],
+  "RuntimeProfile": [
+    "Data profile",
+    "Профиль данных"
+  ],
+  "RuntimeEngine": [
+    "Map engine",
+    "Движок карты"
+  ],
+  "RuntimeCatalog": [
+    "Map catalog",
+    "Каталог карт"
+  ],
+  "CopyDiagnostics": [
+    "Copy diagnostics",
+    "Скопировать диагностику"
+  ],
+  "ClipboardUnavailable": [
+    "Clipboard is temporarily unavailable.",
+    "Буфер обмена временно недоступен."
+  ],
+  "ValidationPreparing": [
+    "Preparing approved validation maps and media",
+    "Подготовка тестовых карт и медиа"
+  ],
+  "ValidationReady": [
+    "GeoStack {0} validation ready: {1} approved media files",
+    "GeoStack {0}: тестовая среда готова, файлов: {1}"
+  ]
+}

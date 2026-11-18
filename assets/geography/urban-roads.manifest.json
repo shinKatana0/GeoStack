@@ -1,0 +1,35 @@
+{
+  "Schema": 1,
+  "NativeZoom": 7,
+  "Tiles": 16384,
+  "SourceRoadFeatures": 21065,
+  "FilteredSegments": 409352,
+  "GroupedGeometry": 6264,
+  "Vertices": 1814157,
+  "Classes": {
+    "primary": 226881,
+    "motorway": 89890,
+    "trunk": 92581
+  },
+  "CompressedBytes": 10103846,
+  "ExpandedBytes": 16282224,
+  "ProcessingSeconds": 276.64413530001184,
+  "SHA256": "5c96ca65fe8816da0d13f604d383dcfdd63fd5088e90125a4e430e03783cdbbb",
+  "Source": "Existing Protomaps v4.14.3 / OSM 2026-03-31 global-context.gsvector, native XYZ zoom7",
+  "Coverage": [
+    -180,
+    -85.0511287,
+    180,
+    85.0511287
+  ],
+  "License": "OpenStreetMap ODbL; attribution and derivative-data licensing review required",
+  "Simplification": "6/4096 tile units at zoom7; approximately 460m equatorial source tolerance, varying with latitude",
+  "Limits": {
+    "CompressedBytes": 31457280,
+    "Vertices": 2000000,
+    "GroupedGeometry": 30000
+  },
+  "AcceptedForPilot": true,
+  "NetworkBytes": 0,
+  "Semantics": "Generalized major-road skeleton only; OSM completeness varies, not street-level coverage"
+}

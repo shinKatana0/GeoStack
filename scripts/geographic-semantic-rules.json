@@ -1,0 +1,15 @@
+{
+  "districtInstanceTypes": {
+    "Q5327704": "special ward of Japan",
+    "Q1065118": "district of China",
+    "Q137773": "ward of Japan"
+  },
+  "administrativeLocalityRegionTypes": {
+    "Q1208802": "direct-administered municipality"
+  },
+  "municipalCityTypes": {
+    "Q70208": "municipality of Switzerland",
+    "Q54935504": "city of Switzerland"
+  },
+  "policy": "Classifications are applied only to source-linked Wikidata entities with actual Overture polygon geometry. No city names or coordinates determine roles. Direct-administered municipal city extents carry a visible warning. Metropolitan prefectures are regions, not automatically cities. Special wards may have a verified direct region parent when no city exists."
+}

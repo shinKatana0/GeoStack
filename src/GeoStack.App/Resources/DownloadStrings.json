@@ -1,0 +1,114 @@
+{
+  "DownloadLibraryMaps": [
+    "Download Detailed Maps for My Library",
+    "Скачать детальные карты для медиатеки"
+  ],
+  "DownloadAllMissing": [
+    "Download All Missing Maps",
+    "Скачать недостающие карты"
+  ],
+  "DownloadPrivacy": [
+    "Only confirmation starts network access. Requests reveal the selected geographic areas, never media, filenames or your index. Protomaps / OpenStreetMap (ODbL). Detail: zoom 10–15, Light/Dark, English/Russian where available. Download size and source freshness are unknown before acquisition. Maximum source transfer: 128 MiB per region. Cancel removes unfinished files; verified completed regions remain installed. Regional context is a separate optional approximately 320 km area at zoom 8-10; local detail remains bounded around media.",
+    "Сеть используется только после подтверждения. Запросы раскрывают выбранные области, но не медиа, имена файлов или индекс. Protomaps / OpenStreetMap (ODbL). Масштабы 10–15, светлая/тёмная темы, английские/русские названия при наличии. Размер загрузки и дата данных до загрузки неизвестны. Не более 128 МиБ исходных данных на область. При отмене незавершённые файлы удаляются; готовые карты сохраняются. Региональный обзор — отдельная необязательная область около 320 км в масштабе 8–10; детальная карта ограничена местами съёмки."
+  ],
+  "DownloadAreaNear": [
+    "Area near",
+    "Область рядом с"
+  ],
+  "DownloadInstalled": [
+    "Installed (verified tile coverage)",
+    "Установлена (покрытие проверено)"
+  ],
+  "DownloadMissing": [
+    "Missing coverage",
+    "Недостающее покрытие"
+  ],
+  "DownloadUnsupported": [
+    "Area exceeds supported limits",
+    "Область вне поддерживаемых ограничений"
+  ],
+  "DownloadIsolated": [
+    "Isolated location — review before selecting",
+    "Отдельная точка — проверьте перед выбором"
+  ],
+  "DownloadAnalyzing": [
+    "Checking indexed locations and installed coverage… No network access.",
+    "Проверка мест съёмки и установленных карт… Без доступа к сети."
+  ],
+  "DownloadPlanSummary": [
+    "{0} areas · {1} files without GPS · {2} isolated locations · {3} unavailable maps. Select missing areas to prepare.",
+    "Областей: {0} · без GPS: {1} · отдельных точек: {2} · недоступных карт: {3}. Выберите области для загрузки."
+  ],
+  "DownloadProvider": [
+    "Provider: Protomaps via Source Cooperative. OpenStreetMap contributors / Natural Earth. Source: v4 archive. Download and installed sizes: unknown; disk preflight uses a conservative uncompressed upper bound. Destination:",
+    "Источник: Protomaps через Source Cooperative. Участники OpenStreetMap / Natural Earth. Архив v4. Размеры загрузки и установки неизвестны; свободное место проверяется по верхней оценке несжатых данных. Каталог:"
+  ],
+  "DownloadLargeWarning": [
+    "The conservative installed-size estimate exceeds 1 GiB. Continue? Actual PNG size may be smaller. No country-wide archive is downloaded.",
+    "Верхняя оценка размера установки превышает 1 ГиБ. Продолжить? Фактический размер PNG может быть меньше. Архив всей страны не загружается."
+  ],
+  "DownloadProgress": [
+    "Regions {0}/{1} · tiles {2}/{3} · received {4:F1} MiB · preparing four local styles",
+    "Области {0}/{1} · тайлы {2}/{3} · получено {4:F1} МиБ · подготовка четырёх стилей"
+  ],
+  "DownloadComplete": [
+    "Installed: {0}. Failed: {1}. Verified maps are ready for offline browsing.",
+    "Установлено: {0}. Ошибок: {1}. Проверенные карты доступны без сети."
+  ],
+  "DownloadFailed": [
+    "Map preparation failed",
+    "Не удалось подготовить карту"
+  ],
+  "DownloadDiskSpace": [
+    "Insufficient space for safe map preparation",
+    "Недостаточно места для безопасной подготовки карты"
+  ],
+  "DownloadSourceMissing": [
+    "Source archive has no tile for part of this area",
+    "В исходном архиве отсутствует тайл для части области"
+  ],
+  "DownloadPreparing": [
+    "Preparing map",
+    "Подготовка карты"
+  ],
+  "DownloadSelect": [
+    "Select",
+    "Выбрать"
+  ],
+  "DownloadFailureNetwork": [
+    "Provider unavailable or network request failed. Completed maps are preserved.",
+    "Источник недоступен или ошибка сети. Готовые карты сохранены."
+  ],
+  "DownloadFailureData": [
+    "Source data could not be safely converted or validated. No incomplete map was installed.",
+    "Не удалось безопасно преобразовать или проверить данные. Незавершённая карта не установлена."
+  ],
+  "DownloadFailureStorage": [
+    "Map storage is unavailable or cannot be written. Check free space and access.",
+    "Каталог карт недоступен для записи. Проверьте свободное место и доступ."
+  ],
+  "DownloadCancel": [
+    "Cancel",
+    "Отмена"
+  ],
+  "DownloadStorageBound": [
+    "Installed upper bound: {0:F0} MiB",
+    "Верхняя оценка установки: {0:F0} МиБ"
+  ],
+  "DownloadSelectArea": [
+    "Select at least one missing area.",
+    "Выберите хотя бы одну область без карты."
+  ],
+  "DownloadPartial": [
+    "Additional coverage: {0} of {1} files",
+    "Дополнительное покрытие: {0} из {1} файлов"
+  ],
+  "DownloadRegionalContext": [
+    "Regional context (zoom 8-10)",
+    "Региональный обзор (масштаб 8–10)"
+  ],
+  "DownloadLocalDetail": [
+    "Local detail (zoom 10-15)",
+    "Детальная карта (масштаб 10–15)"
+  ]
+}

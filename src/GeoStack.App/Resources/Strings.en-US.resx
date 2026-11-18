@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data xml:space="preserve" name="OpenFolder">
+    <value>Open folder</value>
+  </data>
+  <data xml:space="preserve" name="Cancel">
+    <value>Cancel scan</value>
+  </data>
+  <data xml:space="preserve" name="Library">
+    <value>Library</value>
+  </data>
+  <data xml:space="preserve" name="Settings">
+    <value>Settings</value>
+  </data>
+  <data xml:space="preserve" name="Offline">
+    <value>OFFLINE ATLAS</value>
+  </data>
+  <data xml:space="preserve" name="Welcome">
+    <value>Your memories, mapped.</value>
+  </data>
+  <data xml:space="preserve" name="Empty">
+    <value>Open a folder to discover the places behind your photos and videos.</value>
+  </data>
+  <data xml:space="preserve" name="Hint">
+    <value>Wheel to zoom · Drag to pan · Double-click a stack to explore</value>
+  </data>
+  <data xml:space="preserve" name="AllMedia">
+    <value>All media</value>
+  </data>
+  <data xml:space="preserve" name="NoGps">
+    <value>Without GPS</value>
+  </data>
+  <data xml:space="preserve" name="PreviewUnavailable">
+    <value>Preview unavailable. This file is indexed; a compatible decoder may be missing.</value>
+  </data>
+  <data xml:space="preserve" name="SelectMedia">
+    <value>Select a photo or video</value>
+  </data>
+  <data xml:space="preserve" name="Language">
+    <value>Language</value>
+  </data>
+  <data xml:space="preserve" name="Theme">
+    <value>Theme</value>
+  </data>
+  <data xml:space="preserve" name="System">
+    <value>System</value>
+  </data>
+  <data xml:space="preserve" name="Light">
+    <value>Light</value>
+  </data>
+  <data xml:space="preserve" name="Dark">
+    <value>Dark</value>
+  </data>
+  <data xml:space="preserve" name="Ready">
+    <value>Ready</value>
+  </data>
+  <data xml:space="preserve" name="ScanComplete">
+    <value>Scan complete</value>
+  </data>
+  <data xml:space="preserve" name="Scanning">
+    <value>Scanning</value>
+  </data>
+  <data xml:space="preserve" name="Cancelled">
+    <value>Scan cancelled; indexed files were kept</value>
+  </data>
+  <data xml:space="preserve" name="Files">
+    <value>files</value>
+  </data>
+  <data xml:space="preserve" name="Located">
+    <value>with GPS</value>
+  </data>
+  <data xml:space="preserve" name="Errors">
+    <value>errors</value>
+  </data>
+  <data xml:space="preserve" name="Close">
+    <value>Close</value>
+  </data>
+  <data xml:space="preserve" name="Fit">
+    <value>World view</value>
+  </data>
+  <data xml:space="preserve" name="Sidebar">
+    <value>Media panel</value>
+  </data>
+  <data xml:space="preserve" name="Privacy">
+    <value>Your media stays on this device. Scanning never changes source files.</value>
+  </data>
+  <data xml:space="preserve" name="Video">
+    <value>Video · frame preview</value>
+  </data>
+  <data xml:space="preserve" name="Photo">
+    <value>Photo</value>
+  </data>
+  <data xml:space="preserve" name="NoSelection">
+    <value>Choose a stack on the map or browse your library.</value>
+  </data>
+  <data xml:space="preserve" name="ScanError">
+    <value>Could not scan this folder</value>
+  </data>
+  <data xml:space="preserve" name="Folder">
+    <value>Select a media folder</value>
+  </data>
+  <data xml:space="preserve" name="Area">
+    <value>Approximate area</value>
+  </data>
+  <data xml:space="preserve" name="NoGpsHint">
+    <value>These files have no valid GPS coordinates. They remain in your local index.</value>
+  </data>
+  <data xml:space="preserve" name="Loading">
+    <value>Preparing preview…</value>
+  </data>
+  <data xml:space="preserve" name="Saved">
+    <value>Preferences saved</value>
+  </data>
+  <data xml:space="preserve" name="IndexError">
+    <value>Local data could not be opened. Check that the application folder is writable.</value>
+  </data>
+  <data xml:space="preserve" name="SourceMissing">
+    <value>Source file is missing or inaccessible</value>
+  </data>
+  <data xml:space="preserve" name="NoMedia">
+    <value>No supported media found</value>
+  </data>
+  <data xml:space="preserve" name="ErrorDetails">
+    <value>Scan details</value>
+  </data>
+  <data xml:space="preserve" name="Count">
+    <value>items</value>
+  </data>
+  <data name="ZoomIn">
+    <value>Zoom in</value>
+  </data>
+  <data name="ZoomOut">
+    <value>Zoom out</value>
+  </data>
+  <data name="FitAll">
+    <value>Fit all locations</value>
+  </data>
+  <data name="ResetMap">
+    <value>Reset map</value>
+  </data>
+  <data name="EnglishLanguage">
+    <value>English</value>
+  </data>
+  <data name="RussianLanguage">
+    <value>Russian</value>
+  </data>
+  <data name="About">
+    <value>About GeoStack</value>
+  </data>
+  <data name="AboutText">
+    <value>Offline photo and video atlas. Your files stay on this device. Includes ExifTool, FFmpeg and Natural Earth data. See the licenses folder for notices.</value>
+  </data>
+  <data name="StartupError">
+    <value>GeoStack could not open local application data. Please use a writable application or data folder.</value>
+  </data>
+  <data name="DiagnosticError">
+    <value>Some files could not be read. Scan details contain technical diagnostics.</value>
+  </data>
+  <data name="Kilometers">
+    <value>km</value>
+  </data>
+  <data name="Meters">
+    <value>m</value>
+  </data>
+  <data name="PreviousPage">
+    <value>Previous page</value>
+  </data>
+  <data name="NextPage">
+    <value>Next page</value>
+  </data>
+  <data name="CopyToLocation">
+    <value>Copy to Location</value>
+  </data>
+  <data name="CopyStack">
+    <value>Copy displayed group</value>
+  </data>
+  <data name="CopyHistory">
+    <value>Copy history</value>
+  </data>
+  <data name="CopySafety">
+    <value>Copy selected media. Originals are preserved. Review folders and confirm before copying.</value>
+  </data>
+  <data name="DestinationRoot">
+    <value>Choose destination</value>
+  </data>
+  <data name="FolderLanguage">
+    <value>Folder names</value>
+  </data>
+  <data name="CountryCity">
+    <value>Country / City</value>
+  </data>
+  <data name="CountryCityDistrict">
+    <value>Country / City / District</value>
+  </data>
+  <data name="CountryRegionCity">
+    <value>Country / Region / City</value>
+  </data>
+  <data name="SkipMissingGps">
+    <value>Skip files without GPS</value>
+  </data>
+  <data name="CopyUnknownGps">
+    <value>Copy without GPS to Unknown Location (editable)</value>
+  </data>
+  <data name="BoundaryWarning">
+    <value>Each file uses its own GPS. Review the location uncertainty column: missing city geometry falls back to a region or country. Optional boundary packages are managed under Maps / Geographic data. For manual placement without GPS, choose Unknown Location and edit the folder.</value>
+  </data>
+  <data name="PreviewCopy">
+    <value>Generate preview</value>
+  </data>
+  <data name="ConfirmCopy">
+    <value>Confirm copy</value>
+  </data>
+  <data name="ConfirmCopyText">
+    <value>Copy the included files using the edited folders? Existing files will never be overwritten. Conflicts are renamed and copied bytes are verified.</value>
+  </data>
+  <data name="Copying">
+    <value>Copying</value>
+  </data>
+  <data name="CopyFailed">
+    <value>Copy could not complete</value>
+  </data>
+  <data name="OpenDestination">
+    <value>Open destination</value>
+  </data>
+  <data name="Include">
+    <value>Include</value>
+  </data>
+  <data name="Source">
+    <value>Source</value>
+  </data>
+  <data name="Destination">
+    <value>Destination</value>
+  </data>
+  <data name="Location">
+    <value>Detected location</value>
+  </data>
+  <data name="Bytes">
+    <value>bytes</value>
+  </data>
+  <data name="Status">
+    <value>Status</value>
+  </data>
+  <data name="MissingGps">
+    <value>Missing GPS</value>
+  </data>
+  <data name="Operations">
+    <value>Operations</value>
+  </data>
+  <data name="Identical">
+    <value>Identical</value>
+  </data>
+  <data name="Completed">
+    <value>Completed</value>
+  </data>
+  <data name="Timestamp">
+    <value>Timestamp</value>
+  </data>
+  <data name="Verification">
+    <value>SHA-256</value>
+  </data>
+  <data name="Failure">
+    <value>Failure reason</value>
+  </data>
+  <data name="JournalPrivacy">
+    <value>This local journal contains source and destination paths. Started entries without a later terminal entry require review after interruption. They are never reported as completed.</value>
+  </data>
+  <data name="MapManager">
+    <value>Maps</value>
+  </data>
+  <data name="MapManagerHint">
+    <value>Import PNG/JPEG raster MBTiles by reference. External files are never deleted. The built-in world map is always available. Raster labels keep their original language and style.</value>
+  </data>
+  <data name="MapImportFailed">
+    <value>Map operation failed</value>
+  </data>
+  <data name="MapUnsupportedFormat">
+    <value>Only raster MBTiles are supported</value>
+  </data>
+  <data name="MapVectorUnsupported">
+    <value>Vector packages are not supported</value>
+  </data>
+  <data name="MapEncodingUnsupported">
+    <value>Unsupported or invalid tile encoding</value>
+  </data>
+  <data name="MapEmpty">
+    <value>The map has no tiles</value>
+  </data>
+  <data name="MapZoomInvalid">
+    <value>Invalid zoom metadata</value>
+  </data>
+  <data name="MapBoundsInvalid">
+    <value>Invalid coverage metadata</value>
+  </data>
+  <data name="MapSchemeUnsupported">
+    <value>MBTiles must use TMS tile rows</value>
+  </data>
+  <data name="Name">
+    <value>Name</value>
+  </data>
+  <data name="Coverage">
+    <value>Coverage</value>
+  </data>
+  <data name="Format">
+    <value>Format</value>
+  </data>
+  <data name="Zoom">
+    <value>Zoom range</value>
+  </data>
+  <data name="Attribution">
+    <value>Attribution</value>
+  </data>
+  <data name="Storage">
+    <value>Storage location</value>
+  </data>
+  <data name="Enabled">
+    <value>Enabled</value>
+  </data>
+  <data name="Disabled">
+    <value>Disabled</value>
+  </data>
+  <data name="Available">
+    <value>Available</value>
+  </data>
+  <data name="Unavailable">
+    <value>Unavailable</value>
+  </data>
+  <data name="InstalledStorage">
+    <value>Referenced map storage</value>
+  </data>
+  <data name="PreferredMap">
+    <value>Preferred map</value>
+  </data>
+  <data name="BuiltInWorld">
+    <value>Built-in world</value>
+  </data>
+  <data name="WorldCoverage">
+    <value>World</value>
+  </data>
+  <data name="ImportMap">
+    <value>Import MBTiles</value>
+  </data>
+  <data name="ToggleMap">
+    <value>Enable / disable</value>
+  </data>
+  <data name="PreferMap">
+    <value>Use as preferred</value>
+  </data>
+  <data name="RemoveReference">
+    <value>Remove reference</value>
+  </data>
+  <data name="RefreshMap">
+    <value>Relocate / refresh</value>
+  </data>
+  <data name="Rename">
+    <value>Rename conflict</value>
+  </data>
+  <data name="Skipped">
+    <value>Skipped</value>
+  </data>
+  <data name="Missing">
+    <value>Source missing</value>
+  </data>
+  <data name="Failed">
+    <value>Failed</value>
+  </data>
+  <data name="Started">
+    <value>Started</value>
+  </data>
+  <data name="Yes">
+    <value>Yes</value>
+  </data>
+  <data name="No">
+    <value>No</value>
+  </data>
+  <data name="UnknownLocation">
+    <value>Unknown Location</value>
+  </data>
+  <data name="CancelCopy">
+    <value>Cancel</value>
+  </data>
+  <data name="DestinationFolder">
+    <value>Folder</value>
+  </data>
+  <data name="GeographicData">
+    <value>Geographic data</value>
+  </data>
+  <data name="GeoManagerHint">
+    <value>Boundary packages resolve each file offline. They are separate from raster maps. Import local packages by reference; removing a reference never deletes its file. Coverage and administrative meaning vary by source. The compact built-in country fallback remains available.</value>
+  </data>
+  <data name="GeoImport">
+    <value>Import boundary package</value>
+  </data>
+  <data name="GeoPackageFilter">
+    <value>GeoStack geographic packages (*.gsgeo)|*.gsgeo</value>
+  </data>
+  <data name="GeoRevalidate">
+    <value>Validate / refresh</value>
+  </data>
+  <data name="GeoLevels">
+    <value>Available levels</value>
+  </data>
+  <data name="GeoVersion">
+    <value>Source version</value>
+  </data>
+  <data name="GeoLicense">
+    <value>License</value>
+  </data>
+  <data name="GeoValidation">
+    <value>Validation</value>
+  </data>
+  <data name="GeoBuiltInFallback">
+    <value>Built-in country fallback</value>
+  </data>
+  <data name="GeoCountryLevel">
+    <value>Country (coarse)</value>
+  </data>
+  <data name="GeoLevel_country">
+    <value>Country</value>
+  </data>
+  <data name="GeoLevel_region">
+    <value>Region / province</value>
+  </data>
+  <data name="GeoLevel_city">
+    <value>City / locality</value>
+  </data>
+  <data name="GeoLevel_district">
+    <value>District / neighborhood</value>
+  </data>
+  <data name="GeoValidated">
+    <value>Validated</value>
+  </data>
+  <data name="GeoCatalogUnavailable">
+    <value>Catalog unavailable; using built-in fallback</value>
+  </data>
+  <data name="GeoOperationFailed">
+    <value>Geographic data operation failed</value>
+  </data>
+  <data name="GeoUnsupportedPackage">
+    <value>Unsupported geographic package version or format</value>
+  </data>
+  <data name="GeoInvalidPackage">
+    <value>Invalid or corrupt geographic package</value>
+  </data>
+  <data name="GeoInvalidGeometry">
+    <value>Invalid or excessive polygon geometry</value>
+  </data>
+  <data name="GeoTooManyOverlaps">
+    <value>Excessive overlapping boundaries; using fallback</value>
+  </data>
+  <data name="GeoPackageLimit">
+    <value>At most 32 optional geographic packages can be registered</value>
+  </data>
+  <data name="GeoWarnings">
+    <value>Location uncertainty</value>
+  </data>
+  <data name="GeoMissingGps">
+    <value>No GPS; manual destination or unknown location</value>
+  </data>
+  <data name="GeoPackageUnavailable">
+    <value>An optional dataset is missing or invalid; fallback used where needed</value>
+  </data>
+  <data name="GeoDatasetOutdated">
+    <value>Dataset is over three years old; review its validity</value>
+  </data>
+  <data name="GeoAmbiguousBoundary">
+    <value>Overlapping jurisdictions; a more general location is proposed</value>
+  </data>
+  <data name="GeoCoarseCountry">
+    <value>Coarse cartographic country boundary</value>
+  </data>
+  <data name="GeoRegionFallback">
+    <value>City boundary unavailable; region fallback</value>
+  </data>
+  <data name="GeoCountryFallback">
+    <value>City boundary unavailable; country fallback</value>
+  </data>
+  <data name="GeoUnknownLocation">
+    <value>No reliable boundary match; edit destination manually</value>
+  </data>
+  <data name="GeoBorderUncertain">
+    <value>Point is on or near a boundary; review the proposed location</value>
+  </data>
+  <data name="GeoAdministrativeCityExtent">
+    <value>Administrative municipal/metropolitan boundary; includes more than the urban footprint</value>
+  </data>
+  <data name="GeoDatasetChanged">
+    <value>Package file changed; validate or reimport</value>
+  </data>
+  <data name="GeoNeighborhoodExtent">
+    <value>Provider-defined neighborhood extent; not necessarily an administrative district</value>
+  </data>
+  <data name="GeoPublicDomain">
+    <value>Public domain</value>
+  </data>
+  <data name="InstalledVersion">
+    <value>Version {0}</value>
+  </data>
+  <data name="VersionUnavailable">
+    <value>Version unavailable</value>
+  </data>
+  <data name="SettingsLanguageLabel">
+    <value>_Language</value>
+  </data>
+  <data name="SettingsThemeLabel">
+    <value>_Theme</value>
+  </data>
+  <data name="SettingsAttribution">
+    <value>Third-party components include .NET/WPF, ExifTool and Perl, FFmpeg and its libraries, and Natural Earth data. Optional geographic packages carry their own source and license notices in Geographic data.</value>
+  </data>
+  <data name="Help">
+    <value>Help</value>
+  </data>
+  <data name="HelpText">
+    <value>Use the bundled guides for browsing, offline maps and safe copying. For troubleshooting, record the installed version, steps and error message. No online service is required.</value>
+  </data>
+  <data name="UserGuide">
+    <value>User guide</value>
+  </data>
+  <data name="GeographicOrganizationGuide">
+    <value>Geographic copying guide</value>
+  </data>
+  <data name="OfflineMapsGuide">
+    <value>Offline maps guide</value>
+  </data>
+  <data name="PhysicalAcceptanceGuide">
+    <value>Owner acceptance checklist</value>
+  </data>
+  <data name="ThirdPartyLicenses">
+    <value>Third-party licenses</value>
+  </data>
+  <data name="RedistributionNotes">
+    <value>Redistribution and attribution</value>
+  </data>
+  <data name="DocumentationUnavailable">
+    <value>This document is missing from the application folder.</value>
+  </data>
+  <data name="OpenDocumentationFailed">
+    <value>Windows could not open this local document. You can open the path below in File Explorer.</value>
+  </data>
+  <data name="SettingsTooltip">
+    <value>Settings</value>
+  </data>
+  <data name="VisualMapsHint">
+    <value>Visual maps (.mbtiles) show streets and water. Geographic data (.gsgeo) names photo locations; it does not draw a map.</value>
+  </data>
+  <data name="RasterMapFilter">
+    <value>Offline raster maps (*.mbtiles)|*.mbtiles</value>
+  </data>
+  <data name="ActivateMap">
+    <value>Activate map</value>
+  </data>
+  <data name="ShowMapCoverage">
+    <value>Show coverage</value>
+  </data>
+  <data name="ReturnWorldMap">
+    <value>Built-in world map</value>
+  </data>
+  <data name="OpenMapStorage">
+    <value>Open map folder</value>
+  </data>
+  <data name="NoRegionalMaps">
+    <value>No regional maps installed. Open the map folder and import a city package.</value>
+  </data>
+  <data name="MapFileUnavailable">
+    <value>Map file unavailable; reconnect the drive or relocate / refresh the reference.</value>
+  </data>
+  <data name="MapZoomOutside">
+    <value>Outside this map's detail range; using fallback. Show coverage to return.</value>
+  </data>
+  <data name="MapOutsideCoverage">
+    <value>Outside selected coverage; using fallback. Show coverage to return.</value>
+  </data>
+  <data name="MapTilesVisible">
+    <value>Local geographic tiles displayed</value>
+  </data>
+  <data name="MapTilesLoading">
+    <value>Loading local map tiles…</value>
+  </data>
+  <data name="CopySelectedCompact">
+    <value>Copy</value>
+  </data>
+  <data name="CopyGroupCompact">
+    <value>Copy group</value>
+  </data>
+  <data name="CopyHistoryCompact">
+    <value>History</value>
+  </data>
+  <data name="OpenPreview">
+    <value>Open preview</value>
+  </data>
+  <data name="PreviewShortcut">
+    <value>Open a large preview (F4). Double-click or Enter navigates to the location.</value>
+  </data>
+  <data name="VideoFramePreview">
+    <value>Video preview frame</value>
+  </data>
+  <data name="SortName">
+    <value>Sort: name</value>
+  </data>
+  <data name="SortDate">
+    <value>Sort: date</value>
+  </data>
+  <data name="NoGpsNavigation">
+    <value>This file has no GPS. The map stays at its current location.</value>
+  </data>
+  <data name="OtherLocations">
+    <value>Other locations</value>
+  </data>
+  <data name="GoToLocation">
+    <value>Go to location</value>
+  </data>
+  <data name="BackLocation">
+    <value>Back to previous location</value>
+  </data>
+  <data name="ContextCoverage">
+    <value>Outside installed detail: showing available offline context.</value>
+  </data>
+  <data name="PreviewCompact">
+    <value>Preview</value>
+  </data>
+  <data name="NameCompact">
+    <value>Name ↑</value>
+  </data>
+  <data name="DateCompact">
+    <value>Date ↓</value>
+  </data>
+  <data name="PhotoCountLabel">
+    <value>Photos</value>
+  </data>
+  <data name="VideoCountLabel">
+    <value>Videos</value>
+  </data>
+  <data name="MapNoTilesHere">
+    <value>No tiles at this location; showing available offline context</value>
+  </data>
+  <data name="InitialPreferencesHint">
+    <value>A new profile uses your Windows UI language when supported, otherwise English. Theme starts with System. Your saved choices take priority.</value>
+  </data>
+  <data name="AtlasPilot">
+    <value>Experimental multiscale atlas</value>
+  </data>
+  <data name="DropToAdd">
+    <value>Drop to add photos and videos</value>
+  </data>
+  <data name="ImportBusy">
+    <value>An import is running. Wait or cancel it before adding more media.</value>
+  </data>
+  <data name="ImportProgress">
+    <value>Found {0:N0} · Scanned {1:N0} · Skipped {2:N0}</value>
+  </data>
+  <data name="ImportComplete">
+    <value>Scanned {0:N0} · Added {1:N0} · Unchanged {2:N0} · Skipped {3:N0} · Warnings {4:N0}</value>
+  </data>
+  <data name="ImportFailed">
+    <value>Import could not be completed. Existing media is preserved.</value>
+  </data>
+  <data name="AtlasFallback">
+    <value>Atlas data is unavailable. Using the offline raster/world fallback.</value>
+  </data>
+  <data name="DownloadLibraryMaps">
+    <value>Download Detailed Maps for My Library</value>
+  </data>
+  <data name="DownloadAllMissing">
+    <value>Download All Missing Maps</value>
+  </data>
+  <data name="DownloadPrivacy">
+    <value>Only confirmation starts network access. Requests reveal the selected geographic areas, never media, filenames or your index. Protomaps / OpenStreetMap (ODbL). Detail: zoom 10–15, Light/Dark, English/Russian where available. Download size and source freshness are unknown before acquisition. Maximum source transfer: 128 MiB per region. Cancel removes unfinished files; verified completed regions remain installed. Regional context is a separate optional approximately 320 km area at zoom 8-10; local detail remains bounded around media.</value>
+  </data>
+  <data name="DownloadAreaNear">
+    <value>Area near</value>
+  </data>
+  <data name="DownloadInstalled">
+    <value>Installed (verified tile coverage)</value>
+  </data>
+  <data name="DownloadMissing">
+    <value>Missing coverage</value>
+  </data>
+  <data name="DownloadUnsupported">
+    <value>Area exceeds supported limits</value>
+  </data>
+  <data name="DownloadIsolated">
+    <value>Isolated location — review before selecting</value>
+  </data>
+  <data name="DownloadAnalyzing">
+    <value>Checking indexed locations and installed coverage… No network access.</value>
+  </data>
+  <data name="DownloadPlanSummary">
+    <value>{0} areas · {1} files without GPS · {2} isolated locations · {3} unavailable maps. Select missing areas to prepare.</value>
+  </data>
+  <data name="DownloadProvider">
+    <value>Provider: Protomaps via Source Cooperative. OpenStreetMap contributors / Natural Earth. Source: v4 archive. Download and installed sizes: unknown; disk preflight uses a conservative uncompressed upper bound. Destination:</value>
+  </data>
+  <data name="DownloadLargeWarning">
+    <value>The conservative installed-size estimate exceeds 1 GiB. Continue? Actual PNG size may be smaller. No country-wide archive is downloaded.</value>
+  </data>
+  <data name="DownloadProgress">
+    <value>Regions {0}/{1} · tiles {2}/{3} · received {4:F1} MiB · preparing four local styles</value>
+  </data>
+  <data name="DownloadComplete">
+    <value>Installed: {0}. Failed: {1}. Verified maps are ready for offline browsing.</value>
+  </data>
+  <data name="DownloadFailed">
+    <value>Map preparation failed</value>
+  </data>
+  <data name="DownloadDiskSpace">
+    <value>Insufficient space for safe map preparation</value>
+  </data>
+  <data name="DownloadSourceMissing">
+    <value>Source archive has no tile for part of this area</value>
+  </data>
+  <data name="DownloadPreparing">
+    <value>Preparing map</value>
+  </data>
+  <data name="DownloadSelect">
+    <value>Select</value>
+  </data>
+  <data name="DownloadFailureNetwork">
+    <value>Provider unavailable or network request failed. Completed maps are preserved.</value>
+  </data>
+  <data name="DownloadFailureData">
+    <value>Source data could not be safely converted or validated. No incomplete map was installed.</value>
+  </data>
+  <data name="DownloadFailureStorage">
+    <value>Map storage is unavailable or cannot be written. Check free space and access.</value>
+  </data>
+  <data name="DownloadCancel">
+    <value>Cancel</value>
+  </data>
+  <data name="DownloadStorageBound">
+    <value>Installed upper bound: {0:F0} MiB</value>
+  </data>
+  <data name="DownloadSelectArea">
+    <value>Select at least one missing area.</value>
+  </data>
+  <data name="DownloadPartial">
+    <value>Additional coverage: {0} of {1} files</value>
+  </data>
+  <data name="CompactLibraryHint">
+    <value>Drop photos, videos, or folders to add them to your library.</value>
+  </data>
+  <data name="RemoveFromLibrary">
+    <value>Remove from Library</value>
+  </data>
+  <data name="RemoveFromLibraryConfirm">
+    <value>Remove this item from the library? The original file will remain unchanged.</value>
+  </data>
+  <data name="RemovedFromLibrary">
+    <value>Removed from the library. The original is unchanged. Add the individual file to restore it.</value>
+  </data>
+  <data name="RemoveFromLibraryFailed">
+    <value>The item could not be removed from the library. The original is unchanged.</value>
+  </data>
+  <data name="LibraryBusy">
+    <value>The library is being updated. Please wait before adding media.</value>
+  </data>
+  <data name="GlobalAtlas">
+    <value>Global intermediate atlas</value>
+  </data>
+  <data name="InstallGlobalAtlas">
+    <value>Install local atlas by reference</value>
+  </data>
+  <data name="GlobalAtlasFilter">
+    <value>GeoStack global vector atlas (*.gsvector)|*.gsvector</value>
+  </data>
+  <data name="GlobalAtlasMissing">
+    <value>No global intermediate package is installed. The built-in world map remains available.</value>
+  </data>
+  <data name="GlobalAtlasInvalid">
+    <value>The atlas could not be validated or installed. The existing map is preserved.</value>
+  </data>
+  <data name="GlobalAtlasInfo">
+    <value>Optional worldwide vector context. Roads, water and settlements are generalized through native zoom 8 and remain available at higher context scales. This is not street-level coverage. Packages are referenced without copying or deleting their files. Attribution: OpenStreetMap contributors (ODbL), Natural Earth, Protomaps.</value>
+  </data>
+  <data name="DownloadRegionalContext">
+    <value>Regional context (zoom 8-10)</value>
+  </data>
+  <data name="DownloadLocalDetail">
+    <value>Local detail (zoom 10-15)</value>
+  </data>
+  <data name="MediaActions">
+    <value>Media actions</value>
+  </data>
+  <data name="WithGps">
+    <value>With GPS</value>
+  </data>
+  <data name="ClearSelection">
+    <value>Clear selection</value>
+  </data>
+  <data name="RemoveSelected">
+    <value>Remove Selected from Library</value>
+  </data>
+  <data name="SelectionCount">
+    <value>Selected: {0} · Hidden by filter/group: {1}</value>
+  </data>
+  <data name="HiddenSelectionConfirm">
+    <value>Copy exactly {0} selected files, including {1} hidden by the current filter/group? Review every destination in the copy preview.</value>
+  </data>
+  <data name="RemoveSelectedConfirm">
+    <value>Remove exactly {0} selected items from the library ({1} hidden by filter/group)? Original files will remain unchanged.</value>
+  </data>
+  <data name="RuntimeVersion">
+    <value>Product version</value>
+  </data>
+  <data name="RuntimeCommit">
+    <value>Build commit</value>
+  </data>
+  <data name="RuntimeChannel">
+    <value>Channel</value>
+  </data>
+  <data name="RuntimeExecutable">
+    <value>Executable</value>
+  </data>
+  <data name="RuntimeProfile">
+    <value>Data profile</value>
+  </data>
+  <data name="RuntimeEngine">
+    <value>Map engine</value>
+  </data>
+  <data name="RuntimeCatalog">
+    <value>Map catalog</value>
+  </data>
+  <data name="CopyDiagnostics">
+    <value>Copy diagnostics</value>
+  </data>
+  <data name="ClipboardUnavailable">
+    <value>Clipboard is temporarily unavailable.</value>
+  </data>
+  <data name="ValidationPreparing">
+    <value>Preparing approved validation maps and media</value>
+  </data>
+  <data name="ValidationReady">
+    <value>GeoStack {0} validation ready: {1} approved media files</value>
+  </data>
+  <data name="OperationMode">
+    <value>Operation</value>
+  </data>
+  <data name="MoveToLocation">
+    <value>Move to Location</value>
+  </data>
+  <data name="ConfirmMove">
+    <value>Confirm Move</value>
+  </data>
+  <data name="MoveSafety">
+    <value>Move removes originals only after a verified transfer. Copy remains the default.</value>
+  </data>
+  <data name="ConfirmMoveText">
+    <value>Move the selected files? Original paths will be removed only after verified transfer. Review every destination before continuing.</value>
+  </data>
+  <data name="CityDataRequired">
+    <value>City containment is unavailable for some files. Country/region fallback is shown. Open Geographic Data to import or enable verified boundary packages, or edit the destination folders. Visual maps do not provide city boundaries.</value>
+  </data>
+  <data name="SourceRetained">
+    <value>Source retained — review transfer</value>
+  </data>
+  <data name="TransferPhase">
+    <value>Transfer phase</value>
+  </data>
+  <data name="Copy">
+    <value>Copy</value>
+  </data>
+  <data name="Move">
+    <value>Move</value>
+  </data>
+  <data name="MoveRecovery">
+    <value>Interrupted moves need review in operation history. No source or destination will be deleted automatically.</value>
+  </data>
+  <data name="Moving">
+    <value>Moving</value>
+  </data>
+  <data name="ReviewMoves">
+    <value>Review interrupted moves</value>
+  </data>
+  <data name="ReconcileMove">
+    <value>Reconcile verified destination in library</value>
+  </data>
+  <data name="ReconcileMoveConfirm">
+    <value>Update only the library and journal using this verified destination? No original or destination file will be deleted.</value>
+  </data>
+  <data name="SourceExists">
+    <value>Source exists</value>
+  </data>
+  <data name="NeedsReview">
+    <value>Transfer needs review</value>
+  </data>
+  <data name="MoveFailed">
+    <value>Move failed or needs review</value>
+  </data>
+  <data name="SourceVerified">
+    <value>Source verified</value>
+  </data>
+  <data name="TransferIntent">
+    <value>Transfer intent recorded</value>
+  </data>
+  <data name="DestinationCommitted">
+    <value>Destination committed</value>
+  </data>
+  <data name="DestinationVerified">
+    <value>Destination verified</value>
+  </data>
+  <data name="SourceRemovalRequested">
+    <value>Verified source removal requested</value>
+  </data>
+  <data name="FilesystemCompleted">
+    <value>Transfer complete; catalog pending</value>
+  </data>
+  <data name="CatalogReconciled">
+    <value>Library reconciled</value>
+  </data>
+  <data name="Result">
+    <value>Result recorded</value>
+  </data>
+  <data name="SourceAbsenceConfirmed">
+    <value>Source absence confirmed</value>
+  </data>
+</root>

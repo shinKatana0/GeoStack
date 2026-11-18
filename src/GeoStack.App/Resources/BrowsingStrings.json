@@ -1,0 +1,62 @@
+{
+  "OpenPreview": [
+    "Open preview",
+    "Открыть просмотр"
+  ],
+  "PreviewShortcut": [
+    "Open a large preview (F4). Double-click or Enter navigates to the location.",
+    "Открыть большой просмотр (F4). Двойной щелчок или Enter — перейти к месту."
+  ],
+  "VideoFramePreview": [
+    "Video preview frame",
+    "Кадр видеозаписи"
+  ],
+  "SortName": [
+    "Sort: name",
+    "Порядок: имя"
+  ],
+  "SortDate": [
+    "Sort: date",
+    "Порядок: дата"
+  ],
+  "NoGpsNavigation": [
+    "This file has no GPS. The map stays at its current location.",
+    "В файле нет GPS. Положение карты не изменено."
+  ],
+  "OtherLocations": [
+    "Other locations",
+    "Другие места"
+  ],
+  "GoToLocation": [
+    "Go to location",
+    "Перейти к месту"
+  ],
+  "BackLocation": [
+    "Back to previous location",
+    "Вернуться к предыдущему месту"
+  ],
+  "ContextCoverage": [
+    "Outside installed detail: showing available offline context.",
+    "Вне подробного покрытия: показан доступный автономный фон."
+  ],
+  "PreviewCompact": [
+    "Preview",
+    "Просмотр"
+  ],
+  "NameCompact": [
+    "Name ↑",
+    "Имя ↑"
+  ],
+  "DateCompact": [
+    "Date ↓",
+    "Дата ↓"
+  ],
+  "PhotoCountLabel": [
+    "Photos",
+    "Фото"
+  ],
+  "VideoCountLabel": [
+    "Videos",
+    "Видео"
+  ]
+}

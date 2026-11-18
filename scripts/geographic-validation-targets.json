@@ -1,0 +1,8 @@
+[
+  {"id":"tokyo-station","latitude":35.6812,"longitude":139.7671,"bbox":[139.7670,35.6811,139.7672,35.6813]},
+  {"id":"kyoto-station","latitude":34.9858,"longitude":135.7588,"bbox":[135.7587,34.9857,135.7589,34.9859]},
+  {"id":"kanazawa-station","latitude":36.5781,"longitude":136.6477,"bbox":[136.6476,36.5780,136.6478,36.5782]},
+  {"id":"shanghai-peoples-square","latitude":31.2304,"longitude":121.4737,"bbox":[121.4736,31.2303,121.4738,31.2305]},
+  {"id":"zurich-hauptbahnhof","latitude":47.3782,"longitude":8.5402,"bbox":[8.5401,47.3781,8.5403,47.3783]},
+  {"id":"warsaw-central-station","latitude":52.2297,"longitude":21.0122,"bbox":[21.0121,52.2296,21.0123,52.2298]}
+]

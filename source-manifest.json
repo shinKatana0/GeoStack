@@ -1,0 +1,1385 @@
+{
+  "Schema": 1,
+  "ProductVersion": "0.5.5",
+  "Scope": "SOURCE_ONLY_OWNER_REVIEW",
+  "PublicationAuthorized": false,
+  "ProjectLicense": "Apache-2.0",
+  "Files": {
+    ".gitattributes": {
+      "Bytes": 239,
+      "SHA256": "bd3af9146dc62e2d878d37ef737cdb7eda9e4703c301d63ee6cdc5001620a43e"
+    },
+    ".github/workflows/source.yml": {
+      "Bytes": 2442,
+      "SHA256": "ca9ccc6de6e85c2107f57f98c9a56ac37d157056eaf20e4f6ae8b99650d20250"
+    },
+    ".gitignore": {
+      "Bytes": 1136,
+      "SHA256": "3de6c30f62fd091f2980955c357ea01a2ee426785cffd564ebe6eff46872f579"
+    },
+    ".gitleaks.toml": {
+      "Bytes": 546,
+      "SHA256": "f67331e56ddfb7bc3c25df5199070fe736100a39984abf8cad00e23fb9f11987"
+    },
+    "AGENTS.md": {
+      "Bytes": 886,
+      "SHA256": "a7cbefb9c16bcd87ede45cacf6ed7e6a56a3f711ecf3ae69c9cca1fb06c18927"
+    },
+    "ARCHITECTURE.md": {
+      "Bytes": 1059,
+      "SHA256": "4bad10314bfe605fc68a5998d3046fd9e8ae15e2c896708a884997a91f9936e4"
+    },
+    "ARCHITECTURE.ru.md": {
+      "Bytes": 1975,
+      "SHA256": "8cc7f54f9d1279ec676ed110b2d98f15843c6583400cfa220d8203b7e914cef6"
+    },
+    "assets/branding/GeoStack-1024.png": {
+      "Bytes": 32136,
+      "SHA256": "06b636c71d1df2eb95d02b80380900456a58594e6cd780777549db8d6c22c979"
+    },
+    "assets/branding/GeoStack-128.png": {
+      "Bytes": 4461,
+      "SHA256": "6e2d5ab8c50b1d9b1ff80a5ba63c2f3edf16de2a62090d50c04e1ca12281d3a5"
+    },
+    "assets/branding/GeoStack-16.png": {
+      "Bytes": 617,
+      "SHA256": "57c672317ef71fa48b49ce4158cc33fdb2abe66d49fd5abcc44410266e12f629"
+    },
+    "assets/branding/GeoStack-24.png": {
+      "Bytes": 977,
+      "SHA256": "8114089318365c4fc53ebb58e88d9fb666dbe518d38449d9c85e0d07f7d7bd59"
+    },
+    "assets/branding/GeoStack-256.png": {
+      "Bytes": 8880,
+      "SHA256": "1e458db599db4c84363fce361dde7ce9793e6194afa81f19cc2cd730e77ea4bb"
+    },
+    "assets/branding/GeoStack-32.png": {
+      "Bytes": 1298,
+      "SHA256": "be94282fe6aeb71726c738636406a9f5bdce9d9b734d8ce2fd753b09c4629899"
+    },
+    "assets/branding/GeoStack-48.png": {
+      "Bytes": 1924,
+      "SHA256": "1e7da9683e3d9a6654e850aec06ef7c799d231863769cd72a19ec0ca45d35957"
+    },
+    "assets/branding/GeoStack-64.png": {
+      "Bytes": 2398,
+      "SHA256": "564f1cdac386e53b8d7a15066bee51ca860cc6d8807b85e116b744b5801d0bed"
+    },
+    "assets/branding/GeoStack.ico": {
+      "Bytes": 20673,
+      "SHA256": "e3b695de5c126dbb12e258fd527084ee7a1448b23017ced98339c9ead2906c10"
+    },
+    "assets/branding/GeoStack.svg": {
+      "Bytes": 1665,
+      "SHA256": "ba5eaa33d4b042955c13977f56dd27b4857f28db1958d43cf09ef0eae4357752"
+    },
+    "assets/geography/atlas-lod-coverage.json": {
+      "Bytes": 1144,
+      "SHA256": "be020479bb184f46deb313152b12f504b40774be603bb8df289845354eaa5c83"
+    },
+    "assets/geography/cities.geojson": {
+      "Bytes": 2319342,
+      "SHA256": "79c7fa2bca91d6fed94445cf843b2eeb2229718d126c2b257f2436472d8facd4"
+    },
+    "assets/geography/countries.geojson": {
+      "Bytes": 282494,
+      "SHA256": "aadc4c0b305047e87db2e1e207a63830563bdc8cd18f3b0a064ded6d316ff448"
+    },
+    "assets/geography/urban-roads.gslite": {
+      "Bytes": 10103846,
+      "SHA256": "5c96ca65fe8816da0d13f604d383dcfdd63fd5088e90125a4e430e03783cdbbb"
+    },
+    "assets/geography/urban-roads.manifest.json": {
+      "Bytes": 1119,
+      "SHA256": "ee95671457203794c52b4e948fe66bfbd9b801b3965a33f43fda1169fc6af1a4"
+    },
+    "assets/geography/world.gsbase": {
+      "Bytes": 7005877,
+      "SHA256": "ed2ad89f190645a0dc379dc570f25bbecd1fc9aa719819706e1f0b09d2aeb3fd"
+    },
+    "assets/geography/world.manifest.json": {
+      "Bytes": 3458,
+      "SHA256": "075e4c2d56c07046714100c78a7945c75c13c1e1e49b1b9cb3f0dc7ccb43e9a1"
+    },
+    "BUILD.md": {
+      "Bytes": 2075,
+      "SHA256": "b0a36fa153f9453463dfa138d3c63713381f8aedf442798b61198ba92d3ded7f"
+    },
+    "BUILD.ru.md": {
+      "Bytes": 3569,
+      "SHA256": "e3a7d736945932ca945edbc7c4b1b3133a2ef0d8ac796da482f453a6dff5d256"
+    },
+    "CHANGELOG.md": {
+      "Bytes": 880,
+      "SHA256": "6e42ca97e73eaf82164eee4294e956e79e8e4aa7b6e40455477be2416bd49d9b"
+    },
+    "CHANGELOG.ru.md": {
+      "Bytes": 1639,
+      "SHA256": "5b0ab947c3995b17f0aa5f018e988862b3414867c59ed336de45640c4aae575f"
+    },
+    "CONTRIBUTING.md": {
+      "Bytes": 1361,
+      "SHA256": "91aefc0684fb4506e007d47b6b52e623ef69220ec7fbb11fbaa75d8e8b64afd8"
+    },
+    "CONTRIBUTING.ru.md": {
+      "Bytes": 2617,
+      "SHA256": "f63497eba0a57c96e55e6bcb51f14b9e8c373d681b6a511c2068950602b4b867"
+    },
+    "Directory.Build.props": {
+      "Bytes": 185,
+      "SHA256": "7489404e8a2df0b25d7f03a7fb2975778500ac5ca31679d7a7c1a4947a9b03aa"
+    },
+    "docs/ANDROID_HANDOFF.md": {
+      "Bytes": 929,
+      "SHA256": "55c2e80620ae1ff01878b0c8c622fb1a5d8b8f862e181d94f2bf119b3d21d8b4"
+    },
+    "docs/ANDROID_HANDOFF.ru.md": {
+      "Bytes": 1694,
+      "SHA256": "0051d113b62d44de5ae75cbb9de82f6f26e5f99acf60f1afccea2ee819d15f09"
+    },
+    "docs/BRANDING.md": {
+      "Bytes": 926,
+      "SHA256": "aa921c7624353483fe85c7522e679bdf8e5062f71eec1cb64d29ffede53c6666"
+    },
+    "docs/BRANDING.ru.md": {
+      "Bytes": 1696,
+      "SHA256": "62dfd412d05f7bf3af2d19445347c5ea531aa8f82bd2f4f25990cba3aa1bf372"
+    },
+    "docs/GEOGRAPHIC_DATASETS.md": {
+      "Bytes": 2974,
+      "SHA256": "67cd236966fed018dc03ff8c23afb7706fdaaf60f29b39b0fa1a035654ed2e18"
+    },
+    "docs/GEOGRAPHIC_DATASETS.ru.md": {
+      "Bytes": 4623,
+      "SHA256": "35239a8a9f786bc129533a1c75e242588e90d53bb1c60d76c9600509cbedcd94"
+    },
+    "docs/GEOGRAPHIC_ORGANIZATION.md": {
+      "Bytes": 1997,
+      "SHA256": "dc4ea6f7d9813bf91f77a97189b089ebe321cc6e0220fba09462c08b26aaebd3"
+    },
+    "docs/GEOGRAPHIC_ORGANIZATION.ru.md": {
+      "Bytes": 4113,
+      "SHA256": "518a63fe151da3c3f899258c46e17143e6bb9c3be38739622c249aac8b9b688b"
+    },
+    "docs/KNOWN_LIMITATIONS.md": {
+      "Bytes": 1137,
+      "SHA256": "59a274d6f5eeb16ca899b453d416c406e16c9c544e6d258eeea37ff6b908183a"
+    },
+    "docs/KNOWN_LIMITATIONS.ru.md": {
+      "Bytes": 2107,
+      "SHA256": "16e12eca734cc1073ce6d714ba3e6202ddf079a285396668b511c0b3c1de61df"
+    },
+    "docs/MAP_DOWNLOAD_PROVIDERS.md": {
+      "Bytes": 1430,
+      "SHA256": "55b83caa93a73f94231bdfc93e932ab3e8019cc14d08fc466df2552e45a26b66"
+    },
+    "docs/MAP_DOWNLOAD_PROVIDERS.ru.md": {
+      "Bytes": 2613,
+      "SHA256": "cd5d58dfca0cd0dba3b51e5900d3f4a17f482871c165c172e99c33abe485aa50"
+    },
+    "docs/MEDIA_LIBRARY.md": {
+      "Bytes": 1761,
+      "SHA256": "5efc0541f4905196ca60568a844541ca3567f5d777ff6a52b05d82bbbb821722"
+    },
+    "docs/MEDIA_LIBRARY.ru.md": {
+      "Bytes": 3523,
+      "SHA256": "86c11264530c0d37ccaca40f2d743b05eed0e78b29535cb6a4906d8dbd16e51a"
+    },
+    "docs/OFFLINE_MAPS.md": {
+      "Bytes": 1932,
+      "SHA256": "78ddf83034f2b0b83d99fff9d51e4f4e2e7d29c3dcef66e73efffd30363ae2a2"
+    },
+    "docs/OFFLINE_MAPS.ru.md": {
+      "Bytes": 3781,
+      "SHA256": "6f13dc2f18e8831f1d5e047857888f6470fb88d499d8a9d73dab6f40b9957079"
+    },
+    "docs/PHYSICAL_ACCEPTANCE.md": {
+      "Bytes": 963,
+      "SHA256": "74fc0471cafcf51940a9c43bae80d2a0f73fbd0919b9abf8a75eaeb6f527b257"
+    },
+    "docs/PHYSICAL_ACCEPTANCE.ru.md": {
+      "Bytes": 2029,
+      "SHA256": "1b76f8684786ded003b5c82c05358b85c16d1f4a4241a62101c074919198458e"
+    },
+    "docs/PORTABLE.md": {
+      "Bytes": 1111,
+      "SHA256": "9286149c3ea2feabb6377df14901d6b40b298f421fb692bac4efef8e9f94b8ed"
+    },
+    "docs/PORTABLE.ru.md": {
+      "Bytes": 2190,
+      "SHA256": "325259c9fef77975b9cb5956b94d2d27c506da6113adda89056b9e9e8a705f64"
+    },
+    "docs/PROJECT_LICENSE_PROPOSAL.md": {
+      "Bytes": 944,
+      "SHA256": "a875c9d67db8bed2ca9fa3043864a605b6424fbcb704fc681f53370a11770482"
+    },
+    "docs/PROJECT_LICENSE_PROPOSAL.ru.md": {
+      "Bytes": 1549,
+      "SHA256": "50ece6c5608db49936bfdc27ecce2e8d6d82b0bbef57b78ac36b8618f53bdf3e"
+    },
+    "docs/REDISTRIBUTION_STATUS.md": {
+      "Bytes": 1392,
+      "SHA256": "33335f3e6c2a5c51301e88eb7bfb2d6bc05dc6017478d98628b6d7c93bd0932b"
+    },
+    "docs/REDISTRIBUTION_STATUS.ru.md": {
+      "Bytes": 2563,
+      "SHA256": "3a5494327e893457e4a620bfbda762f0398345c760e2ac53dce19c4b96034c4e"
+    },
+    "docs/screenshots/detailed-city-Dark.png": {
+      "Bytes": 1157378,
+      "SHA256": "4f4ac8d927c237925682a04f1b8c0fb22edbde77230d8a6ff9000da4453e63d5"
+    },
+    "docs/screenshots/detailed-city-Light.png": {
+      "Bytes": 1133247,
+      "SHA256": "d86fb60d0af0670f8eb3083eb833a8acf8d3bccc413a361488d5b4cfc002c77c"
+    },
+    "docs/screenshots/download-preview-Dark.png": {
+      "Bytes": 136640,
+      "SHA256": "3d3a87cd7e8c808b3ba948e6f00dadfb3b2bdd1e7e2e40df86f4bbe4d144ee74"
+    },
+    "docs/screenshots/download-preview-Light.png": {
+      "Bytes": 137076,
+      "SHA256": "8aa7611953323d3e626f041ae1daa5a47c584229b52aa8034a250d6e9090fa65"
+    },
+    "docs/screenshots/organization-Dark.png": {
+      "Bytes": 63628,
+      "SHA256": "955dca9e79a097f0f7bf86021ac34fd0c3aed15cf0f5be728871414c9bca5996"
+    },
+    "docs/screenshots/organization-Light.png": {
+      "Bytes": 63331,
+      "SHA256": "64213526c4d7b06739ec5c3d21ef77c34d49eb20477180ffdcfb077d50a1c888"
+    },
+    "docs/screenshots/photo-stacks-Dark.png": {
+      "Bytes": 105884,
+      "SHA256": "2127af8b40ba044e6cfff332093ba42cb089fee2ee51802eb9957dca360557e3"
+    },
+    "docs/screenshots/photo-stacks-Light.png": {
+      "Bytes": 328706,
+      "SHA256": "2a9dfd266771736fc04060bf9ef065bf9a064fb07732e21a84a420dd47aa8962"
+    },
+    "docs/screenshots/README.md": {
+      "Bytes": 1540,
+      "SHA256": "982975a4924bf6859bab6960d05fc18925243bee7da04e93c0c321f80d57474e"
+    },
+    "docs/screenshots/README.ru.md": {
+      "Bytes": 2694,
+      "SHA256": "59908bd256c24c322838e150dea3f2040fdb4a4530cfa04065d7f24848678bdc"
+    },
+    "docs/screenshots/urban-context-Dark.png": {
+      "Bytes": 532005,
+      "SHA256": "a24923a77dcf21e6757856afa2627de41bccefcfb5792564e7a7ace166e2a4c0"
+    },
+    "docs/screenshots/urban-context-Light.png": {
+      "Bytes": 487615,
+      "SHA256": "6118ae09b6c3a8f3db8db57586988643afc73cdbdabbb5108880e1c2873bdc75"
+    },
+    "docs/screenshots/world-Dark.png": {
+      "Bytes": 325687,
+      "SHA256": "c9860de61b3ccb39e8e95544279b67fdd7556802668569f333e064a84db26c80"
+    },
+    "docs/screenshots/world-Light.png": {
+      "Bytes": 353153,
+      "SHA256": "c0fb6571d2134388159995296fc4533402a406aa73b340a7b254b612357f2909"
+    },
+    "GeoStack.sln": {
+      "Bytes": 5806,
+      "SHA256": "7716d6890fb74c2e7454a9973ba239fadd4807e823d9073f08e9e350a5940585"
+    },
+    "global.json": {
+      "Bytes": 59,
+      "SHA256": "41e1e017878c51c1c14c1de2151a24c3b303ea644182ad81f9f98a16318a877c"
+    },
+    "LICENSE": {
+      "Bytes": 11358,
+      "SHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "licenses/ExifTool.txt": {
+      "Bytes": 35149,
+      "SHA256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    "licenses/FFmpeg-GPLv3.txt": {
+      "Bytes": 35147,
+      "SHA256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    "licenses/Natural-Earth.txt": {
+      "Bytes": 313,
+      "SHA256": "eb487a14c8638b8fca5cb9e03a034e9bc4ada8baf72f4ee590892d9755bd0627"
+    },
+    "licenses/Strawberry-Perl.zip": {
+      "Bytes": 481025,
+      "SHA256": "8bd5fc8dc0ef3b96881ddad0974b79e86f4043f76ab318a730b084adf0890bd0"
+    },
+    "licenses/Urban-Lite-OSM.txt": {
+      "Bytes": 1135,
+      "SHA256": "15e0824cf1e0278542e6a835e7d674722aa0a8eba363af04a20b9a65a635733c"
+    },
+    "NOTICE": {
+      "Bytes": 418,
+      "SHA256": "3318ba3f4380a5e728e8b81308b60a75e9c09a3fa269ac78f5b0d4b81a9be024"
+    },
+    "NuGet.Config": {
+      "Bytes": 360,
+      "SHA256": "18a9f573165492a7d31fd6de40884b951bab1e840d0e12732e7dbe5412c3f932"
+    },
+    "offline-maps/atlas-pilot-compact/MANIFEST.json": {
+      "Bytes": 6554,
+      "SHA256": "db64c06ec2ad61f2e950281e67f28db7ba2aa907c247280aa9094fda512e34b0"
+    },
+    "offline-maps/atlas-pilot-compact/warsaw.gsatlas": {
+      "Bytes": 1648390,
+      "SHA256": "3bdfca843c5f27a57d64486bed85877eac3a3ffa7b9cda53e4f88bb06578c399"
+    },
+    "offline-maps/atlas-pilot-compact/world.gsatlas": {
+      "Bytes": 1572107,
+      "SHA256": "05bb5d14584a7cab7d38ccead93b28b7968c404988d8ff1da4a40e187af495ec"
+    },
+    "offline-maps/atlas-pilot-compact/zurich.gsatlas": {
+      "Bytes": 1992989,
+      "SHA256": "f68a08301a3d6883960faff74d89f50d24513abad3e24a5214e66e43b4efa1f5"
+    },
+    "publication-policy.json": {
+      "Bytes": 6243,
+      "SHA256": "f9a45f2c5634dcb9f0f7cb74c3133e63fa30242d54b2fd83758dbb9cba20257d"
+    },
+    "README.md": {
+      "Bytes": 3689,
+      "SHA256": "11dc8173ec657687b765a547ef53289c09513806eec54afe3c285617f00a292e"
+    },
+    "README.ru.md": {
+      "Bytes": 6628,
+      "SHA256": "b5d8aa5513d142f1cff7c5e88747211badfd88c65fa6a92c7e523fc7a95bf526"
+    },
+    "release/compliance/GEOGRAPHIC_DATA_OFFER.md": {
+      "Bytes": 1410,
+      "SHA256": "3ccfad1b6e216a5691728a9e5bae76605a389afeafb8bb26288f42fe132a859d"
+    },
+    "release/compliance/GEOGRAPHIC_DATA_OFFER.ru.md": {
+      "Bytes": 2269,
+      "SHA256": "61410a6561c1beead088c625e3711812cb9312f3019ba15db0c48f93944166b6"
+    },
+    "release/compliance/licenses/ODbL-1.0.txt": {
+      "Bytes": 25278,
+      "SHA256": "607680718977f6f6c9607972afd98f208573f19251315ed1362a8589b51beaf5"
+    },
+    "release/compliance/SOURCE_DATA_NOTICES.md": {
+      "Bytes": 1408,
+      "SHA256": "0c39a1ec1967cfb8a48a56cbbe9fc4659565a2d3f05e4b201c0a1d78de96a575"
+    },
+    "release/compliance/SOURCE_DATA_NOTICES.ru.md": {
+      "Bytes": 2267,
+      "SHA256": "3a3ec3548af9b4f7f50abe1c2e715c33676f49f1b77d83decd16fc8a4aa1f579"
+    },
+    "release/dependencies.lock.json": {
+      "Bytes": 140488,
+      "SHA256": "3e88ffa453ce1b305ae65ea11b5dbae71d9e2c0e21e16badb57cfc89030ceca3"
+    },
+    "release/proposed-licenses/Apache-2.0.txt": {
+      "Bytes": 11358,
+      "SHA256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "release/proposed-licenses/PROPOSAL.json": {
+      "Bytes": 309,
+      "SHA256": "03cc9d343a4bf17dbe95230fc43902c83a71bd66682d20f99bafda1110dd2663"
+    },
+    "release/publication-gate.json": {
+      "Bytes": 604,
+      "SHA256": "f35a66602482939dd92bf319820ef1585cc138492cc9e5cd9f2dec3666e7e294"
+    },
+    "release/source-license.json": {
+      "Bytes": 8603,
+      "SHA256": "7822ccb992ae77b3e25ec923c4a1fcd8c6ce75d2bd99925e56e9b4136a2ce25a"
+    },
+    "scripts/audit-portable.py": {
+      "Bytes": 4129,
+      "SHA256": "242ad2faa3480e33f418970c424ec07dac48ad597a0840e64e26de3226f9b59e"
+    },
+    "scripts/build-portable.ps1": {
+      "Bytes": 8779,
+      "SHA256": "8b07204a250ae5f882a0d32855e6eb072bd87cb67753166edd0e21d8aefdf241"
+    },
+    "scripts/check-public-tree.py": {
+      "Bytes": 12838,
+      "SHA256": "8dc8c0b1c29986cd637cc9aabe5b63de6c60b2fe7bb2bbeb43edf6ef558be62f"
+    },
+    "scripts/cleanup-workspace.py": {
+      "Bytes": 6035,
+      "SHA256": "74e1b293b37f969f7f0f6625997ce353dbdf4c21b4a8089c2325896f8ce37c30"
+    },
+    "scripts/compact-atlas-pilot.py": {
+      "Bytes": 2517,
+      "SHA256": "07b2ab6a2470af23d9c7491ea8374b820b34a036f7f1ea474e5f80d1ad6a8fa7"
+    },
+    "scripts/compact-geography.py": {
+      "Bytes": 888,
+      "SHA256": "ae59977db44177e937e96af88c777965fc12f5e451e9b945f8063aaf4b4885e8"
+    },
+    "scripts/convert-geographic-package.py": {
+      "Bytes": 6643,
+      "SHA256": "4e476198c656de5b9bf27e0d95d221a30041409d05c0bd931016dc8723ab2120"
+    },
+    "scripts/create-fixtures.ps1": {
+      "Bytes": 1282,
+      "SHA256": "fe437d46f7432926caee4ff5337a369c4158b39ad07a63487a4e16281ef1d46b"
+    },
+    "scripts/create-fixtures.py": {
+      "Bytes": 1971,
+      "SHA256": "95659db38e03aa09532e7b12ae9966414413478f39b1c61067cc1eaa2c7ad0b4"
+    },
+    "scripts/create-format-fixtures.ps1": {
+      "Bytes": 3239,
+      "SHA256": "4b9503ea687e11825cf95e6da764d9512a0ecdd7ab0a788282133358aceefd10"
+    },
+    "scripts/create-geographic-fixtures.py": {
+      "Bytes": 3314,
+      "SHA256": "3901d05ff7a57a4ceeeaa9c34c5eeffeaf6c16b614230a5db16c80380c459e6c"
+    },
+    "scripts/create-global-atlas-fixtures.py": {
+      "Bytes": 1811,
+      "SHA256": "56a7806ed800810dd4b1e30468dcebac76c378d8b0da4adc5507191e8ab0af4a"
+    },
+    "scripts/create-map-fixtures.py": {
+      "Bytes": 2486,
+      "SHA256": "11a26232eedef3e26ecca0e47f2f3a17b945b277247edd8900b8ae106b2c6a2f"
+    },
+    "scripts/environment.ps1": {
+      "Bytes": 465,
+      "SHA256": "d1ad90f5083309db463124205a5a465bf3b2c7a332cd40df7b96801d5746c7df"
+    },
+    "scripts/fetch-format-fixtures.py": {
+      "Bytes": 1579,
+      "SHA256": "35e3bfa352ef91b6e5ec5f53e71f136b48ead8ce7d3425c584e2fbd6ef7da9a2"
+    },
+    "scripts/fetch-overture-boundaries.py": {
+      "Bytes": 6910,
+      "SHA256": "49f25e422fc7c230382a68d7d07c5d269a37f78e985f8f4be0adfaeb117f7106"
+    },
+    "scripts/fetch-runtime.py": {
+      "Bytes": 728,
+      "SHA256": "17a7baa7fd0b4dfd1c117ec9676232c4db94fac15c7995501f840f8a046d9665"
+    },
+    "scripts/generate-branding.ps1": {
+      "Bytes": 209,
+      "SHA256": "32a982c3e3ee5d0f080da51dcd5c803850f4c22067ca6998b308e9573a315977"
+    },
+    "scripts/generate-branding.py": {
+      "Bytes": 5238,
+      "SHA256": "d41cb45a38454f19ab5f388788a93a70d903281f1b6778602c624d8cb19a33e6"
+    },
+    "scripts/geographic-dev-requirements.txt": {
+      "Bytes": 227,
+      "SHA256": "c07efd24491bd8f753ac8297733d2bcca6cdcccd4578c4b95d2648152a0212dc"
+    },
+    "scripts/geographic-semantic-rules.json": {
+      "Bytes": 734,
+      "SHA256": "4087292c12f4b6ea3fabce95796e9cd8a164dbdc33e38bd8fa482c5996c1f8ed"
+    },
+    "scripts/geographic-validation-targets.json": {
+      "Bytes": 676,
+      "SHA256": "4037cf94d0943cc5ac80fd56e627c8225b7e877cc50ee3ade9a2134a9d135f7d"
+    },
+    "scripts/map-preparation-requirements.txt": {
+      "Bytes": 118,
+      "SHA256": "e4ed7fd7714325f0eb5787f9055fc5c7722e64b4602668787ea9e5be9560d321"
+    },
+    "scripts/normalize-overture-geography.py": {
+      "Bytes": 11895,
+      "SHA256": "0e998270e55a0dd64f2800a4de5fafc01011fcc40163ecb4a8c1c21cce38deb9"
+    },
+    "scripts/prepare-atlas-pilot.py": {
+      "Bytes": 10820,
+      "SHA256": "e011325235b368d1187b941fd1dd6206366614db50f0750c01fa364d105f2964"
+    },
+    "scripts/prepare-city-maps.py": {
+      "Bytes": 12680,
+      "SHA256": "abf15a42491dfb13cc646f1b22e1b3f4be6b61a3e9d81db3d3ee189e6c637ea6"
+    },
+    "scripts/prepare-compact-basemap.py": {
+      "Bytes": 7578,
+      "SHA256": "234827f2488d5ee9d483eee2f018d4bb39760eecb037302b748965a3f7da89a9"
+    },
+    "scripts/prepare-dark-atlas.py": {
+      "Bytes": 4199,
+      "SHA256": "43a312bb5f1a48c1da5152dd5723d1361c61beabb20ef31593cf12a142291084"
+    },
+    "scripts/prepare-regional-lod-coverage.py": {
+      "Bytes": 1773,
+      "SHA256": "c54672d3f6486d868455b23a29c470b847058eee5c0a996652e33a508e03e978"
+    },
+    "scripts/prepare-saint-boundary.py": {
+      "Bytes": 4190,
+      "SHA256": "1906acfbbea33ca97b6293c8d36ed0b49f20ad638e94f67925212f1dd9efe6bc"
+    },
+    "scripts/prepare-urban-roads.py": {
+      "Bytes": 4538,
+      "SHA256": "ef2428f62ee428129bac85ced27816758a25ed06cdbc15608826a2be6d080239"
+    },
+    "scripts/production-package.py": {
+      "Bytes": 6044,
+      "SHA256": "712dda3a087764b721eb8136acf1c0d983bcee79635c9e13f39e8db8564f2ef3"
+    },
+    "scripts/read-adapted-geography.py": {
+      "Bytes": 5192,
+      "SHA256": "67e14145df78b6f824aeca756ada08de9a61fcc418e4ce2e677570431531d840"
+    },
+    "scripts/refresh-geographic-names.py": {
+      "Bytes": 1067,
+      "SHA256": "8ef745764a3c4decb1a3f7e7e35417f8c8f54a64d1b214e70370c9ceb70ef003"
+    },
+    "scripts/report-storage.py": {
+      "Bytes": 3714,
+      "SHA256": "268eb2359fac1060eaa62107e903c0ca8d0f4970ccbc651c3812871acd699897"
+    },
+    "scripts/test-workspace.py": {
+      "Bytes": 2593,
+      "SHA256": "d918bb17a9ea9dd78836e53600bdd26217a2e41fa2ac60647b3f059edfa754f6"
+    },
+    "scripts/test.ps1": {
+      "Bytes": 1751,
+      "SHA256": "1e6f39188db15e77501be7a99dec49e0350a939e5fc51528da1c89948c8ebd37"
+    },
+    "scripts/unpack-reviewed-tools.py": {
+      "Bytes": 1367,
+      "SHA256": "57786e66ad3801d4c76cf109fc69c16495273f716260d256c72f0dff3021380f"
+    },
+    "scripts/update-resources.py": {
+      "Bytes": 1981,
+      "SHA256": "da243d40a6f9dbf77a2a2fba51ed65b135ae960e01b29faf1e0c30b31bf5a48b"
+    },
+    "scripts/validate-release-inputs.py": {
+      "Bytes": 1626,
+      "SHA256": "ed92a5cd3c06710294c5a58d71076d1c0124f42e21cc2c887fa1547b50c92499"
+    },
+    "scripts/verify-portable.ps1": {
+      "Bytes": 1982,
+      "SHA256": "295a4588fc1a99f1f0dc4ac222774f5cd01c9864a93612b7b88c8ef0d646d25b"
+    },
+    "SECURITY.md": {
+      "Bytes": 1402,
+      "SHA256": "31271871ad3c4a0609038381acb970cea3290ab3036eea1260a7094752b1048a"
+    },
+    "SECURITY.ru.md": {
+      "Bytes": 2716,
+      "SHA256": "fe5e18350c82350185f3b571631a8ae2d8e7cad551353751827ced9927536eb3"
+    },
+    "src/GeoStack.App/app.manifest": {
+      "Bytes": 537,
+      "SHA256": "f03e28cd492b7fcdb928ad3ea041d19cda220ce3a106fce2a6dc41f3c70bb39e"
+    },
+    "src/GeoStack.App/App.xaml": {
+      "Bytes": 9142,
+      "SHA256": "8f036fbc53fe62c1ba33129b38249d6dd3dc2e60c4a990711689c610bec60275"
+    },
+    "src/GeoStack.App/App.xaml.cs": {
+      "Bytes": 20606,
+      "SHA256": "46593efc0ee3bc99fee47932de87b0fa8237bd9e5b3456bd00396c0ede73ac99"
+    },
+    "src/GeoStack.App/AssemblyInfo.cs": {
+      "Bytes": 157,
+      "SHA256": "b123c905f779fc89a6a8799c598a1dcfcd070c2787e4c09f3ec3ef7d3fd65405"
+    },
+    "src/GeoStack.App/AtlasControl.cs": {
+      "Bytes": 24549,
+      "SHA256": "1e623133d3f99b6ef71e3f48386192e4d0bef0439a543f082b9a5afe57fd4eba"
+    },
+    "src/GeoStack.App/AtlasGateMemory.cs": {
+      "Bytes": 2604,
+      "SHA256": "09fa0afcd73643aca93c70c2bfda0edc1f0ddf2aa92c9468d8af7625b424e060"
+    },
+    "src/GeoStack.App/AtlasGateVerification.cs": {
+      "Bytes": 9659,
+      "SHA256": "9c8dc4027a11022ba887d069213f369c10095e6c176b6f7173d840bad50f650f"
+    },
+    "src/GeoStack.App/AtlasNavigation.cs": {
+      "Bytes": 3255,
+      "SHA256": "3578c5755f0f8914138534aced10e881b258552cc6949db6395915653b003f7f"
+    },
+    "src/GeoStack.App/AtlasPerformanceVerification.cs": {
+      "Bytes": 7307,
+      "SHA256": "c51d543d2518f02905edac723cd1d7dc0e6fdacbd96d855dde1e5a65c2f94340"
+    },
+    "src/GeoStack.App/AtlasPilotVerification.cs": {
+      "Bytes": 6945,
+      "SHA256": "fa632ee940e6fee63c1b329d518a1bc5769de1ea54e249e6dcce8b631173cb9c"
+    },
+    "src/GeoStack.App/AtlasProfiling.cs": {
+      "Bytes": 3463,
+      "SHA256": "002cd7a78b9e0515cb7ca65c2bd1a98df55daf32ba9d3df293e54caae4de5a45"
+    },
+    "src/GeoStack.App/BrowsingVerification.cs": {
+      "Bytes": 10719,
+      "SHA256": "cd9124247cd8661941d8dc3a89894af91e0d78141d14e212d2aeb027de946810"
+    },
+    "src/GeoStack.App/CompactBasemapVerification.cs": {
+      "Bytes": 7429,
+      "SHA256": "04ede98df98211ed39385073ad584a4c86156696e55dc09866d3c270fa113d75"
+    },
+    "src/GeoStack.App/CompactWorld.cs": {
+      "Bytes": 3160,
+      "SHA256": "88fd3f77e91e8d83c0f8255a64c15986b0022efd6488ffcf6d45eb170f7a05d4"
+    },
+    "src/GeoStack.App/CompositionVerification.cs": {
+      "Bytes": 9098,
+      "SHA256": "3a398422c52e4c118f24de3f724213e458f367c1a85c925394adf1cabf759d92"
+    },
+    "src/GeoStack.App/CompositionWindowState.cs": {
+      "Bytes": 1411,
+      "SHA256": "c8befb7a2f27f7915fb9f078d5a2aa1f0cadf2de9aee1503e8f12a005bec2c15"
+    },
+    "src/GeoStack.App/CopyStateConverter.cs": {
+      "Bytes": 554,
+      "SHA256": "e875f06bdae9bcb0aabaed9739228fd223904addd97bf76ca6bb1e6d61fcb33b"
+    },
+    "src/GeoStack.App/DownloadVerification.cs": {
+      "Bytes": 4864,
+      "SHA256": "1d317406e9cc6384570b240460444974d49ecefc265db6d75a2ecb6bfd789d9c"
+    },
+    "src/GeoStack.App/DragContinuityVerification.cs": {
+      "Bytes": 7736,
+      "SHA256": "b47705bd63449ae1f7a661990a5c85436be7d23d8219f235be3f049cfdd84385"
+    },
+    "src/GeoStack.App/EnvironmentVerification.cs": {
+      "Bytes": 2105,
+      "SHA256": "0d69787f65c9799d8b946f7cd6312191c848414973f3ec5a293633c391945d5c"
+    },
+    "src/GeoStack.App/FeatureVerification.cs": {
+      "Bytes": 6351,
+      "SHA256": "ee72c6684cd70ef48eadaaecda199e248314a9627e74283acfafad51575d8aa7"
+    },
+    "src/GeoStack.App/FinalRenderingVerification.cs": {
+      "Bytes": 4925,
+      "SHA256": "2971125a3813106155eb8c26a1716b2ae1af063f34f050f38cd42f0059d0cda1"
+    },
+    "src/GeoStack.App/GeographicDataWindow.cs": {
+      "Bytes": 8638,
+      "SHA256": "bf20214be4a468d3e0f36c63c924a029ae148011facfe4db7abecaf66eae3b66"
+    },
+    "src/GeoStack.App/GeographicVerification.cs": {
+      "Bytes": 11963,
+      "SHA256": "0da0b5d1ee99353fd79bec1f39026a61caff3f5574fcb29bced70a864d021d6b"
+    },
+    "src/GeoStack.App/GeoStack.App.csproj": {
+      "Bytes": 2206,
+      "SHA256": "7735ffb990bb83ee04aae12e47d407adc1bc6d0df74cded0f86c4877adc86ef6"
+    },
+    "src/GeoStack.App/GlobalAtlasIntegration.cs": {
+      "Bytes": 4469,
+      "SHA256": "b6bd28fa207335e559ddd5d9e8854f5d19018707b560a85663038f551ac04f3a"
+    },
+    "src/GeoStack.App/GlobalAtlasPerformanceVerification.cs": {
+      "Bytes": 4411,
+      "SHA256": "90f8ef68be3d34c3d5855b8d4a2645442f05ab7ff835cb3cc4082ffa73f72b9a"
+    },
+    "src/GeoStack.App/GlobalAtlasVerification.cs": {
+      "Bytes": 10528,
+      "SHA256": "f769e2d99cb6cdcc49d031980ee454688798d2d5815ff9465f2f8ea3ae226d1a"
+    },
+    "src/GeoStack.App/GlobalAtlasVisualVerification.cs": {
+      "Bytes": 4161,
+      "SHA256": "7c42fc473639080641e8ed451968176710e7c30a0b09ba72209cb1dcf897d3c1"
+    },
+    "src/GeoStack.App/GlobalVectorAtlas.cs": {
+      "Bytes": 13915,
+      "SHA256": "48800ebf2bb3647a3ed266cd1ee0f0348b4ed2b282daa4887f718b2f6bd3327e"
+    },
+    "src/GeoStack.App/GlobalVectorAtlasCompact.cs": {
+      "Bytes": 4010,
+      "SHA256": "232ecf824918941bb1c5777b6e8503583394424236e1140e166d45d396623d79"
+    },
+    "src/GeoStack.App/ImportVerification.cs": {
+      "Bytes": 9200,
+      "SHA256": "b604716b3014c7726595167fd4a110f4cc4d04630f94acb9a3d09d70dc9a4b3e"
+    },
+    "src/GeoStack.App/LargeLibraryVerification.cs": {
+      "Bytes": 8603,
+      "SHA256": "0aee1914a8c8d64d4dd5375ab048cbbf7cd69d1ca136d248eac8dc2c29f37364"
+    },
+    "src/GeoStack.App/LibraryBrowsing.cs": {
+      "Bytes": 11488,
+      "SHA256": "7d431542d2ba7a2f9120829e6a398d51b7145c2057cd264d3f810604e8f5248e"
+    },
+    "src/GeoStack.App/LibraryMultiSelection.cs": {
+      "Bytes": 4862,
+      "SHA256": "3e214910c685afe4d65300763d2ac8a678fb8b54d6d5bf0d2f64933eb7bf0169"
+    },
+    "src/GeoStack.App/LibraryRemoval.cs": {
+      "Bytes": 7012,
+      "SHA256": "ae55e5bdb1e099e3149f47cec82132b8c18393712db55f169da4f096dc444016"
+    },
+    "src/GeoStack.App/LibraryRemovalVerification.cs": {
+      "Bytes": 7637,
+      "SHA256": "756d6f5c55156e9eed170c43662ed245da572520ff081d45591b10ab6c9c1888"
+    },
+    "src/GeoStack.App/MainViewModel.cs": {
+      "Bytes": 11630,
+      "SHA256": "06cc1dc421e75c2ff035e265da3022890900c1d232df8b1a4cbb013db1938507"
+    },
+    "src/GeoStack.App/MainWindow.xaml": {
+      "Bytes": 13566,
+      "SHA256": "8347e3f7a406e377d77ccfd80a4228581d691d7e8eaacc8358303e51ec3aa49f"
+    },
+    "src/GeoStack.App/MainWindow.xaml.cs": {
+      "Bytes": 13735,
+      "SHA256": "0700eeb3bae97eefc3932521d9e46d41e434e180ff9f8394704d1cadddc407dd"
+    },
+    "src/GeoStack.App/MapAcquisition.cs": {
+      "Bytes": 7019,
+      "SHA256": "c5c83ee4d66d152c757cbb9757c902620226a4f3bfa3fc95ff850e91f090040f"
+    },
+    "src/GeoStack.App/MapDownloadsWindow.cs": {
+      "Bytes": 8827,
+      "SHA256": "02802a7c20ebbb29a4f725fab12c5780536d434735be06abe7165f3a29a80922"
+    },
+    "src/GeoStack.App/MapManagerWindow.cs": {
+      "Bytes": 13041,
+      "SHA256": "89f218b147d1c3f28eb4f4fb1d291361b316a9b7a8ee53f39bbbe127d9c443b4"
+    },
+    "src/GeoStack.App/MapP0Verification.cs": {
+      "Bytes": 10129,
+      "SHA256": "71a3f6b3927d3711010cfb03a30ed904cd10b7aec7e409cf6103fa2a0aca01df"
+    },
+    "src/GeoStack.App/MapRecoveryVerification.cs": {
+      "Bytes": 11020,
+      "SHA256": "14cf293ce1d5a72a0489ea292f0e5b26a9a96ea81a6814871a394da07661ffbc"
+    },
+    "src/GeoStack.App/MapTileRasterizer.cs": {
+      "Bytes": 4362,
+      "SHA256": "00a76229e968e0111e76236f50c7f69e1eb77eb16587b0eed8fc40918c2b87e5"
+    },
+    "src/GeoStack.App/MapTooltips.cs": {
+      "Bytes": 755,
+      "SHA256": "b1c637942381e54aa6aa75b57bcc1301348fffc48bf2818c4345a26171101f1c"
+    },
+    "src/GeoStack.App/MediaImport.cs": {
+      "Bytes": 3578,
+      "SHA256": "2aa57e966cae32206d0eaf4f79c8d3a88bcb7a97f94a5af9ad9e4335142fad2f"
+    },
+    "src/GeoStack.App/NativeAtlasOptimized.cs": {
+      "Bytes": 15055,
+      "SHA256": "c4ca1e604ee63534c01571b12338f97cc425d4e2b59ceab76f8218440d73f61c"
+    },
+    "src/GeoStack.App/NativeAtlasPilot.cs": {
+      "Bytes": 16196,
+      "SHA256": "02112f3c13eca301c6cbc0ca7bd1c60b5fc533bb094836ba656268a5a330dec9"
+    },
+    "src/GeoStack.App/OfflineTileLayer.cs": {
+      "Bytes": 16575,
+      "SHA256": "2463e7b24bc6434f07fe90bdcf11cb1fa64cc176d0d7261ab9ab25d725224791"
+    },
+    "src/GeoStack.App/Organization055Verification.cs": {
+      "Bytes": 7980,
+      "SHA256": "e57504b5753d55850b6bc520ec5deecb8bc9e2b021c68d3d41dbad8ea4aeb866"
+    },
+    "src/GeoStack.App/OrganizationDialogStyles.xaml": {
+      "Bytes": 3637,
+      "SHA256": "b399b6bf4976cb660d694412aa570e3edc26bf263ea484a9f5bf503e04aba9d6"
+    },
+    "src/GeoStack.App/OrganizationWindows.cs": {
+      "Bytes": 21774,
+      "SHA256": "e68ddf09a3351cfd02806ae16ba8b6fd3169a26b15476e4e65bf449dc4f8df9f"
+    },
+    "src/GeoStack.App/Owner052MapVerification.cs": {
+      "Bytes": 5170,
+      "SHA256": "c974790c7dafbf4b1a504c269b65999bdfb82657d9cca23f71b177620ca0da2e"
+    },
+    "src/GeoStack.App/Owner052Verification.cs": {
+      "Bytes": 5870,
+      "SHA256": "e1d090240a5a7bd99e52dec0025335ac5c3279e8b0ea69ad71a1f641c010a4a4"
+    },
+    "src/GeoStack.App/OwnerContextVerification.cs": {
+      "Bytes": 3498,
+      "SHA256": "a2c37b96f9893323daa309edef31ea24786239eebb0f92830a78a3ab02c163f6"
+    },
+    "src/GeoStack.App/OwnerDefectVerification.cs": {
+      "Bytes": 5993,
+      "SHA256": "2aa58718d7ed2ebc8635885cbb6d6dddd29e08ff1e5fc2516ef01c07e93257be"
+    },
+    "src/GeoStack.App/PreviewService.cs": {
+      "Bytes": 8133,
+      "SHA256": "954e08c04cd643436669b42c2027205b06ab9db4cd2361ac9c2710150068c29c"
+    },
+    "src/GeoStack.App/PrimaryActions.cs": {
+      "Bytes": 1446,
+      "SHA256": "0fab81f3e8648302ab02248070cda77d5d59f38e66537460e7d3de98c4f53362"
+    },
+    "src/GeoStack.App/Program.cs": {
+      "Bytes": 451,
+      "SHA256": "c749ab865154e7cfa07878e9fc53f89fcfdf88335a53f6523b2e82a3693eb196"
+    },
+    "src/GeoStack.App/RasterComposition.cs": {
+      "Bytes": 5429,
+      "SHA256": "7bebde34a7bdc08c03a36c9379b5dae87e210df6f9d8c922915376be2ad3e9c3"
+    },
+    "src/GeoStack.App/RasterPresentation.cs": {
+      "Bytes": 3647,
+      "SHA256": "188df00bc6a86a421c0a59fafb65746adab32ddcef576b35698a3f86e12334ea"
+    },
+    "src/GeoStack.App/RasterTileDecoder.cs": {
+      "Bytes": 818,
+      "SHA256": "efed17e095506a5992f4d106a8481969663aff521ea2ba921e9889eb65a1d15b"
+    },
+    "src/GeoStack.App/RasterTilePlan.cs": {
+      "Bytes": 2958,
+      "SHA256": "1c893451facefe85817d0a47ebbaf8ab1ca319dfbe29d09386707e66b8006dcb"
+    },
+    "src/GeoStack.App/RegionalLodCoverage.cs": {
+      "Bytes": 2458,
+      "SHA256": "dc49cc34d0394dd3d3dba7e4ed1518fa6edc526519a14e9c845c60c1837fd57a"
+    },
+    "src/GeoStack.App/RegionalReleaseVerification.cs": {
+      "Bytes": 5178,
+      "SHA256": "562cc7b808e6a0c9c7b8537a4c2579b52de5cf0526653ca97d02f4d237b75626"
+    },
+    "src/GeoStack.App/ReleaseGalleryVerification.cs": {
+      "Bytes": 6131,
+      "SHA256": "4070a3ee1d17135e47a438782a33f67ff41fc4e32d1e0f86b80710b82ec5ab93"
+    },
+    "src/GeoStack.App/Resources/AdditionalStrings.json": {
+      "Bytes": 4320,
+      "SHA256": "6d7b5a07bfb9e734e0afd6306200a3edf70475bbe615a3f63bdb8f8dfd2b5e17"
+    },
+    "src/GeoStack.App/Resources/BrowsingStrings.json": {
+      "Bytes": 1594,
+      "SHA256": "c56b777258e50be875ef032ea3e99e96df935e098b4e8752322214a04dbb5cea"
+    },
+    "src/GeoStack.App/Resources/DownloadStrings.json": {
+      "Bytes": 6852,
+      "SHA256": "41dbe16675ba389c6e66d48c08ec40efd361df06f7061d3a5011e022bf12a884"
+    },
+    "src/GeoStack.App/Resources/GeographicDataStrings.json": {
+      "Bytes": 6557,
+      "SHA256": "083cadbca341270288a6380c65810e4baa5c3fc36c2afae2fa468aac32d56906"
+    },
+    "src/GeoStack.App/Resources/ImportStrings.json": {
+      "Bytes": 5006,
+      "SHA256": "0d21886e57957ef44999ebb71aaf12b1a1d97e8f27152d073da52cde534c386d"
+    },
+    "src/GeoStack.App/Resources/MapRecoveryStrings.json": {
+      "Bytes": 5096,
+      "SHA256": "33ce8fe153be5e4461ada5a8ef492cdb28c91fccbb332eff5fd8f81e5d9eece0"
+    },
+    "src/GeoStack.App/Resources/OrganizationStrings.json": {
+      "Bytes": 12552,
+      "SHA256": "3ae01e62e2cf742abbddbab3807fd3c83679a0ea9acbecdd267131c78d9ca7c5"
+    },
+    "src/GeoStack.App/Resources/RussianSource.json": {
+      "Bytes": 2739,
+      "SHA256": "8f88bef9547cd12bf1565009284066ef4042cb53debab5b58ce13bf02edbaa5b"
+    },
+    "src/GeoStack.App/Resources/Strings.en-US.resx": {
+      "Bytes": 32013,
+      "SHA256": "beaf03d5da979927c7b8be4bb2fe3824f679261e2dc6aa93f4fdaa522ccc0898"
+    },
+    "src/GeoStack.App/Resources/Strings.resx": {
+      "Bytes": 32013,
+      "SHA256": "beaf03d5da979927c7b8be4bb2fe3824f679261e2dc6aa93f4fdaa522ccc0898"
+    },
+    "src/GeoStack.App/Resources/Strings.ru-RU.resx": {
+      "Bytes": 42515,
+      "SHA256": "c01122d093627e7ccadd307bcc7df95063e9472048612c246f2ca343528f15c4"
+    },
+    "src/GeoStack.App/RuntimeIdentity.cs": {
+      "Bytes": 2248,
+      "SHA256": "f2d16ccffc840bdb768133021e75dde82d2b9d84fbb44a76640edab9953fcbc2"
+    },
+    "src/GeoStack.App/SettingsVerification.cs": {
+      "Bytes": 6426,
+      "SHA256": "f1399fc9ffa1265252a45389f7163368bdb2238e499bfc03f8c1794ee1878d7c"
+    },
+    "src/GeoStack.App/SettingsWindow.cs": {
+      "Bytes": 7840,
+      "SHA256": "14127dc56e21b4d06592a2b0ebbc84a6d5dd5a1ba414e7ff2ae97f2c5e42f009"
+    },
+    "src/GeoStack.App/StartupTrace.cs": {
+      "Bytes": 1232,
+      "SHA256": "d683304a7c4a4392697d9f17beb96471857e8e3cc51637c3b3fa20d476a7007b"
+    },
+    "src/GeoStack.App/Strings.cs": {
+      "Bytes": 1257,
+      "SHA256": "8fa3881c717a5158e1a1c7e2c9e90e9a6841bffc6e1b47235264d124ca88dad9"
+    },
+    "src/GeoStack.App/TileDiagnostics.cs": {
+      "Bytes": 1702,
+      "SHA256": "c68278d7447f38acc392663bb002c12c9516d6ff25d0ed49c69ee9adb2db314d"
+    },
+    "src/GeoStack.App/UiNativeMessageProbe.cs": {
+      "Bytes": 2042,
+      "SHA256": "00d540aa425b122321c5bedb1b94062f321fafb9fb3b7dec4e32d0662ff52d99"
+    },
+    "src/GeoStack.App/UiResponsivenessProbe.cs": {
+      "Bytes": 10019,
+      "SHA256": "46ced86862a62362660262a16695f8c1fca3b4e394104ad446255fc1cd60a3bf"
+    },
+    "src/GeoStack.App/UrbanPilotVerification.cs": {
+      "Bytes": 8658,
+      "SHA256": "c87f8e97761b30ca7ec8b1dc79b9a1273e11d9b9c9acb8a8079470815ea40bf6"
+    },
+    "src/GeoStack.App/UrbanRoadLayer.cs": {
+      "Bytes": 5015,
+      "SHA256": "accd5bee713f4ff2d731d0906a5ec41003d9e98a9283a68ae4e7bb8dd5eb5b2b"
+    },
+    "src/GeoStack.App/ValidationSession.cs": {
+      "Bytes": 11993,
+      "SHA256": "ac0e828c1d2371668778f3b6d12a52eb45d56c4a13e9a66bdbf3cf9a00f52039"
+    },
+    "src/GeoStack.App/WindowBounds.cs": {
+      "Bytes": 493,
+      "SHA256": "c7238d423e58c952769c134bc68db404e6f8e82dc11f1f92ba454cb71a2f7c56"
+    },
+    "src/GeoStack.App/WindowLayout.cs": {
+      "Bytes": 3855,
+      "SHA256": "cdf0bf63fd9794d4b1e264a166c35c9c020670da863a503b18583524e432b63a"
+    },
+    "src/GeoStack.App/WindowTheme.cs": {
+      "Bytes": 629,
+      "SHA256": "41aa1d5013037e1561c25441dac77ea7b0506a8b396a1bbac59a48b47b0d05e1"
+    },
+    "src/GeoStack.App/WorkflowVerification.cs": {
+      "Bytes": 6411,
+      "SHA256": "e6ea4a47dd2c32950dc4feaadea7f4744f3188614b6fb82e13ba3a2953376726"
+    },
+    "src/GeoStack.Core/AssemblyInfo.cs": {
+      "Bytes": 210,
+      "SHA256": "bfb370cee73cbfec9ea4952a90e5563f871eee7f24846c10fcb4b4afd7d32207"
+    },
+    "src/GeoStack.Core/BoundaryGeometry.cs": {
+      "Bytes": 4338,
+      "SHA256": "6e8f626d7d9e890a00709459aeabcfae717eabfa3cda7f34abf8d7a16d3b1515"
+    },
+    "src/GeoStack.Core/GeographicCopy.cs": {
+      "Bytes": 14679,
+      "SHA256": "7d5816c045f210dd5ededb9aa1497f1325d9df5aa994465f25763e8d2f684808"
+    },
+    "src/GeoStack.Core/GeographicNames.cs": {
+      "Bytes": 907,
+      "SHA256": "863891af3d1a1560a4c69768b048b30cc51fa5a25bd5b46f677c2ece914c32e9"
+    },
+    "src/GeoStack.Core/GeographicPackages.cs": {
+      "Bytes": 11366,
+      "SHA256": "7095b84b2b4c828287cb3af42a67a6899bae2237fe363f304f8f13c8954c6fd4"
+    },
+    "src/GeoStack.Core/GeoStack.Core.csproj": {
+      "Bytes": 191,
+      "SHA256": "31f93dca37bff0441bfef2edba75f7389e701f7d1d1d38790da01fafdf8eff64"
+    },
+    "src/GeoStack.Core/GlobalAtlasPackage.cs": {
+      "Bytes": 3113,
+      "SHA256": "c4d9946caf9bfeb4cfe9800098a6d7309c3f96f338c45886d151978ed7031db4"
+    },
+    "src/GeoStack.Core/LibrarySelection.cs": {
+      "Bytes": 1736,
+      "SHA256": "7b38b788043a6a20d5ae74e96546dc8feed468fbac0ed9c6307ee8f8670c6957"
+    },
+    "src/GeoStack.Core/MapDownloadPlan.cs": {
+      "Bytes": 8751,
+      "SHA256": "a4fd2a346e4e64a450f18e09a54edb1089c3b2de8dd0190663fe63fe7799d280"
+    },
+    "src/GeoStack.Core/Media.cs": {
+      "Bytes": 7095,
+      "SHA256": "9b5677267ade78b10cbaccea104c0d0fe23b81c1828894487113031a2ba29adb"
+    },
+    "src/GeoStack.Core/MediaIndex.cs": {
+      "Bytes": 8702,
+      "SHA256": "5b9b67f211b18fc1c692b2914da008357f2225d4d0ced9db3f56d0b3159669ba"
+    },
+    "src/GeoStack.Core/MediaInputs.cs": {
+      "Bytes": 3500,
+      "SHA256": "36d03e4e5d2192f5f3d16cad8a941d9e150da0a473ce37556d4bdd2e7284b104"
+    },
+    "src/GeoStack.Core/MoveTransfer.cs": {
+      "Bytes": 16034,
+      "SHA256": "aadca40f6c12489afb828ac921f736222d14f50b088b5ec216897f8703e1f877"
+    },
+    "src/GeoStack.Core/OfflineMaps.cs": {
+      "Bytes": 10980,
+      "SHA256": "1abb16927049c7a1bb41c3c80e5084e8a4beb0c984837fec448eddab6b765b2e"
+    },
+    "src/GeoStack.Core/OffscreenNavigation.cs": {
+      "Bytes": 5233,
+      "SHA256": "383700294d409923148943e133c2b4dd9ce09fe1a15d851641c725fcd0221479"
+    },
+    "src/GeoStack.Core/PmtilesSource.cs": {
+      "Bytes": 8749,
+      "SHA256": "ae4952c52cd51bd4ebcea9ca863e3ac9689b95ba92a33b905da79144d5c6c5c3"
+    },
+    "src/GeoStack.Core/RasterPackageWriter.cs": {
+      "Bytes": 3349,
+      "SHA256": "6db3eb1b497bc166ef99c733b4c2be8a834313d974df59ac94373efbebca9326"
+    },
+    "src/GeoStack.Core/RegionalContextPlanner.cs": {
+      "Bytes": 4307,
+      "SHA256": "5dc5a7247e55bd3ab72f8d3d0ecdf565ba6a6582267c73d129c09c5b91c81edb"
+    },
+    "src/GeoStack.Core/ReverseGeocoder.cs": {
+      "Bytes": 10941,
+      "SHA256": "ebe6fe4cb7277065e1cb1d99d067bdd6694259c6c5cbe7f39efe36c243a631b6"
+    },
+    "src/GeoStack.Core/Services.cs": {
+      "Bytes": 12290,
+      "SHA256": "225fcf6f51dae6f9f55655f4e5b99be14818d75531a1c209ed7d80c4c2727cc0"
+    },
+    "src/GeoStack.Core/TileResources.cs": {
+      "Bytes": 1998,
+      "SHA256": "088867f16e52740c9565a28ab06519ab2f3cce2e70e0e9aedb1a699505302e95"
+    },
+    "src/GeoStack.Core/VectorTile.cs": {
+      "Bytes": 5517,
+      "SHA256": "dad19620970541635717254cb4010732d084f75e4b5b98bf678f4a3a3346888d"
+    },
+    "tests/DocumentationLocalization.json": {
+      "Bytes": 681,
+      "SHA256": "7057f4badccabe486912c02ddbd0dfee9b38d64f9a676c8b63859a3d75ba4d9a"
+    },
+    "tests/GeoStack.MoveProbe/GeoStack.MoveProbe.csproj": {
+      "Bytes": 316,
+      "SHA256": "776241142b72b07d25d240704845a67a2a6aaea4e2e20288a252a2fc4f0dcf12"
+    },
+    "tests/GeoStack.MoveProbe/Program.cs": {
+      "Bytes": 1495,
+      "SHA256": "edaf4f31f7936ee81b19c4f7897d974ddf9f26ccaba4e45e991d92c68f3d84ae"
+    },
+    "tests/GeoStack.MoveProbe/ReleaseVolumeProbe.cs": {
+      "Bytes": 5584,
+      "SHA256": "4015f40c42d282b655c93f284983fc48bd9dffeb0ef395227050573cad505a2d"
+    },
+    "tests/GeoStack.Tests/AtlasGateStatisticsTests.cs": {
+      "Bytes": 793,
+      "SHA256": "0fcef237cd3e50414ea17d60fb50f2237e7894dc6bc8181029e4f0994206f2a2"
+    },
+    "tests/GeoStack.Tests/AtlasOptimizationTests.cs": {
+      "Bytes": 923,
+      "SHA256": "f567ffded3bfd8ac4ed23c67a8c79c8281817eaa43bd53f22222e60b49c13fbd"
+    },
+    "tests/GeoStack.Tests/AtlasPilotTests.cs": {
+      "Bytes": 1451,
+      "SHA256": "aef4cd94a9b1f54b3fe0febdd1a0c46eb80c149380fa01d59c33cb19832de42b"
+    },
+    "tests/GeoStack.Tests/CatalogRemovalTests.cs": {
+      "Bytes": 11267,
+      "SHA256": "e90bb47b182e3841aa52c723404628dbc2780ecb5e660ed97b66ee3cceef6e1e"
+    },
+    "tests/GeoStack.Tests/CompactBasemapTests.cs": {
+      "Bytes": 1551,
+      "SHA256": "9f74151d16cb390e66a51e94189dfb26d633c31d0c9cfba0421c9ae0c920bc7d"
+    },
+    "tests/GeoStack.Tests/CoreTests.cs": {
+      "Bytes": 8225,
+      "SHA256": "b12de88d1349cf068c90d6922cfcec3adfa2d9a76c9f01476600e9f648fd9c53"
+    },
+    "tests/GeoStack.Tests/DownloadLocalizationTests.cs": {
+      "Bytes": 1071,
+      "SHA256": "fbb0f6b9e34a8cf8e9a77ed8bab68eb2dd44cb0eb16c172f9974f036be666173"
+    },
+    "tests/GeoStack.Tests/DragContinuityTests.cs": {
+      "Bytes": 4685,
+      "SHA256": "6ae4038085632add4acddffd5412d8c6e379b17049b5e4cbfd2327e1e89aaa3c"
+    },
+    "tests/GeoStack.Tests/FinalRenderingTests.cs": {
+      "Bytes": 4590,
+      "SHA256": "d1a6a079383d536f603d081afc1d2f53229b2fbe3a639849fda00697ff352afe"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/bundle-manifest.json": {
+      "Bytes": 1373,
+      "SHA256": "4856cd6a5fac5b5cc44b15b95362434065032ed7630749944d8bdffffaa41713"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/ch-selected.gsgeo": {
+      "Bytes": 1368064,
+      "SHA256": "3c17658ee1c053ecefc5fe00707279be88899bd6902b9edb2ef07f5d06a6110a"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/cn-selected.gsgeo": {
+      "Bytes": 3592192,
+      "SHA256": "ea4d39b310923c87a5229de6a4b105e4fc16c1f8b788ab639815a6dffba15c37"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/expected-boundaries.json": {
+      "Bytes": 1886,
+      "SHA256": "bada836c9934a40177f0355e82206e69621b16fe90c6fb3f1a6d8f34987ce3fd"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/jp-selected.gsgeo": {
+      "Bytes": 1167360,
+      "SHA256": "4d995821047320d038dfc6260af70cc3a824bc7a7fb4530967d900e624cd093c"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/licenses/CC-BY-4.0.txt": {
+      "Bytes": 17179,
+      "SHA256": "4500200b91acb1324538d8e8f9665d5f4142d3f1c5cd9730564cf1895b6170f7"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/licenses/CC0-1.0.txt": {
+      "Bytes": 7169,
+      "SHA256": "f4e7f373b9b996950337e8d41a4a2939c2d90b7725e9baf3d5084a22717ad328"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/licenses/ODbL-1.0.txt": {
+      "Bytes": 25829,
+      "SHA256": "d18de7cac32f19c2f01375c01afff63a27ae54c19e9334684df8a6d7b5668c34"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/NOTICE.txt": {
+      "Bytes": 1471,
+      "SHA256": "f20e07bb701e94796d4543bcc1cab2afc9cb9f7d486ed37d9c9e736d4690c9c8"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/original-area-fixtures.geojsonseq.gz": {
+      "Bytes": 2888441,
+      "SHA256": "7517d1672bdd242d3aa7e5159e917b74d7911b68e2371eddac90de60ba079d4f"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/pl-selected.gsgeo": {
+      "Bytes": 1642496,
+      "SHA256": "5558dd2332bd66098cce7880da5eda2799b097c0f6b14c43ce89d8e441d780d3"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/ch-manifest.json": {
+      "Bytes": 56800,
+      "SHA256": "669f9a3b8b06b61e384d788c76c3a280695db845400a2cf3c69e5e3eae3c2b92"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/ch.geojsonseq": {
+      "Bytes": 1316140,
+      "SHA256": "9f04a8a3e86f94d0d04d024254ab101d230b919a1b47c6aed2da0c9ea65f4467"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/cn-manifest.json": {
+      "Bytes": 56801,
+      "SHA256": "88aaecaa84e5375793b3bfeee4de814604097d4c2640296786e8f49b6d3a4b6f"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/cn.geojsonseq": {
+      "Bytes": 3533625,
+      "SHA256": "7dde18a01123f4568df5616e1365c0061ad1a3c4109cd718c5a15907bab2d990"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/jp-manifest.json": {
+      "Bytes": 56823,
+      "SHA256": "876c3ce471e19cf3d3264152dbfb8289274fc3faf530793c34fda601ea90e27a"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/jp.geojsonseq": {
+      "Bytes": 1152676,
+      "SHA256": "3a435cb48a4f9cca056512a7c901e1cf6a7c2977a1ec5d3f015af422c003923e"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/pl-manifest.json": {
+      "Bytes": 56798,
+      "SHA256": "0861645d2f930a671713f05bd7251ea035998142cecf12f778eacf12179d2bad"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/pl.geojsonseq": {
+      "Bytes": 1574321,
+      "SHA256": "3ca9e0fae44df035b817246e7f09c1639a554c03c53ace530f5753c0c8acb8f5"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/semantic-review.json": {
+      "Bytes": 5087,
+      "SHA256": "99f4e806c2fa55c0444777f8bc9feae5cd5985b479a062d3c720971fc8180b5a"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/semantic-rules.json": {
+      "Bytes": 734,
+      "SHA256": "4087292c12f4b6ea3fabce95796e9cd8a164dbdc33e38bd8fa482c5996c1f8ed"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q1077022.json": {
+      "Bytes": 46502,
+      "SHA256": "90c2f4e3a8f485c9d9e730773f56fefa4e8e0993478bc22a466135b00ef3cff2"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q10906638.json": {
+      "Bytes": 19595,
+      "SHA256": "4ccf38468f8000a9675991e5a0206d6928f30d727a8f19f98b74a0336fe3135e"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q11943.json": {
+      "Bytes": 113718,
+      "SHA256": "14b4ac4515b5119ff9d1532fe0e365111c9c60ad4d4bb76de6db745051dac1f0"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q120730.json": {
+      "Bytes": 205036,
+      "SHA256": "c12abfc305199bb1be5a7afb0c3c54c069ae0fb45fa39fd464642cf77a26aac3"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q191130.json": {
+      "Bytes": 135569,
+      "SHA256": "b220d3f977d5b2351b74d2e691139382fa5734fc1c6d78f3643816dc00a1bb3e"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q214051.json": {
+      "Bytes": 95413,
+      "SHA256": "9208053920adfec0ac96f9a8f41b35d9b874c81690af12b2b8488e8ad398fb56"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q270.json": {
+      "Bytes": 303336,
+      "SHA256": "68174be32df0b28a4b0658b58fcb741c89d6569bb2a445fdb7b365151c611d6f"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q34600.json": {
+      "Bytes": 343804,
+      "SHA256": "6544b2dab417fff41ed6d8b110662c64f7dd9205d2393d62b4f17b8bd35d7404"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q445559.json": {
+      "Bytes": 74188,
+      "SHA256": "caa77c453dc79a81bae7c5b370ee14fc1b680d6e99b7659746da5552f88ffe62"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q54169.json": {
+      "Bytes": 94382,
+      "SHA256": "60458cbdbe4dd77fc0d98193f1b9623c9dc83b353730c01f998243f64be1f8b1"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q660185.json": {
+      "Bytes": 36303,
+      "SHA256": "760ecbcaec35e749d4f8141da1db0486d7e6bd78c953338f884d56eaf4446e5b"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q7095.json": {
+      "Bytes": 40098,
+      "SHA256": "fd11321ee9c6e34f43abbde7762881bcdb42eab026814a6f80d419c58faef9dd"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q72.json": {
+      "Bytes": 679149,
+      "SHA256": "370b635f6bd9e79580212331fe9d0575bc74e0823ad0a6039eddc5530e75cbed"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/wikidata/Q8686.json": {
+      "Bytes": 284933,
+      "SHA256": "e092be552fc0c953857cee7fd929dca4653e50156d7d6ad6c990541b54726c81"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source-containment-evidence.json": {
+      "Bytes": 15933,
+      "SHA256": "bb9dab06ca694e4dd8c37ade7d1bbc318318702c4ac0ba638730872d29bfd617"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography055/conversion-source.geojson": {
+      "Bytes": 33073,
+      "SHA256": "00c62f9a49f44c63f9737175558ccb09987fc55cc7cb408b34ad5621480688cb"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography055/NOTICE.txt": {
+      "Bytes": 351,
+      "SHA256": "b26ee75af31214b156004d1c8cdf80986a19f2092f0ad8dc2bd4203010936d44"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography055/ODbL-1.0.txt": {
+      "Bytes": 25289,
+      "SHA256": "77d2692c3d64efdd4db18dce2407699baf62930e2b50d6e5ed90b48acf16b7c1"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography055/package.json": {
+      "Bytes": 218,
+      "SHA256": "00c94142e063b664593fc0b7cdc4da9c2343400826c788da14b5b1ec51d5f9c0"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography055/ru-spe-selected.gsgeo": {
+      "Bytes": 69632,
+      "SHA256": "7b9696f1ed96ad86e655d0b0b6bd3d3e32e27d833f5f5f247f9c10153b7b3f2b"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography055/source-manifest.json": {
+      "Bytes": 1281,
+      "SHA256": "506eedf4356fd568206740b50bdc69d2769706d73f2295e172e3e40044b53070"
+    },
+    "tests/GeoStack.Tests/GeographicBrowsingTests.cs": {
+      "Bytes": 4496,
+      "SHA256": "e63ad51ee34f6093c2e4e22ccecbb36efb2e5ea379ebb364a804db28ec1547d5"
+    },
+    "tests/GeoStack.Tests/GeographicCache05Tests.cs": {
+      "Bytes": 2509,
+      "SHA256": "20efb7d8150f73f557a413e720091c2eaa216ba0ac7d61d149d80711ec3a8d46"
+    },
+    "tests/GeoStack.Tests/GeographicNamesTests.cs": {
+      "Bytes": 1869,
+      "SHA256": "c060acc4344a72354b42d92308a8382b79847d84e415c3ae54c36cb1686f7db7"
+    },
+    "tests/GeoStack.Tests/GeographicPackageTests.cs": {
+      "Bytes": 8289,
+      "SHA256": "46db12fb616238008776f97c99dd36a22432325267145abf29d1e78d6081ba71"
+    },
+    "tests/GeoStack.Tests/GeographyPerformance05.cs": {
+      "Bytes": 2787,
+      "SHA256": "f169a1b75df7adec7e8e2430f98bc39626441c9192e5bb4dcd4d2c2801e47de7"
+    },
+    "tests/GeoStack.Tests/GeoStack.Tests.csproj": {
+      "Bytes": 764,
+      "SHA256": "436c080b31fd3df60cfac1b9b429170a604b952a7ae5c231ae19ae8dc7024169"
+    },
+    "tests/GeoStack.Tests/GlobalAtlasTests.cs": {
+      "Bytes": 3350,
+      "SHA256": "ecd70c18e5833fbc25dca76cb6b070113bf2d380c32d94e9297b1a23cda9d96b"
+    },
+    "tests/GeoStack.Tests/GlobalCompactTests.cs": {
+      "Bytes": 2327,
+      "SHA256": "6f5f228b45f4c3a7802ebbbac550d82451e538ff38cb75e3581dc96562fd83c5"
+    },
+    "tests/GeoStack.Tests/HardeningTests.cs": {
+      "Bytes": 16542,
+      "SHA256": "a609b3e7e7c5724f231358f55c08d85127b02f5770cbfa5db6c78b92c8491115"
+    },
+    "tests/GeoStack.Tests/LargeLibraryMeasurements.cs": {
+      "Bytes": 2403,
+      "SHA256": "6be4e2fdd77a1795e44b6948a0ddf85e03cb8af5cd0b2f03d1db6424fde51dcb"
+    },
+    "tests/GeoStack.Tests/LayoutAndMapRecoveryTests.cs": {
+      "Bytes": 2310,
+      "SHA256": "7efaeb9d024c1118659e3e62a865df7a5670ecef01398e0dac11b577fd50b65b"
+    },
+    "tests/GeoStack.Tests/LibraryPage05Tests.cs": {
+      "Bytes": 2335,
+      "SHA256": "febb9672c0ce5ca9b094ceb6006d8ad6248f7f1c4de07fe492dfa5747858fb22"
+    },
+    "tests/GeoStack.Tests/MapAcquisitionTests.cs": {
+      "Bytes": 4431,
+      "SHA256": "dab57bb7ecda1062cd4e2f5e8515b2111ff25dfa6457f8eb4cc1c5f4d77885b0"
+    },
+    "tests/GeoStack.Tests/MapDownloadTests.cs": {
+      "Bytes": 8838,
+      "SHA256": "bc5021c400b54c6fbf03c8d0005b6ed350baef33b7b9a43173efa407ea32c1fa"
+    },
+    "tests/GeoStack.Tests/MapP0Tests.cs": {
+      "Bytes": 8630,
+      "SHA256": "c5fc20d10a8618142d38a2afbf13271cfed30c3d295fba98f40ac8139b0af3e3"
+    },
+    "tests/GeoStack.Tests/MediaImportTests.cs": {
+      "Bytes": 7627,
+      "SHA256": "74dfb060880f701dc33231927b1e92da6257a30e17976cf59be82c05c23f8ae2"
+    },
+    "tests/GeoStack.Tests/MoveTests.cs": {
+      "Bytes": 15032,
+      "SHA256": "1398319803b8786e67907bf59c2f7f86fb2e1e13158e8049894f1aca106820ea"
+    },
+    "tests/GeoStack.Tests/MultiSelectionTests.cs": {
+      "Bytes": 3869,
+      "SHA256": "9ad7bebd61d320d4468edb9c360700b70102d7390ac16195556187d870c62898"
+    },
+    "tests/GeoStack.Tests/OfflineMapTests.cs": {
+      "Bytes": 2545,
+      "SHA256": "399559dcb398d88b62b604b95c9cf0b199373d3a11b2d5549e766a75d6ca60b4"
+    },
+    "tests/GeoStack.Tests/Organization055Tests.cs": {
+      "Bytes": 3283,
+      "SHA256": "9717721db60e769af0f58054de1efcb8d73c4f923a3e1dea6ba04a3c8e0ec80b"
+    },
+    "tests/GeoStack.Tests/OrganizationTests.cs": {
+      "Bytes": 12779,
+      "SHA256": "e099ce8884cb91d62e7fe778fadfe5b5e56de1119a75503b46624e08699c415d"
+    },
+    "tests/GeoStack.Tests/PrimaryActionTests.cs": {
+      "Bytes": 3234,
+      "SHA256": "8d172e90055e88b114a07e7fefd5b0b470d75767dd3a9c6a5a4859792fabc69d"
+    },
+    "tests/GeoStack.Tests/ProgressPresentationTests.cs": {
+      "Bytes": 3166,
+      "SHA256": "95704888703e013109b7d442740e972b0478abeedd6ee548d11f569caf830303"
+    },
+    "tests/GeoStack.Tests/RealGeographicTests.cs": {
+      "Bytes": 6291,
+      "SHA256": "f7a6669d816e86ab1e5f698dc95e43277995458330a9a183ad94cbfcc677acb7"
+    },
+    "tests/GeoStack.Tests/RegionalContextTests.cs": {
+      "Bytes": 6344,
+      "SHA256": "947d2dbd3a02dc213ce54e020acbef4005f1ef7549006cf61c1fd9922efe3b45"
+    },
+    "tests/GeoStack.Tests/RegionalLodCoverageTests.cs": {
+      "Bytes": 2405,
+      "SHA256": "c95f2b4f02405927596cf6dcc7949c2d980cd2bef2cebbfd09c64233bfdfe50e"
+    },
+    "tests/GeoStack.Tests/RuntimeIdentityTests.cs": {
+      "Bytes": 1650,
+      "SHA256": "fca2dffe27705147d0e91d8da3dfdb92b301d34dc1fbbebf7ada84aa66f663d7"
+    },
+    "tests/GeoStack.Tests/SettingsNavigationTests.cs": {
+      "Bytes": 3403,
+      "SHA256": "c72af3c3e3628459e9617999fe3422377022ada72c515da788016bd6f72e2a79"
+    },
+    "tests/GeoStack.Tests/TestStorage.cs": {
+      "Bytes": 1021,
+      "SHA256": "383d03243ea0c7159c47ff3c60028dd8137c2293955e3e7c09f1d8eb5461b9ca"
+    },
+    "tests/GeoStack.Tests/UiSchedulingTests.cs": {
+      "Bytes": 4092,
+      "SHA256": "083e9e0870bf538f6cca81294b61d36d2858d97f0b9550d1a5326169095af071"
+    },
+    "tests/GeoStack.Tests/UrbanLiteTests.cs": {
+      "Bytes": 1755,
+      "SHA256": "3febf9b4e7cdf55a83446966a61bc09124f78d22abb98b57bc660fbe9ecb916f"
+    },
+    "tests/GeoStack.Tests/WindowBoundsTests.cs": {
+      "Bytes": 916,
+      "SHA256": "2241045db5ac03d8c4bf6e2fc4eb3a3e57ae8bf58d5a86e4ca6c8bffd6766627"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "Bytes": 2115,
+      "SHA256": "409f5781130d9c1108fce28641e3c7c4ead52180b858687a599cec40c0f1e62a"
+    },
+    "THIRD_PARTY_NOTICES.ru.md": {
+      "Bytes": 3802,
+      "SHA256": "228d8d031fd6b014424c4a79ef26b03126798af911470abfa20ce37fc9f1d39c"
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "Schema": 1,
+  "Version": "0.5.5",
+  "DocumentPairs": [
+    {
+      "English": "ARCHITECTURE.md",
+      "Russian": "ARCHITECTURE.ru.md"
+    },
+    {
+      "English": "BUILD.md",
+      "Russian": "BUILD.ru.md"
+    },
+    {
+      "English": "CHANGELOG.md",
+      "Russian": "CHANGELOG.ru.md"
+    },
+    {
+      "English": "CONTRIBUTING.md",
+      "Russian": "CONTRIBUTING.ru.md"
+    },
+    {
+      "English": "docs/ANDROID_HANDOFF.md",
+      "Russian": "docs/ANDROID_HANDOFF.ru.md"
+    },
+    {
+      "English": "docs/BRANDING.md",
+      "Russian": "docs/BRANDING.ru.md"
+    },
+    {
+      "English": "docs/GEOGRAPHIC_DATASETS.md",
+      "Russian": "docs/GEOGRAPHIC_DATASETS.ru.md"
+    },
+    {
+      "English": "docs/GEOGRAPHIC_ORGANIZATION.md",
+      "Russian": "docs/GEOGRAPHIC_ORGANIZATION.ru.md"
+    },
+    {
+      "English": "docs/KNOWN_LIMITATIONS.md",
+      "Russian": "docs/KNOWN_LIMITATIONS.ru.md"
+    },
+    {
+      "English": "docs/MAP_DOWNLOAD_PROVIDERS.md",
+      "Russian": "docs/MAP_DOWNLOAD_PROVIDERS.ru.md"
+    },
+    {
+      "English": "docs/MEDIA_LIBRARY.md",
+      "Russian": "docs/MEDIA_LIBRARY.ru.md"
+    },
+    {
+      "English": "docs/OFFLINE_MAPS.md",
+      "Russian": "docs/OFFLINE_MAPS.ru.md"
+    },
+    {
+      "English": "docs/PHYSICAL_ACCEPTANCE.md",
+      "Russian": "docs/PHYSICAL_ACCEPTANCE.ru.md"
+    },
+    {
+      "English": "docs/PORTABLE.md",
+      "Russian": "docs/PORTABLE.ru.md"
+    },
+    {
+      "English": "docs/PROJECT_LICENSE_PROPOSAL.md",
+      "Russian": "docs/PROJECT_LICENSE_PROPOSAL.ru.md"
+    },
+    {
+      "English": "docs/REDISTRIBUTION_STATUS.md",
+      "Russian": "docs/REDISTRIBUTION_STATUS.ru.md"
+    },
+    {
+      "English": "docs/screenshots/README.md",
+      "Russian": "docs/screenshots/README.ru.md"
+    },
+    {
+      "English": "README.md",
+      "Russian": "README.ru.md"
+    },
+    {
+      "English": "release/compliance/GEOGRAPHIC_DATA_OFFER.md",
+      "Russian": "release/compliance/GEOGRAPHIC_DATA_OFFER.ru.md"
+    },
+    {
+      "English": "release/compliance/SOURCE_DATA_NOTICES.md",
+      "Russian": "release/compliance/SOURCE_DATA_NOTICES.ru.md"
+    },
+    {
+      "English": "SECURITY.md",
+      "Russian": "SECURITY.ru.md"
+    },
+    {
+      "English": "THIRD_PARTY_NOTICES.md",
+      "Russian": "THIRD_PARTY_NOTICES.ru.md"
+    }
+  ],
+  "MachineMarkdown": {
+    "AGENTS.md": "English-only machine-consumed contributor instructions; not reader documentation"
+  },
+  "ExternalCyrillic": {
+    "assets/geography/cities.geojson": {
+      "SHA256": "79c7fa2bca91d6fed94445cf843b2eeb2229718d126c2b257f2436472d8facd4",
+      "Reason": "Verbatim multilingual geographic source/attribution data, not developer text"
+    },
+    "assets/geography/countries.geojson": {
+      "SHA256": "aadc4c0b305047e87db2e1e207a63830563bdc8cd18f3b0a064ded6d316ff448",
+      "Reason": "Verbatim multilingual geographic source/attribution data, not developer text"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source-containment-evidence.json": {
+      "SHA256": "bb9dab06ca694e4dd8c37ade7d1bbc318318702c4ac0ba638730872d29bfd617",
+      "Reason": "Verbatim multilingual geographic source/attribution data, not developer text"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/ch.geojsonseq": {
+      "SHA256": "9f04a8a3e86f94d0d04d024254ab101d230b919a1b47c6aed2da0c9ea65f4467",
+      "Reason": "Verbatim multilingual geographic source/attribution data, not developer text"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/cn.geojsonseq": {
+      "SHA256": "7dde18a01123f4568df5616e1365c0061ad1a3c4109cd718c5a15907bab2d990",
+      "Reason": "Verbatim multilingual geographic source/attribution data, not developer text"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/jp.geojsonseq": {
+      "SHA256": "3a435cb48a4f9cca056512a7c901e1cf6a7c2977a1ec5d3f015af422c003923e",
+      "Reason": "Verbatim multilingual geographic source/attribution data, not developer text"
+    },
+    "tests/GeoStack.Tests/Fixtures/Geography/source/pl.geojsonseq": {
+      "SHA256": "3ca9e0fae44df035b817246e7f09c1639a554c03c53ace530f5753c0c8acb8f5",
+      "Reason": "Verbatim multilingual geographic source/attribution data, not developer text"
+    }
+  },
+  "LocalizedTestLines": {
+    "tests/GeoStack.Tests/CoreTests.cs": {
+      "LineSHA256": [
+        "be92cf533590c9113a21f0c1cf53cb2e148ed28b480130748ae3e3abfee97361"
+      ],
+      "Reason": "Exact Russian UI localization assertions; no file-wide exception"
+    },
+    "tests/GeoStack.Tests/SettingsNavigationTests.cs": {
+      "LineSHA256": [
+        "ac9bc62c39fa5f73dd51ab8d159cc72451b7b3560b6ecc5c7d5eb9df8f4cafff"
+      ],
+      "Reason": "Exact Russian UI localization assertions; no file-wide exception"
+    },
+    "tests/GeoStack.Tests/DownloadLocalizationTests.cs": {
+      "LineSHA256": [
+        "cec05b91fc996215f24c7d2108bebc03ec11b14319aeaef2a7fcc8356f57955d"
+      ],
+      "Reason": "Exact Russian UI localization assertions; no file-wide exception"
+    }
+  },
+  "LocalizationArrays": [
+    "src/GeoStack.App/Resources/AdditionalStrings.json",
+    "src/GeoStack.App/Resources/BrowsingStrings.json",
+    "src/GeoStack.App/Resources/DownloadStrings.json",
+    "src/GeoStack.App/Resources/GeographicDataStrings.json",
+    "src/GeoStack.App/Resources/ImportStrings.json",
+    "src/GeoStack.App/Resources/MapRecoveryStrings.json",
+    "src/GeoStack.App/Resources/OrganizationStrings.json",
+    "tests/DocumentationLocalization.json"
+  ],
+  "RussianResources": [
+    "src/GeoStack.App/Resources/Strings.ru-RU.resx",
+    "src/GeoStack.App/Resources/RussianSource.json"
+  ],
+  "PrivacyTestLines": {},
+  "DocumentContracts": {
+    "README.md": [
+      "CopyPreserves"
+    ],
+    "docs/GEOGRAPHIC_ORGANIZATION.md": [
+      "CopyPreserves",
+      "MoveSourceSafety"
+    ],
+    "docs/OFFLINE_MAPS.md": [
+      "MapConfirmation"
+    ],
+    "THIRD_PARTY_NOTICES.md": [
+      "BinaryBlocked"
+    ]
+  },
+  "ReservedSyntheticPaths": "Tests may use virtual C:/synthetic or destination paths without reading them; never owner filesystem paths."
+}

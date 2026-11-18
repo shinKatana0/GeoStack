@@ -1,0 +1,56 @@
+[
+  {
+    "Id": "tokyo-station",
+    "Latitude": 35.6812,
+    "Longitude": 139.7671,
+    "CountryId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+    "RegionId": "689e36ca-18f4-4801-b6d9-daab18f22de9",
+    "CityId": null,
+    "DistrictId": "7759e38b-4310-4cb5-82b2-cfd84a6f6429"
+  },
+  {
+    "Id": "kyoto-station",
+    "Latitude": 34.9858,
+    "Longitude": 135.7588,
+    "CountryId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+    "RegionId": "ff26e266-55bc-45e0-b43e-b7dae13aedac",
+    "CityId": "e7daa910-aef4-4326-80cd-91eda013d13b",
+    "DistrictId": "b1709cd6-7080-4bf3-9a6f-1d1e785149b5"
+  },
+  {
+    "Id": "kanazawa-station",
+    "Latitude": 36.5781,
+    "Longitude": 136.6477,
+    "CountryId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+    "RegionId": "d1b422db-7797-498b-b591-a4152334beb0",
+    "CityId": "fc22ee30-1adf-4794-8fca-f6ab16d74e7c",
+    "DistrictId": null
+  },
+  {
+    "Id": "shanghai-peoples-square",
+    "Latitude": 31.2304,
+    "Longitude": 121.4737,
+    "CountryId": "fb68fc73-3ac6-41c9-a692-22fcf20cb5be",
+    "RegionId": "3557a901-282a-454e-b399-23ddbb47456f",
+    "CityId": "6fa0287f-24ff-4841-b055-9760a6512e34",
+    "DistrictId": "90c87995-c45a-4105-83da-e18a009c2b4d"
+  },
+  {
+    "Id": "zurich-hauptbahnhof",
+    "Latitude": 47.3782,
+    "Longitude": 8.5402,
+    "CountryId": "b9aa06a1-b832-451f-bcf2-051719e749dd",
+    "RegionId": "24df3474-8ae7-4612-9826-bd13134c2ddd",
+    "CityId": "fb663f56-6057-40fa-9c37-adfd87c01f08",
+    "DistrictId": "9ad80051-1bae-48ab-a82c-562937b42c69"
+  },
+  {
+    "Id": "warsaw-central-station",
+    "Latitude": 52.2297,
+    "Longitude": 21.0122,
+    "CountryId": "80d64bfe-3b7e-4d50-8fc6-79decdb8d101",
+    "RegionId": "d04dd4df-d587-4397-90cd-d81a0045ffd8",
+    "CityId": "36bdc2dc-d28a-489e-a902-18844abe1a5d",
+    "DistrictId": "8dac73cd-09a4-4c99-9480-dac725a51ce2"
+  }
+]

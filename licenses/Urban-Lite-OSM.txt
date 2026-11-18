@@ -1,0 +1,21 @@
+GeoStack Urban Lite major-road skeleton
+
+Source: cached Protomaps Basemap v4.14.3 / OpenStreetMap snapshot metadata 2026-03-31.
+Provider: https://data.source.coop/protomaps/openstreetmap/v4.pmtiles
+Source description: https://docs.protomaps.com/basemaps/downloads
+
+OpenStreetMap contributors: https://www.openstreetmap.org/copyright
+Open Database License: https://opendatacommons.org/licenses/odbl/1-0/
+
+This derived coordinate dataset contains only generalized motorway, trunk and
+primary geometry available in the source's native zoom-7 tiles. It is not a
+complete or current street network and is not suitable for navigation.
+
+The source archive manifest and output SHA-256 are recorded in
+geography/urban-roads.manifest.json. Reproduction uses the repository script
+scripts/prepare-urban-roads.py and the existing authorized local source cache;
+no runtime conversion tools are required.
+
+Attribution is displayed in the Hybrid Atlas map. Review derivative-database
+and share-alike obligations before any public redistribution. The local preview
+is not a declaration that the application's public-release licensing gate is cleared.

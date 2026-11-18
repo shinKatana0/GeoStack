@@ -1,0 +1,37 @@
+{
+  "packages": [
+    {
+      "path": "dist\\GeoStack-geographic-data-0.4\\ch-selected.gsgeo",
+      "features": 4,
+      "indexParts": 4,
+      "bytes": 1368064,
+      "sha256": "3c17658ee1c053ecefc5fe00707279be88899bd6902b9edb2ef07f5d06a6110a"
+    },
+    {
+      "path": "dist\\GeoStack-geographic-data-0.4\\cn-selected.gsgeo",
+      "features": 4,
+      "indexParts": 28,
+      "bytes": 3592192,
+      "sha256": "ea4d39b310923c87a5229de6a4b105e4fc16c1f8b788ab639815a6dffba15c37"
+    },
+    {
+      "path": "dist\\GeoStack-geographic-data-0.4\\jp-selected.gsgeo",
+      "features": 8,
+      "indexParts": 49,
+      "bytes": 1167360,
+      "sha256": "4d995821047320d038dfc6260af70cc3a824bc7a7fb4530967d900e624cd093c"
+    },
+    {
+      "path": "dist\\GeoStack-geographic-data-0.4\\pl-selected.gsgeo",
+      "features": 4,
+      "indexParts": 4,
+      "bytes": 1642496,
+      "sha256": "5558dd2332bd66098cce7880da5eda2799b097c0f6b14c43ce89d8e441d780d3"
+    }
+  ],
+  "sourceAreasSha256": "f56cbfe682548f8cb2736fb468644f6d989a0be15f59334c097b4bfb14372f6b",
+  "sourceDivisionsSha256": "927f182f3f99929eeff0e1f90cacf47eee9d1752031ade1be1714e4da623af0a",
+  "sourceReviewVersion": "2026-10-21.0",
+  "proof": "source-containment-evidence.json",
+  "originalAreaFixtureSha256": "7517d1672bdd242d3aa7e5159e917b74d7911b68e2371eddac90de60ba079d4f"
+}

@@ -1,0 +1,424 @@
+[
+  {
+    "expected": {
+      "Id": "tokyo-station",
+      "Latitude": 35.6812,
+      "Longitude": 139.7671,
+      "CountryId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+      "RegionId": "689e36ca-18f4-4801-b6d9-daab18f22de9",
+      "CityId": null,
+      "DistrictId": "7759e38b-4310-4cb5-82b2-cfd84a6f6429"
+    },
+    "sourceContainment": [
+      {
+        "level": "Country",
+        "id": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+        "english": "Japan",
+        "russian": "Япония",
+        "sourceDivisionId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+        "originalSourceAreaIdsContainingPoint": [
+          "f829e829-59aa-445e-bafe-e66e60c40ad2"
+        ],
+        "originalGeometrySha256": [
+          "af14daef57a41792b06b150a70ca2f4e332953073a3123487afd1d73f7074edf"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "Region",
+        "id": "689e36ca-18f4-4801-b6d9-daab18f22de9",
+        "english": "Tokyo",
+        "russian": "Токио",
+        "sourceDivisionId": "689e36ca-18f4-4801-b6d9-daab18f22de9",
+        "originalSourceAreaIdsContainingPoint": [
+          "83f74269-227a-4432-80fa-47acb45b7d4a"
+        ],
+        "originalGeometrySha256": [
+          "0cd0a55ea9b6906b2452e97f189ddee961e771a9ef1ad7b30da855430dbb01fc"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "District",
+        "id": "7759e38b-4310-4cb5-82b2-cfd84a6f6429",
+        "english": "Chiyoda",
+        "russian": "Тиёда",
+        "sourceDivisionId": "7759e38b-4310-4cb5-82b2-cfd84a6f6429",
+        "originalSourceAreaIdsContainingPoint": [
+          "e4474d9f-aaa2-425f-b13d-d43c29cae52c"
+        ],
+        "originalGeometrySha256": [
+          "d6497d568146838707a9ee3b75e5186aa1c2b8b8ada0fad3b84d11f922db998a"
+        ],
+        "semantics": "Actual source locality polygon; Wikidata district types take precedence over generic city classification",
+        "warnings": []
+      }
+    ],
+    "cityUnavailable": true
+  },
+  {
+    "expected": {
+      "Id": "kyoto-station",
+      "Latitude": 34.9858,
+      "Longitude": 135.7588,
+      "CountryId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+      "RegionId": "ff26e266-55bc-45e0-b43e-b7dae13aedac",
+      "CityId": "e7daa910-aef4-4326-80cd-91eda013d13b",
+      "DistrictId": "b1709cd6-7080-4bf3-9a6f-1d1e785149b5"
+    },
+    "sourceContainment": [
+      {
+        "level": "Country",
+        "id": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+        "english": "Japan",
+        "russian": "Япония",
+        "sourceDivisionId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+        "originalSourceAreaIdsContainingPoint": [
+          "f829e829-59aa-445e-bafe-e66e60c40ad2"
+        ],
+        "originalGeometrySha256": [
+          "af14daef57a41792b06b150a70ca2f4e332953073a3123487afd1d73f7074edf"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "Region",
+        "id": "ff26e266-55bc-45e0-b43e-b7dae13aedac",
+        "english": "Kyoto Prefecture",
+        "russian": "Киото",
+        "sourceDivisionId": "ff26e266-55bc-45e0-b43e-b7dae13aedac",
+        "originalSourceAreaIdsContainingPoint": [
+          "26847551-d1ce-4a8a-b290-d842355d888a"
+        ],
+        "originalGeometrySha256": [
+          "a46d6158cd5ed9d923dfc7fa8b4a2adb81ab1e1f69ef5ab5d5c2e4b746db2645"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "City",
+        "id": "e7daa910-aef4-4326-80cd-91eda013d13b",
+        "english": "Kyoto",
+        "russian": "Киото",
+        "sourceDivisionId": "e7daa910-aef4-4326-80cd-91eda013d13b",
+        "originalSourceAreaIdsContainingPoint": [
+          "e27be983-46e6-41e2-8f19-780fe891e2d0"
+        ],
+        "originalGeometrySha256": [
+          "02cabef90997f94609f2c5c2290f903cf1f721b1e4b11cc1a4e10966e1583b72"
+        ],
+        "semantics": "Actual source locality polygon; Wikidata district types take precedence over generic city classification",
+        "warnings": []
+      },
+      {
+        "level": "District",
+        "id": "b1709cd6-7080-4bf3-9a6f-1d1e785149b5",
+        "english": "Shimogyo Ward",
+        "russian": "Симогё",
+        "sourceDivisionId": "b1709cd6-7080-4bf3-9a6f-1d1e785149b5",
+        "originalSourceAreaIdsContainingPoint": [
+          "7df6f0af-c583-4041-aa51-69b6cf200c09"
+        ],
+        "originalGeometrySha256": [
+          "887423560630b4091dc2eef0a90b1213efde19f2dc33373d613ab92ea502c0a7"
+        ],
+        "semantics": "Original Overture borough/super-neighborhood/neighborhood area with verified city hierarchy",
+        "warnings": []
+      }
+    ],
+    "cityUnavailable": false
+  },
+  {
+    "expected": {
+      "Id": "kanazawa-station",
+      "Latitude": 36.5781,
+      "Longitude": 136.6477,
+      "CountryId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+      "RegionId": "d1b422db-7797-498b-b591-a4152334beb0",
+      "CityId": "fc22ee30-1adf-4794-8fca-f6ab16d74e7c",
+      "DistrictId": null
+    },
+    "sourceContainment": [
+      {
+        "level": "Country",
+        "id": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+        "english": "Japan",
+        "russian": "Япония",
+        "sourceDivisionId": "6956b2db-e5bc-4dd0-a39b-fe62c1709b62",
+        "originalSourceAreaIdsContainingPoint": [
+          "f829e829-59aa-445e-bafe-e66e60c40ad2"
+        ],
+        "originalGeometrySha256": [
+          "af14daef57a41792b06b150a70ca2f4e332953073a3123487afd1d73f7074edf"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "Region",
+        "id": "d1b422db-7797-498b-b591-a4152334beb0",
+        "english": "Ishikawa Prefecture",
+        "russian": "Исикава",
+        "sourceDivisionId": "d1b422db-7797-498b-b591-a4152334beb0",
+        "originalSourceAreaIdsContainingPoint": [
+          "b04c9de4-49f9-4d17-bfb9-17cd98e80681"
+        ],
+        "originalGeometrySha256": [
+          "5f31def932c8884198b75923037e8036032ad06bdde9ffbdc1397f81aa1c6e9c"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "City",
+        "id": "fc22ee30-1adf-4794-8fca-f6ab16d74e7c",
+        "english": "Kanazawa",
+        "russian": "Канадзава",
+        "sourceDivisionId": "fc22ee30-1adf-4794-8fca-f6ab16d74e7c",
+        "originalSourceAreaIdsContainingPoint": [
+          "f622f2f0-1dcc-41ec-a619-606b04a21164"
+        ],
+        "originalGeometrySha256": [
+          "03c7728f02617a5cddb8819f0d97aa9236903f7aa24ab540934db8870538b059"
+        ],
+        "semantics": "Actual source locality polygon; Wikidata district types take precedence over generic city classification",
+        "warnings": []
+      }
+    ],
+    "cityUnavailable": false
+  },
+  {
+    "expected": {
+      "Id": "shanghai-peoples-square",
+      "Latitude": 31.2304,
+      "Longitude": 121.4737,
+      "CountryId": "fb68fc73-3ac6-41c9-a692-22fcf20cb5be",
+      "RegionId": "3557a901-282a-454e-b399-23ddbb47456f",
+      "CityId": "6fa0287f-24ff-4841-b055-9760a6512e34",
+      "DistrictId": "90c87995-c45a-4105-83da-e18a009c2b4d"
+    },
+    "sourceContainment": [
+      {
+        "level": "Country",
+        "id": "fb68fc73-3ac6-41c9-a692-22fcf20cb5be",
+        "english": "China",
+        "russian": "Китай",
+        "sourceDivisionId": "fb68fc73-3ac6-41c9-a692-22fcf20cb5be",
+        "originalSourceAreaIdsContainingPoint": [
+          "a0f6a6b6-508f-415d-9200-71244807376b"
+        ],
+        "originalGeometrySha256": [
+          "68b2a7ce256f311bfb1ee99d15325d786e4a54ed27b064c56a889d606509a8a6"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "Region",
+        "id": "3557a901-282a-454e-b399-23ddbb47456f",
+        "english": "Shanghai",
+        "russian": "Шанхай",
+        "sourceDivisionId": "3557a901-282a-454e-b399-23ddbb47456f",
+        "originalSourceAreaIdsContainingPoint": [
+          "ffa78d04-f946-42f4-b8a6-f2e516748059"
+        ],
+        "originalGeometrySha256": [
+          "1ddaeddeedccd5063bf884338b64bf15d3a7e55d341201b5418bf09830c21e9e"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "City",
+        "id": "6fa0287f-24ff-4841-b055-9760a6512e34",
+        "english": "Shanghai",
+        "russian": "Шанхай",
+        "sourceDivisionId": "3557a901-282a-454e-b399-23ddbb47456f",
+        "originalSourceAreaIdsContainingPoint": [
+          "ffa78d04-f946-42f4-b8a6-f2e516748059"
+        ],
+        "originalGeometrySha256": [
+          "1ddaeddeedccd5063bf884338b64bf15d3a7e55d341201b5418bf09830c21e9e"
+        ],
+        "semantics": "Administrative metropolitan/municipal extent; identical source-linked Wikidata entity",
+        "warnings": [
+          "GeoAdministrativeCityExtent"
+        ]
+      },
+      {
+        "level": "District",
+        "id": "90c87995-c45a-4105-83da-e18a009c2b4d",
+        "english": "Huangpu",
+        "russian": "Хуанпу",
+        "sourceDivisionId": "0efaa716-30f7-4001-9351-e8e18d5e6564",
+        "originalSourceAreaIdsContainingPoint": [
+          "913337a1-8ce5-4d0c-9a94-c670a9cf68b8"
+        ],
+        "originalGeometrySha256": [
+          "e18eaea0e4dd8878f3cbfe7330a70ab31c2de64ec41a72a58c1c75f5b1f3a717"
+        ],
+        "semantics": "Administrative source polygon linked to a unique source locality by entity identity or explicit city-child hierarchy",
+        "warnings": []
+      }
+    ],
+    "cityUnavailable": false
+  },
+  {
+    "expected": {
+      "Id": "zurich-hauptbahnhof",
+      "Latitude": 47.3782,
+      "Longitude": 8.5402,
+      "CountryId": "b9aa06a1-b832-451f-bcf2-051719e749dd",
+      "RegionId": "24df3474-8ae7-4612-9826-bd13134c2ddd",
+      "CityId": "fb663f56-6057-40fa-9c37-adfd87c01f08",
+      "DistrictId": "9ad80051-1bae-48ab-a82c-562937b42c69"
+    },
+    "sourceContainment": [
+      {
+        "level": "Country",
+        "id": "b9aa06a1-b832-451f-bcf2-051719e749dd",
+        "english": "Switzerland",
+        "russian": "Швейцария",
+        "sourceDivisionId": "b9aa06a1-b832-451f-bcf2-051719e749dd",
+        "originalSourceAreaIdsContainingPoint": [
+          "508f8d1f-2491-437c-b857-f44ccc0446ad"
+        ],
+        "originalGeometrySha256": [
+          "51fea8f37bda610b0f72d6547790f6aecb1f72342d2ff6b884f89510a4342fee"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "Region",
+        "id": "24df3474-8ae7-4612-9826-bd13134c2ddd",
+        "english": "Zurich",
+        "russian": "Цюрих",
+        "sourceDivisionId": "24df3474-8ae7-4612-9826-bd13134c2ddd",
+        "originalSourceAreaIdsContainingPoint": [
+          "c0b07e52-8dba-451a-bb17-5d0da3c14148"
+        ],
+        "originalGeometrySha256": [
+          "77c2e18dd5430ab06741cba587344d3427e05bb192c8df26c696b1d7c90f8934"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "City",
+        "id": "fb663f56-6057-40fa-9c37-adfd87c01f08",
+        "english": "Zurich",
+        "russian": "Цюрих",
+        "sourceDivisionId": "0e41ccfa-2792-4140-b401-27fd7757424a",
+        "originalSourceAreaIdsContainingPoint": [
+          "ca71a8ff-b812-4054-b837-0570c16b8b51"
+        ],
+        "originalGeometrySha256": [
+          "86ec1771abf8dde0c5aa1959a85b90602872667537795acb29f61cb6454020f8"
+        ],
+        "semantics": "Administrative source polygon linked to a unique source locality by entity identity or explicit city-child hierarchy",
+        "warnings": [
+          "GeoAdministrativeCityExtent"
+        ]
+      },
+      {
+        "level": "District",
+        "id": "9ad80051-1bae-48ab-a82c-562937b42c69",
+        "english": "Altstadt",
+        "russian": "Altstadt",
+        "sourceDivisionId": "9ad80051-1bae-48ab-a82c-562937b42c69",
+        "originalSourceAreaIdsContainingPoint": [
+          "75f57455-4c9c-4fd8-8462-68680167e978"
+        ],
+        "originalGeometrySha256": [
+          "f39cce18c64800113365c08ef007048ee27a5434e1a991484f55cd058fff2346"
+        ],
+        "semantics": "Original Overture borough/super-neighborhood/neighborhood area with verified city hierarchy",
+        "warnings": [
+          "GeoNeighborhoodExtent"
+        ]
+      }
+    ],
+    "cityUnavailable": false
+  },
+  {
+    "expected": {
+      "Id": "warsaw-central-station",
+      "Latitude": 52.2297,
+      "Longitude": 21.0122,
+      "CountryId": "80d64bfe-3b7e-4d50-8fc6-79decdb8d101",
+      "RegionId": "d04dd4df-d587-4397-90cd-d81a0045ffd8",
+      "CityId": "36bdc2dc-d28a-489e-a902-18844abe1a5d",
+      "DistrictId": "8dac73cd-09a4-4c99-9480-dac725a51ce2"
+    },
+    "sourceContainment": [
+      {
+        "level": "Country",
+        "id": "80d64bfe-3b7e-4d50-8fc6-79decdb8d101",
+        "english": "Poland",
+        "russian": "Польша",
+        "sourceDivisionId": "80d64bfe-3b7e-4d50-8fc6-79decdb8d101",
+        "originalSourceAreaIdsContainingPoint": [
+          "dfe7b4ad-85f8-4fcc-a852-43c7d9e95d8c"
+        ],
+        "originalGeometrySha256": [
+          "0958156d7222de74c8332fe94faa6441131bdd892f345bec4f609ffc4b175b54"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "Region",
+        "id": "d04dd4df-d587-4397-90cd-d81a0045ffd8",
+        "english": "Masovian Voivodeship",
+        "russian": "Мазовецкое воеводство",
+        "sourceDivisionId": "d04dd4df-d587-4397-90cd-d81a0045ffd8",
+        "originalSourceAreaIdsContainingPoint": [
+          "70cf12d7-a7cc-4ac1-966f-a268a9bc875d"
+        ],
+        "originalGeometrySha256": [
+          "ab42ad90af9b729e6f0cc1cca660eab055084253c179a8d9b88ed94b63c62abd"
+        ],
+        "semantics": "Original Overture administrative area subtype",
+        "warnings": []
+      },
+      {
+        "level": "City",
+        "id": "36bdc2dc-d28a-489e-a902-18844abe1a5d",
+        "english": "Warsaw",
+        "russian": "Варшава",
+        "sourceDivisionId": "36bdc2dc-d28a-489e-a902-18844abe1a5d",
+        "originalSourceAreaIdsContainingPoint": [
+          "f9beb2c9-faf0-4a39-ba96-744b1e23bd9a"
+        ],
+        "originalGeometrySha256": [
+          "0f8b7b26f5f6d760e80d9c1ba0d7a94720afbbeb258bfa568eeb82075c0fdd28"
+        ],
+        "semantics": "Actual source locality polygon; Wikidata district types take precedence over generic city classification",
+        "warnings": []
+      },
+      {
+        "level": "District",
+        "id": "8dac73cd-09a4-4c99-9480-dac725a51ce2",
+        "english": "Krucza",
+        "russian": "Krucza",
+        "sourceDivisionId": "8dac73cd-09a4-4c99-9480-dac725a51ce2",
+        "originalSourceAreaIdsContainingPoint": [
+          "221b8082-1a7f-4807-9bd4-f921cbf13e98"
+        ],
+        "originalGeometrySha256": [
+          "7d8e2abdbc517f42cce172c3fb23b907290a478fcd691c91124255daa8318b6b"
+        ],
+        "semantics": "Original Overture borough/super-neighborhood/neighborhood area with verified city hierarchy",
+        "warnings": [
+          "GeoNeighborhoodExtent"
+        ]
+      }
+    ],
+    "cityUnavailable": false
+  }
+]

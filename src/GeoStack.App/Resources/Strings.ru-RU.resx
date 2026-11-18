@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data xml:space="preserve" name="OpenFolder">
+    <value>Открыть папку</value>
+  </data>
+  <data xml:space="preserve" name="Cancel">
+    <value>Отменить сканирование</value>
+  </data>
+  <data xml:space="preserve" name="Library">
+    <value>Медиатека</value>
+  </data>
+  <data xml:space="preserve" name="Settings">
+    <value>Настройки</value>
+  </data>
+  <data xml:space="preserve" name="Offline">
+    <value>АВТОНОМНЫЙ АТЛАС</value>
+  </data>
+  <data xml:space="preserve" name="Welcome">
+    <value>Ваши воспоминания на карте.</value>
+  </data>
+  <data xml:space="preserve" name="Empty">
+    <value>Откройте папку, чтобы увидеть места съёмки фотографий и видео.</value>
+  </data>
+  <data xml:space="preserve" name="Hint">
+    <value>Колесо — масштаб · Перетаскивание — навигация · Двойной щелчок — раскрыть стопку</value>
+  </data>
+  <data xml:space="preserve" name="AllMedia">
+    <value>Все файлы</value>
+  </data>
+  <data xml:space="preserve" name="NoGps">
+    <value>Без GPS</value>
+  </data>
+  <data xml:space="preserve" name="PreviewUnavailable">
+    <value>Предпросмотр недоступен. Файл добавлен в индекс; возможно, отсутствует совместимый декодер.</value>
+  </data>
+  <data xml:space="preserve" name="SelectMedia">
+    <value>Выберите фото или видео</value>
+  </data>
+  <data xml:space="preserve" name="Language">
+    <value>Язык</value>
+  </data>
+  <data xml:space="preserve" name="Theme">
+    <value>Тема</value>
+  </data>
+  <data xml:space="preserve" name="System">
+    <value>Системная</value>
+  </data>
+  <data xml:space="preserve" name="Light">
+    <value>Светлая</value>
+  </data>
+  <data xml:space="preserve" name="Dark">
+    <value>Тёмная</value>
+  </data>
+  <data xml:space="preserve" name="Ready">
+    <value>Готово</value>
+  </data>
+  <data xml:space="preserve" name="ScanComplete">
+    <value>Сканирование завершено</value>
+  </data>
+  <data xml:space="preserve" name="Scanning">
+    <value>Сканирование</value>
+  </data>
+  <data xml:space="preserve" name="Cancelled">
+    <value>Сканирование отменено; индексированные файлы сохранены</value>
+  </data>
+  <data xml:space="preserve" name="Files">
+    <value>файлов</value>
+  </data>
+  <data xml:space="preserve" name="Located">
+    <value>с GPS</value>
+  </data>
+  <data xml:space="preserve" name="Errors">
+    <value>ошибок</value>
+  </data>
+  <data xml:space="preserve" name="Close">
+    <value>Закрыть</value>
+  </data>
+  <data xml:space="preserve" name="Fit">
+    <value>Весь мир</value>
+  </data>
+  <data xml:space="preserve" name="Sidebar">
+    <value>Медиапанель</value>
+  </data>
+  <data xml:space="preserve" name="Privacy">
+    <value>Медиа остаются на этом устройстве. Сканирование не изменяет исходные файлы.</value>
+  </data>
+  <data xml:space="preserve" name="Video">
+    <value>Видео · предпросмотр кадра</value>
+  </data>
+  <data xml:space="preserve" name="Photo">
+    <value>Фото</value>
+  </data>
+  <data xml:space="preserve" name="NoSelection">
+    <value>Выберите стопку на карте или откройте медиатеку.</value>
+  </data>
+  <data xml:space="preserve" name="ScanError">
+    <value>Не удалось просканировать папку</value>
+  </data>
+  <data xml:space="preserve" name="Folder">
+    <value>Выберите папку с медиа</value>
+  </data>
+  <data xml:space="preserve" name="Area">
+    <value>Приблизительный район</value>
+  </data>
+  <data xml:space="preserve" name="NoGpsHint">
+    <value>У этих файлов нет корректных координат GPS. Они сохранены в локальном индексе.</value>
+  </data>
+  <data xml:space="preserve" name="Loading">
+    <value>Подготовка предпросмотра…</value>
+  </data>
+  <data xml:space="preserve" name="Saved">
+    <value>Настройки сохранены</value>
+  </data>
+  <data xml:space="preserve" name="IndexError">
+    <value>Не удалось открыть локальные данные. Проверьте доступ на запись в папку приложения.</value>
+  </data>
+  <data xml:space="preserve" name="SourceMissing">
+    <value>Исходный файл отсутствует или недоступен</value>
+  </data>
+  <data xml:space="preserve" name="NoMedia">
+    <value>Поддерживаемые медиафайлы не найдены</value>
+  </data>
+  <data xml:space="preserve" name="ErrorDetails">
+    <value>Подробности сканирования</value>
+  </data>
+  <data xml:space="preserve" name="Count">
+    <value>файлов</value>
+  </data>
+  <data name="ZoomIn">
+    <value>Увеличить</value>
+  </data>
+  <data name="ZoomOut">
+    <value>Уменьшить</value>
+  </data>
+  <data name="FitAll">
+    <value>Показать все места</value>
+  </data>
+  <data name="ResetMap">
+    <value>Сбросить карту</value>
+  </data>
+  <data name="EnglishLanguage">
+    <value>Английский</value>
+  </data>
+  <data name="RussianLanguage">
+    <value>Русский</value>
+  </data>
+  <data name="About">
+    <value>О GeoStack</value>
+  </data>
+  <data name="AboutText">
+    <value>Автономный атлас фото и видео. Файлы остаются на этом устройстве. Включены ExifTool, FFmpeg и данные Natural Earth. Уведомления находятся в папке licenses.</value>
+  </data>
+  <data name="StartupError">
+    <value>GeoStack не удалось открыть локальные данные. Используйте доступную для записи папку приложения или данных.</value>
+  </data>
+  <data name="DiagnosticError">
+    <value>Некоторые файлы не удалось прочитать. Подробности сканирования содержат техническую диагностику.</value>
+  </data>
+  <data name="Kilometers">
+    <value>км</value>
+  </data>
+  <data name="Meters">
+    <value>м</value>
+  </data>
+  <data name="PreviousPage">
+    <value>Предыдущая страница</value>
+  </data>
+  <data name="NextPage">
+    <value>Следующая страница</value>
+  </data>
+  <data name="CopyToLocation">
+    <value>Копировать по месту</value>
+  </data>
+  <data name="CopyStack">
+    <value>Копировать всю группу</value>
+  </data>
+  <data name="CopyHistory">
+    <value>История копирования</value>
+  </data>
+  <data name="CopySafety">
+    <value>Копирование выбранных файлов с сохранением оригиналов. Проверьте папки и подтвердите операцию.</value>
+  </data>
+  <data name="DestinationRoot">
+    <value>Выбрать папку назначения</value>
+  </data>
+  <data name="FolderLanguage">
+    <value>Названия папок</value>
+  </data>
+  <data name="CountryCity">
+    <value>Страна / Город</value>
+  </data>
+  <data name="CountryCityDistrict">
+    <value>Страна / Город / Район</value>
+  </data>
+  <data name="CountryRegionCity">
+    <value>Страна / Регион / Город</value>
+  </data>
+  <data name="SkipMissingGps">
+    <value>Пропустить файлы без GPS</value>
+  </data>
+  <data name="CopyUnknownGps">
+    <value>Без GPS — в Unknown Location (можно изменить)</value>
+  </data>
+  <data name="BoundaryWarning">
+    <value>Каждый файл использует свои GPS. Проверьте неопределённость: без границы города используется регион или страна. Пакеты границ доступны в меню Карты / Географические данные. Для ручного размещения без GPS выберите Unknown Location и измените папку.</value>
+  </data>
+  <data name="PreviewCopy">
+    <value>Подготовить предпросмотр</value>
+  </data>
+  <data name="ConfirmCopy">
+    <value>Подтвердить копирование</value>
+  </data>
+  <data name="ConfirmCopyText">
+    <value>Копировать отмеченные файлы в указанные папки? Существующие файлы не перезаписываются. Конфликты разрешаются переименованием; содержимое копий проверяется.</value>
+  </data>
+  <data name="Copying">
+    <value>Копирование</value>
+  </data>
+  <data name="CopyFailed">
+    <value>Не удалось завершить копирование</value>
+  </data>
+  <data name="OpenDestination">
+    <value>Открыть папку назначения</value>
+  </data>
+  <data name="Include">
+    <value>Включить</value>
+  </data>
+  <data name="Source">
+    <value>Источник</value>
+  </data>
+  <data name="Destination">
+    <value>Назначение</value>
+  </data>
+  <data name="Location">
+    <value>Определённое место</value>
+  </data>
+  <data name="Bytes">
+    <value>байт</value>
+  </data>
+  <data name="Status">
+    <value>Состояние</value>
+  </data>
+  <data name="MissingGps">
+    <value>Нет GPS</value>
+  </data>
+  <data name="Operations">
+    <value>Операции</value>
+  </data>
+  <data name="Identical">
+    <value>Совпадает</value>
+  </data>
+  <data name="Completed">
+    <value>Завершено</value>
+  </data>
+  <data name="Timestamp">
+    <value>Время</value>
+  </data>
+  <data name="Verification">
+    <value>SHA-256</value>
+  </data>
+  <data name="Failure">
+    <value>Причина ошибки</value>
+  </data>
+  <data name="JournalPrivacy">
+    <value>Локальный журнал содержит пути исходных файлов и копий. После прерывания проверьте записи Started без итогового статуса: они не считаются завершёнными.</value>
+  </data>
+  <data name="MapManager">
+    <value>Карты</value>
+  </data>
+  <data name="MapManagerHint">
+    <value>Импорт растровых MBTiles (PNG/JPEG) по ссылке. Внешние файлы не удаляются. Встроенная карта мира всегда доступна. Подписи растра сохраняют исходный язык и оформление.</value>
+  </data>
+  <data name="MapImportFailed">
+    <value>Ошибка операции с картой</value>
+  </data>
+  <data name="MapUnsupportedFormat">
+    <value>Поддерживаются только растровые MBTiles</value>
+  </data>
+  <data name="MapVectorUnsupported">
+    <value>Векторные пакеты не поддерживаются</value>
+  </data>
+  <data name="MapEncodingUnsupported">
+    <value>Неподдерживаемый или неверный формат тайла</value>
+  </data>
+  <data name="MapEmpty">
+    <value>В карте нет тайлов</value>
+  </data>
+  <data name="MapZoomInvalid">
+    <value>Неверные данные масштаба</value>
+  </data>
+  <data name="MapBoundsInvalid">
+    <value>Неверные данные покрытия</value>
+  </data>
+  <data name="MapSchemeUnsupported">
+    <value>MBTiles должны использовать строки TMS</value>
+  </data>
+  <data name="Name">
+    <value>Название</value>
+  </data>
+  <data name="Coverage">
+    <value>Покрытие</value>
+  </data>
+  <data name="Format">
+    <value>Формат</value>
+  </data>
+  <data name="Zoom">
+    <value>Масштабы</value>
+  </data>
+  <data name="Attribution">
+    <value>Авторство</value>
+  </data>
+  <data name="Storage">
+    <value>Расположение</value>
+  </data>
+  <data name="Enabled">
+    <value>Включено</value>
+  </data>
+  <data name="Disabled">
+    <value>Выключено</value>
+  </data>
+  <data name="Available">
+    <value>Доступно</value>
+  </data>
+  <data name="Unavailable">
+    <value>Недоступно</value>
+  </data>
+  <data name="InstalledStorage">
+    <value>Объём карт по ссылкам</value>
+  </data>
+  <data name="PreferredMap">
+    <value>Предпочитаемая карта</value>
+  </data>
+  <data name="BuiltInWorld">
+    <value>Встроенная карта мира</value>
+  </data>
+  <data name="WorldCoverage">
+    <value>Весь мир</value>
+  </data>
+  <data name="ImportMap">
+    <value>Импорт MBTiles</value>
+  </data>
+  <data name="ToggleMap">
+    <value>Включить / выключить</value>
+  </data>
+  <data name="PreferMap">
+    <value>Использовать как основную</value>
+  </data>
+  <data name="RemoveReference">
+    <value>Удалить ссылку</value>
+  </data>
+  <data name="RefreshMap">
+    <value>Найти файл / обновить</value>
+  </data>
+  <data name="Rename">
+    <value>Переименовать при конфликте</value>
+  </data>
+  <data name="Skipped">
+    <value>Пропущено</value>
+  </data>
+  <data name="Missing">
+    <value>Нет исходного файла</value>
+  </data>
+  <data name="Failed">
+    <value>Ошибка</value>
+  </data>
+  <data name="Started">
+    <value>Начато</value>
+  </data>
+  <data name="Yes">
+    <value>Да</value>
+  </data>
+  <data name="No">
+    <value>Нет</value>
+  </data>
+  <data name="UnknownLocation">
+    <value>Неизвестное место</value>
+  </data>
+  <data name="CancelCopy">
+    <value>Отмена</value>
+  </data>
+  <data name="DestinationFolder">
+    <value>Папка</value>
+  </data>
+  <data name="GeographicData">
+    <value>Географические данные</value>
+  </data>
+  <data name="GeoManagerHint">
+    <value>Пакеты границ определяют местоположение каждого файла без интернета и не зависят от растровых карт. Импорт выполняется по ссылке; удаление ссылки не удаляет файл. Покрытие и смысл границ зависят от источника. Компактные встроенные границы стран остаются доступны.</value>
+  </data>
+  <data name="GeoImport">
+    <value>Импорт пакета границ</value>
+  </data>
+  <data name="GeoPackageFilter">
+    <value>Географические пакеты GeoStack (*.gsgeo)|*.gsgeo</value>
+  </data>
+  <data name="GeoRevalidate">
+    <value>Проверить / обновить</value>
+  </data>
+  <data name="GeoLevels">
+    <value>Доступные уровни</value>
+  </data>
+  <data name="GeoVersion">
+    <value>Версия источника</value>
+  </data>
+  <data name="GeoLicense">
+    <value>Лицензия</value>
+  </data>
+  <data name="GeoValidation">
+    <value>Проверка</value>
+  </data>
+  <data name="GeoBuiltInFallback">
+    <value>Встроенные границы стран</value>
+  </data>
+  <data name="GeoCountryLevel">
+    <value>Страна (приблизительно)</value>
+  </data>
+  <data name="GeoLevel_country">
+    <value>Страна</value>
+  </data>
+  <data name="GeoLevel_region">
+    <value>Регион / область</value>
+  </data>
+  <data name="GeoLevel_city">
+    <value>Город / населённый пункт</value>
+  </data>
+  <data name="GeoLevel_district">
+    <value>Район / квартал</value>
+  </data>
+  <data name="GeoValidated">
+    <value>Проверено</value>
+  </data>
+  <data name="GeoCatalogUnavailable">
+    <value>Каталог недоступен; используются встроенные данные</value>
+  </data>
+  <data name="GeoOperationFailed">
+    <value>Ошибка операции с географическими данными</value>
+  </data>
+  <data name="GeoUnsupportedPackage">
+    <value>Неподдерживаемая версия или формат географического пакета</value>
+  </data>
+  <data name="GeoInvalidPackage">
+    <value>Неверный или повреждённый географический пакет</value>
+  </data>
+  <data name="GeoInvalidGeometry">
+    <value>Неверная или слишком большая геометрия полигона</value>
+  </data>
+  <data name="GeoTooManyOverlaps">
+    <value>Слишком много перекрывающихся границ; используется резервное определение</value>
+  </data>
+  <data name="GeoPackageLimit">
+    <value>Можно зарегистрировать не более 32 дополнительных географических пакетов</value>
+  </data>
+  <data name="GeoWarnings">
+    <value>Неопределённость места</value>
+  </data>
+  <data name="GeoMissingGps">
+    <value>Нет GPS; выберите папку вручную или неизвестное место</value>
+  </data>
+  <data name="GeoPackageUnavailable">
+    <value>Дополнительный набор данных отсутствует или повреждён; при необходимости используется резервное определение</value>
+  </data>
+  <data name="GeoDatasetOutdated">
+    <value>Набору данных более трёх лет; проверьте его актуальность</value>
+  </data>
+  <data name="GeoAmbiguousBoundary">
+    <value>Перекрывающиеся территории; предлагается более общее место</value>
+  </data>
+  <data name="GeoCoarseCountry">
+    <value>Приблизительная картографическая граница страны</value>
+  </data>
+  <data name="GeoRegionFallback">
+    <value>Граница города недоступна; используется регион</value>
+  </data>
+  <data name="GeoCountryFallback">
+    <value>Граница города недоступна; используется страна</value>
+  </data>
+  <data name="GeoUnknownLocation">
+    <value>Надёжное совпадение с границами отсутствует; измените папку вручную</value>
+  </data>
+  <data name="GeoBorderUncertain">
+    <value>Точка находится на границе или рядом с ней; проверьте предлагаемое место</value>
+  </data>
+  <data name="GeoAdministrativeCityExtent">
+    <value>Административная граница муниципалитета или мегаполиса; она шире городской застройки</value>
+  </data>
+  <data name="GeoDatasetChanged">
+    <value>Файл пакета изменён; проверьте или импортируйте его заново</value>
+  </data>
+  <data name="GeoNeighborhoodExtent">
+    <value>Граница квартала из набора данных; не обязательно административный район</value>
+  </data>
+  <data name="GeoPublicDomain">
+    <value>Общественное достояние</value>
+  </data>
+  <data name="InstalledVersion">
+    <value>Версия {0}</value>
+  </data>
+  <data name="VersionUnavailable">
+    <value>Версия недоступна</value>
+  </data>
+  <data name="SettingsLanguageLabel">
+    <value>_Язык</value>
+  </data>
+  <data name="SettingsThemeLabel">
+    <value>_Тема</value>
+  </data>
+  <data name="SettingsAttribution">
+    <value>Сторонние компоненты: .NET/WPF, ExifTool и Perl, FFmpeg и его библиотеки, данные Natural Earth. Сведения об источниках и лицензиях дополнительных пакетов доступны в разделе географических данных.</value>
+  </data>
+  <data name="Help">
+    <value>Справка</value>
+  </data>
+  <data name="HelpText">
+    <value>Руководства ниже описывают просмотр, автономные карты и безопасное копирование. Для разбора ошибки запишите версию, шаги и текст сообщения. Интернет не требуется.</value>
+  </data>
+  <data name="UserGuide">
+    <value>Руководство пользователя</value>
+  </data>
+  <data name="GeographicOrganizationGuide">
+    <value>Географическое копирование</value>
+  </data>
+  <data name="OfflineMapsGuide">
+    <value>Автономные карты</value>
+  </data>
+  <data name="PhysicalAcceptanceGuide">
+    <value>Проверка владельцем</value>
+  </data>
+  <data name="ThirdPartyLicenses">
+    <value>Лицензии компонентов</value>
+  </data>
+  <data name="RedistributionNotes">
+    <value>Распространение и авторство</value>
+  </data>
+  <data name="DocumentationUnavailable">
+    <value>Документ отсутствует в папке приложения.</value>
+  </data>
+  <data name="OpenDocumentationFailed">
+    <value>Не удалось открыть локальный документ. Откройте указанный путь в проводнике Windows.</value>
+  </data>
+  <data name="SettingsTooltip">
+    <value>Настройки</value>
+  </data>
+  <data name="VisualMapsHint">
+    <value>Визуальные карты (.mbtiles) показывают улицы и водоёмы. Географические данные (.gsgeo) определяют места съёмки, но не рисуют карту.</value>
+  </data>
+  <data name="RasterMapFilter">
+    <value>Автономные растровые карты (*.mbtiles)|*.mbtiles</value>
+  </data>
+  <data name="ActivateMap">
+    <value>Включить карту</value>
+  </data>
+  <data name="ShowMapCoverage">
+    <value>Показать область</value>
+  </data>
+  <data name="ReturnWorldMap">
+    <value>Встроенная карта мира</value>
+  </data>
+  <data name="OpenMapStorage">
+    <value>Открыть папку карт</value>
+  </data>
+  <data name="NoRegionalMaps">
+    <value>Региональные карты не установлены. Откройте папку карт и импортируйте пакет города.</value>
+  </data>
+  <data name="MapFileUnavailable">
+    <value>Файл карты недоступен: подключите диск или обновите ссылку на файл.</value>
+  </data>
+  <data name="MapZoomOutside">
+    <value>Масштаб вне диапазона карты: используется запасная карта. Нажмите «Показать область».</value>
+  </data>
+  <data name="MapOutsideCoverage">
+    <value>За пределами выбранной карты: используется запасная карта. Нажмите «Показать область».</value>
+  </data>
+  <data name="MapTilesVisible">
+    <value>Локальные географические тайлы показаны</value>
+  </data>
+  <data name="MapTilesLoading">
+    <value>Загрузка локальных тайлов карты…</value>
+  </data>
+  <data name="CopySelectedCompact">
+    <value>Копировать</value>
+  </data>
+  <data name="CopyGroupCompact">
+    <value>Всю группу</value>
+  </data>
+  <data name="CopyHistoryCompact">
+    <value>История</value>
+  </data>
+  <data name="OpenPreview">
+    <value>Открыть просмотр</value>
+  </data>
+  <data name="PreviewShortcut">
+    <value>Открыть большой просмотр (F4). Двойной щелчок или Enter — перейти к месту.</value>
+  </data>
+  <data name="VideoFramePreview">
+    <value>Кадр видеозаписи</value>
+  </data>
+  <data name="SortName">
+    <value>Порядок: имя</value>
+  </data>
+  <data name="SortDate">
+    <value>Порядок: дата</value>
+  </data>
+  <data name="NoGpsNavigation">
+    <value>В файле нет GPS. Положение карты не изменено.</value>
+  </data>
+  <data name="OtherLocations">
+    <value>Другие места</value>
+  </data>
+  <data name="GoToLocation">
+    <value>Перейти к месту</value>
+  </data>
+  <data name="BackLocation">
+    <value>Вернуться к предыдущему месту</value>
+  </data>
+  <data name="ContextCoverage">
+    <value>Вне подробного покрытия: показан доступный автономный фон.</value>
+  </data>
+  <data name="PreviewCompact">
+    <value>Просмотр</value>
+  </data>
+  <data name="NameCompact">
+    <value>Имя ↑</value>
+  </data>
+  <data name="DateCompact">
+    <value>Дата ↓</value>
+  </data>
+  <data name="PhotoCountLabel">
+    <value>Фото</value>
+  </data>
+  <data name="VideoCountLabel">
+    <value>Видео</value>
+  </data>
+  <data name="MapNoTilesHere">
+    <value>В этом месте нет тайлов; показан доступный автономный фон</value>
+  </data>
+  <data name="InitialPreferencesHint">
+    <value>Новый профиль использует поддерживаемый язык Windows, иначе английский. Тема по умолчанию — системная. Сохранённые настройки имеют приоритет.</value>
+  </data>
+  <data name="AtlasPilot">
+    <value>????????????????? ?????????????? ?????</value>
+  </data>
+  <data name="DropToAdd">
+    <value>Отпустите, чтобы добавить фото и видео</value>
+  </data>
+  <data name="ImportBusy">
+    <value>Импорт уже выполняется. Дождитесь завершения или отмените его.</value>
+  </data>
+  <data name="ImportProgress">
+    <value>Найдено {0:N0} · Обработано {1:N0} · Пропущено {2:N0}</value>
+  </data>
+  <data name="ImportComplete">
+    <value>Обработано {0:N0} · Добавлено {1:N0} · Без изменений {2:N0} · Пропущено {3:N0} · Предупреждений {4:N0}</value>
+  </data>
+  <data name="ImportFailed">
+    <value>Не удалось завершить импорт. Ранее добавленные файлы сохранены.</value>
+  </data>
+  <data name="AtlasFallback">
+    <value>Данные атласа недоступны. Используется резервная автономная карта.</value>
+  </data>
+  <data name="DownloadLibraryMaps">
+    <value>Скачать детальные карты для медиатеки</value>
+  </data>
+  <data name="DownloadAllMissing">
+    <value>Скачать недостающие карты</value>
+  </data>
+  <data name="DownloadPrivacy">
+    <value>Сеть используется только после подтверждения. Запросы раскрывают выбранные области, но не медиа, имена файлов или индекс. Protomaps / OpenStreetMap (ODbL). Масштабы 10–15, светлая/тёмная темы, английские/русские названия при наличии. Размер загрузки и дата данных до загрузки неизвестны. Не более 128 МиБ исходных данных на область. При отмене незавершённые файлы удаляются; готовые карты сохраняются. Региональный обзор — отдельная необязательная область около 320 км в масштабе 8–10; детальная карта ограничена местами съёмки.</value>
+  </data>
+  <data name="DownloadAreaNear">
+    <value>Область рядом с</value>
+  </data>
+  <data name="DownloadInstalled">
+    <value>Установлена (покрытие проверено)</value>
+  </data>
+  <data name="DownloadMissing">
+    <value>Недостающее покрытие</value>
+  </data>
+  <data name="DownloadUnsupported">
+    <value>Область вне поддерживаемых ограничений</value>
+  </data>
+  <data name="DownloadIsolated">
+    <value>Отдельная точка — проверьте перед выбором</value>
+  </data>
+  <data name="DownloadAnalyzing">
+    <value>Проверка мест съёмки и установленных карт… Без доступа к сети.</value>
+  </data>
+  <data name="DownloadPlanSummary">
+    <value>Областей: {0} · без GPS: {1} · отдельных точек: {2} · недоступных карт: {3}. Выберите области для загрузки.</value>
+  </data>
+  <data name="DownloadProvider">
+    <value>Источник: Protomaps через Source Cooperative. Участники OpenStreetMap / Natural Earth. Архив v4. Размеры загрузки и установки неизвестны; свободное место проверяется по верхней оценке несжатых данных. Каталог:</value>
+  </data>
+  <data name="DownloadLargeWarning">
+    <value>Верхняя оценка размера установки превышает 1 ГиБ. Продолжить? Фактический размер PNG может быть меньше. Архив всей страны не загружается.</value>
+  </data>
+  <data name="DownloadProgress">
+    <value>Области {0}/{1} · тайлы {2}/{3} · получено {4:F1} МиБ · подготовка четырёх стилей</value>
+  </data>
+  <data name="DownloadComplete">
+    <value>Установлено: {0}. Ошибок: {1}. Проверенные карты доступны без сети.</value>
+  </data>
+  <data name="DownloadFailed">
+    <value>Не удалось подготовить карту</value>
+  </data>
+  <data name="DownloadDiskSpace">
+    <value>Недостаточно места для безопасной подготовки карты</value>
+  </data>
+  <data name="DownloadSourceMissing">
+    <value>В исходном архиве отсутствует тайл для части области</value>
+  </data>
+  <data name="DownloadPreparing">
+    <value>Подготовка карты</value>
+  </data>
+  <data name="DownloadSelect">
+    <value>Выбрать</value>
+  </data>
+  <data name="DownloadFailureNetwork">
+    <value>Источник недоступен или ошибка сети. Готовые карты сохранены.</value>
+  </data>
+  <data name="DownloadFailureData">
+    <value>Не удалось безопасно преобразовать или проверить данные. Незавершённая карта не установлена.</value>
+  </data>
+  <data name="DownloadFailureStorage">
+    <value>Каталог карт недоступен для записи. Проверьте свободное место и доступ.</value>
+  </data>
+  <data name="DownloadCancel">
+    <value>Отмена</value>
+  </data>
+  <data name="DownloadStorageBound">
+    <value>Верхняя оценка установки: {0:F0} МиБ</value>
+  </data>
+  <data name="DownloadSelectArea">
+    <value>Выберите хотя бы одну область без карты.</value>
+  </data>
+  <data name="DownloadPartial">
+    <value>Дополнительное покрытие: {0} из {1} файлов</value>
+  </data>
+  <data name="CompactLibraryHint">
+    <value>Перетащите фото, видео или папку, чтобы добавить их в медиатеку.</value>
+  </data>
+  <data name="RemoveFromLibrary">
+    <value>Убрать из медиатеки</value>
+  </data>
+  <data name="RemoveFromLibraryConfirm">
+    <value>Убрать файл из медиатеки? Исходный файл останется без изменений.</value>
+  </data>
+  <data name="RemovedFromLibrary">
+    <value>Файл убран из медиатеки. Исходный файл не изменён. Добавьте его отдельно, чтобы восстановить.</value>
+  </data>
+  <data name="RemoveFromLibraryFailed">
+    <value>Не удалось убрать файл из медиатеки. Исходный файл не изменён.</value>
+  </data>
+  <data name="LibraryBusy">
+    <value>Медиатека обновляется. Дождитесь завершения, прежде чем добавлять файлы.</value>
+  </data>
+  <data name="GlobalAtlas">
+    <value>Глобальный атлас среднего масштаба</value>
+  </data>
+  <data name="InstallGlobalAtlas">
+    <value>Подключить локальный атлас</value>
+  </data>
+  <data name="GlobalAtlasFilter">
+    <value>Глобальный векторный атлас GeoStack (*.gsvector)|*.gsvector</value>
+  </data>
+  <data name="GlobalAtlasMissing">
+    <value>Глобальный пакет среднего масштаба не подключён. Встроенная карта мира остаётся доступной.</value>
+  </data>
+  <data name="GlobalAtlasInvalid">
+    <value>Не удалось проверить или подключить атлас. Существующая карта сохранена.</value>
+  </data>
+  <data name="GlobalAtlasInfo">
+    <value>Дополнительный мировой векторный атлас. Дороги, водоёмы и населённые пункты обобщены до исходного масштаба 8 и остаются видимыми при дальнейшем увеличении. Это не покрытие всех улиц. Пакеты подключаются без копирования и удаления файлов. Источники: OpenStreetMap contributors (ODbL), Natural Earth, Protomaps.</value>
+  </data>
+  <data name="DownloadRegionalContext">
+    <value>Региональный обзор (масштаб 8–10)</value>
+  </data>
+  <data name="DownloadLocalDetail">
+    <value>Детальная карта (масштаб 10–15)</value>
+  </data>
+  <data name="MediaActions">
+    <value>Действия с файлом</value>
+  </data>
+  <data name="WithGps">
+    <value>С GPS</value>
+  </data>
+  <data name="ClearSelection">
+    <value>Снять выделение</value>
+  </data>
+  <data name="RemoveSelected">
+    <value>Убрать выбранное из медиатеки</value>
+  </data>
+  <data name="SelectionCount">
+    <value>Выбрано: {0} · Скрыто фильтром/группой: {1}</value>
+  </data>
+  <data name="HiddenSelectionConfirm">
+    <value>Копировать выбранные файлы ({0}), включая скрытые ({1})? Проверьте папки в предпросмотре.</value>
+  </data>
+  <data name="RemoveSelectedConfirm">
+    <value>Убрать выбранные файлы ({0}) из медиатеки, включая скрытые ({1})? Исходные файлы останутся без изменений.</value>
+  </data>
+  <data name="RuntimeVersion">
+    <value>Версия</value>
+  </data>
+  <data name="RuntimeCommit">
+    <value>Коммит сборки</value>
+  </data>
+  <data name="RuntimeChannel">
+    <value>Канал</value>
+  </data>
+  <data name="RuntimeExecutable">
+    <value>Приложение</value>
+  </data>
+  <data name="RuntimeProfile">
+    <value>Профиль данных</value>
+  </data>
+  <data name="RuntimeEngine">
+    <value>Движок карты</value>
+  </data>
+  <data name="RuntimeCatalog">
+    <value>Каталог карт</value>
+  </data>
+  <data name="CopyDiagnostics">
+    <value>Скопировать диагностику</value>
+  </data>
+  <data name="ClipboardUnavailable">
+    <value>Буфер обмена временно недоступен.</value>
+  </data>
+  <data name="ValidationPreparing">
+    <value>Подготовка тестовых карт и медиа</value>
+  </data>
+  <data name="ValidationReady">
+    <value>GeoStack {0}: тестовая среда готова, файлов: {1}</value>
+  </data>
+  <data name="OperationMode">
+    <value>Операция</value>
+  </data>
+  <data name="MoveToLocation">
+    <value>Перенести по месту</value>
+  </data>
+  <data name="ConfirmMove">
+    <value>Подтвердить перенос</value>
+  </data>
+  <data name="MoveSafety">
+    <value>Перенос удаляет исходные файлы только после проверенной передачи. По умолчанию используется копирование.</value>
+  </data>
+  <data name="ConfirmMoveText">
+    <value>Перенести выбранные файлы? Исходные пути будут удалены только после проверенной передачи. Проверьте все папки назначения.</value>
+  </data>
+  <data name="CityDataRequired">
+    <value>Для части файлов нет данных о границах города. Показана страна или регион. Откройте Географические данные и подключите проверенный пакет границ либо измените папки назначения. Визуальные карты не содержат данных о принадлежности к городу.</value>
+  </data>
+  <data name="SourceRetained">
+    <value>Исходный файл сохранён — проверьте перенос</value>
+  </data>
+  <data name="TransferPhase">
+    <value>Этап передачи</value>
+  </data>
+  <data name="Copy">
+    <value>Копирование</value>
+  </data>
+  <data name="Move">
+    <value>Перенос</value>
+  </data>
+  <data name="MoveRecovery">
+    <value>Незавершённые переносы требуют проверки в истории операций. Исходные файлы и копии не будут удалены автоматически.</value>
+  </data>
+  <data name="Moving">
+    <value>Перенос</value>
+  </data>
+  <data name="ReviewMoves">
+    <value>Проверить незавершённые переносы</value>
+  </data>
+  <data name="ReconcileMove">
+    <value>Обновить медиатеку по проверенной копии</value>
+  </data>
+  <data name="ReconcileMoveConfirm">
+    <value>Обновить только медиатеку и журнал по проверенному файлу? Исходные файлы и копии удаляться не будут.</value>
+  </data>
+  <data name="SourceExists">
+    <value>Исходный файл существует</value>
+  </data>
+  <data name="NeedsReview">
+    <value>Требуется проверка передачи</value>
+  </data>
+  <data name="MoveFailed">
+    <value>Перенос не выполнен или требует проверки</value>
+  </data>
+  <data name="SourceVerified">
+    <value>Исходный файл проверен</value>
+  </data>
+  <data name="TransferIntent">
+    <value>Путь передачи записан</value>
+  </data>
+  <data name="DestinationCommitted">
+    <value>Файл размещён в папке назначения</value>
+  </data>
+  <data name="DestinationVerified">
+    <value>Файл назначения проверен</value>
+  </data>
+  <data name="SourceRemovalRequested">
+    <value>Запрошено удаление проверенного исходного пути</value>
+  </data>
+  <data name="FilesystemCompleted">
+    <value>Передача завершена; ожидается обновление медиатеки</value>
+  </data>
+  <data name="CatalogReconciled">
+    <value>Медиатека обновлена</value>
+  </data>
+  <data name="Result">
+    <value>Результат записан</value>
+  </data>
+  <data name="SourceAbsenceConfirmed">
+    <value>Отсутствие исходного файла подтверждено</value>
+  </data>
+</root>

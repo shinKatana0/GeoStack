@@ -1,0 +1,80 @@
+{
+  "GlobalAtlas": ["Global intermediate atlas", "Глобальный атлас среднего масштаба"],
+  "InstallGlobalAtlas": ["Install local atlas by reference", "Подключить локальный атлас"],
+  "GlobalAtlasFilter": ["GeoStack global vector atlas (*.gsvector)|*.gsvector", "Глобальный векторный атлас GeoStack (*.gsvector)|*.gsvector"],
+  "GlobalAtlasMissing": ["No global intermediate package is installed. The built-in world map remains available.", "Глобальный пакет среднего масштаба не подключён. Встроенная карта мира остаётся доступной."],
+  "GlobalAtlasInvalid": ["The atlas could not be validated or installed. The existing map is preserved.", "Не удалось проверить или подключить атлас. Существующая карта сохранена."],
+  "GlobalAtlasInfo": ["Optional worldwide vector context. Roads, water and settlements are generalized through native zoom 8 and remain available at higher context scales. This is not street-level coverage. Packages are referenced without copying or deleting their files. Attribution: OpenStreetMap contributors (ODbL), Natural Earth, Protomaps.", "Дополнительный мировой векторный атлас. Дороги, водоёмы и населённые пункты обобщены до исходного масштаба 8 и остаются видимыми при дальнейшем увеличении. Это не покрытие всех улиц. Пакеты подключаются без копирования и удаления файлов. Источники: OpenStreetMap contributors (ODbL), Natural Earth, Protomaps."],
+  "VisualMapsHint": [
+    "Visual maps (.mbtiles) show streets and water. Geographic data (.gsgeo) names photo locations; it does not draw a map.",
+    "Визуальные карты (.mbtiles) показывают улицы и водоёмы. Географические данные (.gsgeo) определяют места съёмки, но не рисуют карту."
+  ],
+  "RasterMapFilter": [
+    "Offline raster maps (*.mbtiles)|*.mbtiles",
+    "Автономные растровые карты (*.mbtiles)|*.mbtiles"
+  ],
+  "ActivateMap": [
+    "Activate map",
+    "Включить карту"
+  ],
+  "ShowMapCoverage": [
+    "Show coverage",
+    "Показать область"
+  ],
+  "ReturnWorldMap": [
+    "Built-in world map",
+    "Встроенная карта мира"
+  ],
+  "OpenMapStorage": [
+    "Open map folder",
+    "Открыть папку карт"
+  ],
+  "NoRegionalMaps": [
+    "No regional maps installed. Open the map folder and import a city package.",
+    "Региональные карты не установлены. Откройте папку карт и импортируйте пакет города."
+  ],
+  "MapFileUnavailable": [
+    "Map file unavailable; reconnect the drive or relocate / refresh the reference.",
+    "Файл карты недоступен: подключите диск или обновите ссылку на файл."
+  ],
+  "MapZoomOutside": [
+    "Outside this map's detail range; using fallback. Show coverage to return.",
+    "Масштаб вне диапазона карты: используется запасная карта. Нажмите «Показать область»."
+  ],
+  "MapOutsideCoverage": [
+    "Outside selected coverage; using fallback. Show coverage to return.",
+    "За пределами выбранной карты: используется запасная карта. Нажмите «Показать область»."
+  ],
+  "MapTilesVisible": [
+    "Local geographic tiles displayed",
+    "Локальные географические тайлы показаны"
+  ],
+  "MapTilesLoading": [
+    "Loading local map tiles…",
+    "Загрузка локальных тайлов карты…"
+  ],
+  "CopySelectedCompact": [
+    "Copy",
+    "Копировать"
+  ],
+  "CopyGroupCompact": [
+    "Copy group",
+    "Всю группу"
+  ],
+  "CopyHistoryCompact": [
+    "History",
+    "История"
+  ],
+  "MapNoTilesHere": [
+    "No tiles at this location; showing available offline context",
+    "В этом месте нет тайлов; показан доступный автономный фон"
+  ],
+  "InitialPreferencesHint": [
+    "A new profile uses your Windows UI language when supported, otherwise English. Theme starts with System. Your saved choices take priority.",
+    "Новый профиль использует поддерживаемый язык Windows, иначе английский. Тема по умолчанию — системная. Сохранённые настройки имеют приоритет."
+  ],
+  "AtlasPilot": [
+    "Experimental multiscale atlas",
+    "????????????????? ?????????????? ?????"
+  ]
+}

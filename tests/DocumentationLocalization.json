@@ -1,0 +1,18 @@
+{
+  "CopyPreserves": [
+    "Copy preserves originals",
+    "Копирование сохраняет оригиналы"
+  ],
+  "MoveSourceSafety": [
+    "Sources are removed only after verified destination commitment",
+    "Исходные файлы удаляются только после проверки и фиксации назначения"
+  ],
+  "MapConfirmation": [
+    "confirm before network activity",
+    "подтвердите действие до обращения к сети"
+  ],
+  "BinaryBlocked": [
+    "Binary redistribution remains blocked",
+    "Бинарное распространение заблокировано"
+  ]
+}

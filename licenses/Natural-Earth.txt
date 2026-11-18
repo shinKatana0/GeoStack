@@ -1,0 +1,5 @@
+Natural Earth v5.1.2 geographic data is public domain.
+Source: https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2/geojson
+Files: ne_110m_admin_0_countries.geojson; ne_10m_populated_places_simple.geojson
+Terms: https://www.naturalearthdata.com/about/terms-of-use/
+Boundaries are de facto and approximate.

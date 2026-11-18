@@ -1,0 +1,8 @@
+# Preserve reviewed source, data and license bytes across Windows checkouts.
+# The source manifest hashes exact bytes; do not normalize line endings in Git.
+* -text
+*.png binary
+*.ico binary
+*.gsgeo binary
+*.gsatlas binary
+*.gslite binary

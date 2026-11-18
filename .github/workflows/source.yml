@@ -1,0 +1,50 @@
+# Copyright 2026 shinKatana0
+# SPDX-License-Identifier: Apache-2.0
+name: Source build and publication checks
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check language, bilingual documentation, links and privacy rules
+        run: python scripts/check-public-tree.py --root . --report .local/public-audit.json
+      - name: Scan source with pinned Gitleaks
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force .local/security | Out-Null
+          Invoke-WebRequest -Uri 'https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_windows_x64.zip' -OutFile .local/security/gitleaks.zip
+          if((Get-FileHash .local/security/gitleaks.zip).Hash -ne 'D29144DEFF3A68AA93CED33DDDF84B7FDC26070ADD4AA0F4513094C8332AFC4E'){throw 'Scanner checksum mismatch'}
+          Expand-Archive .local/security/gitleaks.zip -DestinationPath .local/security -Force
+          & .local/security/gitleaks.exe dir . --config .gitleaks.toml --redact=100 --no-banner --report-format=json --report-path=.local/security/findings.json
+          if($LASTEXITCODE){throw 'Secret scan failed; review the redacted local report'}
+      - name: Build source without bundling native tools
+        shell: pwsh
+        run: |
+          . ./scripts/environment.ps1
+          dotnet restore GeoStack.sln --ignore-failed-sources -p:NuGetAudit=false
+          if($LASTEXITCODE){throw 'Restore failed'}
+          dotnet build GeoStack.sln -c Release --no-restore
+          if($LASTEXITCODE){throw 'Source build failed'}
+      - name: Run tool-independent transfer safety tests
+        shell: pwsh
+        run: |
+          . ./scripts/environment.ps1
+          $env:GEOSTACK_ROOT=$repo
+          dotnet test tests/GeoStack.Tests/GeoStack.Tests.csproj -c Release --no-build --no-restore --filter 'FullyQualifiedName~GeoStack.Tests.MoveTests|FullyQualifiedName~GeoStack.Tests.OrganizationTests'
+          if($LASTEXITCODE){throw 'Applicable tests failed'}
+      # No runtime acquisition, portable packaging, artifact upload or release publishing.

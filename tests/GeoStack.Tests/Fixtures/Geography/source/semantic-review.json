@@ -1,0 +1,139 @@
+{
+  "release": "2026-10-21.0",
+  "inputAreasSha256": "f56cbfe682548f8cb2736fb468644f6d989a0be15f59334c097b4bfb14372f6b",
+  "inputDivisionsSha256": "927f182f3f99929eeff0e1f90cacf47eee9d1752031ade1be1714e4da623af0a",
+  "semanticRulesSha256": "4087292c12f4b6ea3fabce95796e9cd8a164dbdc33e38bd8fa482c5996c1f8ed",
+  "wikidataRevisions": {
+    "Q120730": {
+      "revision": 2567296469,
+      "sha256": "c12abfc305199bb1be5a7afb0c3c54c069ae0fb45fa39fd464642cf77a26aac3"
+    },
+    "Q54169": {
+      "revision": 2561908331,
+      "sha256": "60458cbdbe4dd77fc0d98193f1b9623c9dc83b353730c01f998243f64be1f8b1"
+    },
+    "Q11943": {
+      "revision": 2564388958,
+      "sha256": "14b4ac4515b5119ff9d1532fe0e365111c9c60ad4d4bb76de6db745051dac1f0"
+    },
+    "Q8686": {
+      "revision": 2554225580,
+      "sha256": "e092be552fc0c953857cee7fd929dca4653e50156d7d6ad6c990541b54726c81"
+    },
+    "Q270": {
+      "revision": 2564660224,
+      "sha256": "68174be32df0b28a4b0658b58fcb741c89d6569bb2a445fdb7b365151c611d6f"
+    },
+    "Q660185": {
+      "revision": 2526613267,
+      "sha256": "760ecbcaec35e749d4f8141da1db0486d7e6bd78c953338f884d56eaf4446e5b"
+    },
+    "Q34600": {
+      "revision": 2565609745,
+      "sha256": "6544b2dab417fff41ed6d8b110662c64f7dd9205d2393d62b4f17b8bd35d7404"
+    },
+    "Q72": {
+      "revision": 2561618009,
+      "sha256": "370b635f6bd9e79580212331fe9d0575bc74e0823ad0a6039eddc5530e75cbed"
+    },
+    "Q214051": {
+      "revision": 2550833364,
+      "sha256": "9208053920adfec0ac96f9a8f41b35d9b874c81690af12b2b8488e8ad398fb56"
+    },
+    "Q191130": {
+      "revision": 2567625133,
+      "sha256": "b220d3f977d5b2351b74d2e691139382fa5734fc1c6d78f3643816dc00a1bb3e"
+    },
+    "Q7095": {
+      "revision": 2565559885,
+      "sha256": "fd11321ee9c6e34f43abbde7762881bcdb42eab026814a6f80d419c58faef9dd"
+    },
+    "Q10906638": {
+      "revision": 2526552064,
+      "sha256": "4ccf38468f8000a9675991e5a0206d6928f30d727a8f19f98b74a0336fe3135e"
+    },
+    "Q445559": {
+      "revision": 2560722702,
+      "sha256": "caa77c453dc79a81bae7c5b370ee14fc1b680d6e99b7659746da5552f88ffe62"
+    },
+    "Q1077022": {
+      "revision": 2550602642,
+      "sha256": "90c2f4e3a8f485c9d9e730773f56fefa4e8e0993478bc22a466135b00ef3cff2"
+    }
+  },
+  "simplificationDegrees": 1e-05,
+  "included": 20,
+  "omitted": [
+    {
+      "id": "b7c65e82-c8a1-4213-a8d4-77792a966207",
+      "reason": "Missing or ambiguous verified city/administrative region hierarchy"
+    },
+    {
+      "id": "2ab4b2a6-5412-4d78-903e-4aa02cf342bd",
+      "subtype": "county",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "b2784eef-f1ac-4166-8430-38e92b3fe4c0",
+      "subtype": "microhood",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "c7d7b7fe-50a0-45a7-8657-f774cbf786a6",
+      "subtype": "locality",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "e0f5ee13-1447-478a-9bf4-885814b0548a",
+      "subtype": "locality",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "9c9688ff-2f13-4884-80cf-e2136f640505",
+      "subtype": "county",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "fcf0aa53-af2e-401a-a5ce-a19396976f16",
+      "subtype": "county",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "f918084d-9d54-4d1a-ae93-9ccda876b069",
+      "subtype": "locality",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "12817bfe-cdc7-4c99-b568-da44eaf5e8ca",
+      "subtype": "microhood",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "3beb7653-3ddc-454a-a102-ce2daad1e3a1",
+      "subtype": "county",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "5849e679-b197-406c-a3f2-a89d22821dfe",
+      "subtype": "county",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    },
+    {
+      "id": "3c4e7160-9e0e-4239-a392-aa4f0e0770e4",
+      "subtype": "microhood",
+      "reason": "No reviewed city/district role; original point-only or intermediate semantics retained in raw source"
+    }
+  ],
+  "countries": [
+    "CH",
+    "CN",
+    "JP",
+    "PL"
+  ],
+  "levels": {
+    "country": 4,
+    "region": 6,
+    "city": 5,
+    "district": 5
+  }
+}

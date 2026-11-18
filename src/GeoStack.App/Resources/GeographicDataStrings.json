@@ -1,0 +1,150 @@
+{
+  "GeographicData": [
+    "Geographic data",
+    "Географические данные"
+  ],
+  "GeoManagerHint": [
+    "Boundary packages resolve each file offline. They are separate from raster maps. Import local packages by reference; removing a reference never deletes its file. Coverage and administrative meaning vary by source. The compact built-in country fallback remains available.",
+    "Пакеты границ определяют местоположение каждого файла без интернета и не зависят от растровых карт. Импорт выполняется по ссылке; удаление ссылки не удаляет файл. Покрытие и смысл границ зависят от источника. Компактные встроенные границы стран остаются доступны."
+  ],
+  "GeoImport": [
+    "Import boundary package",
+    "Импорт пакета границ"
+  ],
+  "GeoPackageFilter": [
+    "GeoStack geographic packages (*.gsgeo)|*.gsgeo",
+    "Географические пакеты GeoStack (*.gsgeo)|*.gsgeo"
+  ],
+  "GeoRevalidate": [
+    "Validate / refresh",
+    "Проверить / обновить"
+  ],
+  "GeoLevels": [
+    "Available levels",
+    "Доступные уровни"
+  ],
+  "GeoVersion": [
+    "Source version",
+    "Версия источника"
+  ],
+  "GeoLicense": [
+    "License",
+    "Лицензия"
+  ],
+  "GeoValidation": [
+    "Validation",
+    "Проверка"
+  ],
+  "GeoBuiltInFallback": [
+    "Built-in country fallback",
+    "Встроенные границы стран"
+  ],
+  "GeoCountryLevel": [
+    "Country (coarse)",
+    "Страна (приблизительно)"
+  ],
+  "GeoLevel_country": [
+    "Country",
+    "Страна"
+  ],
+  "GeoLevel_region": [
+    "Region / province",
+    "Регион / область"
+  ],
+  "GeoLevel_city": [
+    "City / locality",
+    "Город / населённый пункт"
+  ],
+  "GeoLevel_district": [
+    "District / neighborhood",
+    "Район / квартал"
+  ],
+  "GeoValidated": [
+    "Validated",
+    "Проверено"
+  ],
+  "GeoCatalogUnavailable": [
+    "Catalog unavailable; using built-in fallback",
+    "Каталог недоступен; используются встроенные данные"
+  ],
+  "GeoOperationFailed": [
+    "Geographic data operation failed",
+    "Ошибка операции с географическими данными"
+  ],
+  "GeoUnsupportedPackage": [
+    "Unsupported geographic package version or format",
+    "Неподдерживаемая версия или формат географического пакета"
+  ],
+  "GeoInvalidPackage": [
+    "Invalid or corrupt geographic package",
+    "Неверный или повреждённый географический пакет"
+  ],
+  "GeoInvalidGeometry": [
+    "Invalid or excessive polygon geometry",
+    "Неверная или слишком большая геометрия полигона"
+  ],
+  "GeoTooManyOverlaps": [
+    "Excessive overlapping boundaries; using fallback",
+    "Слишком много перекрывающихся границ; используется резервное определение"
+  ],
+  "GeoPackageLimit": [
+    "At most 32 optional geographic packages can be registered",
+    "Можно зарегистрировать не более 32 дополнительных географических пакетов"
+  ],
+  "GeoWarnings": [
+    "Location uncertainty",
+    "Неопределённость места"
+  ],
+  "GeoMissingGps": [
+    "No GPS; manual destination or unknown location",
+    "Нет GPS; выберите папку вручную или неизвестное место"
+  ],
+  "GeoPackageUnavailable": [
+    "An optional dataset is missing or invalid; fallback used where needed",
+    "Дополнительный набор данных отсутствует или повреждён; при необходимости используется резервное определение"
+  ],
+  "GeoDatasetOutdated": [
+    "Dataset is over three years old; review its validity",
+    "Набору данных более трёх лет; проверьте его актуальность"
+  ],
+  "GeoAmbiguousBoundary": [
+    "Overlapping jurisdictions; a more general location is proposed",
+    "Перекрывающиеся территории; предлагается более общее место"
+  ],
+  "GeoCoarseCountry": [
+    "Coarse cartographic country boundary",
+    "Приблизительная картографическая граница страны"
+  ],
+  "GeoRegionFallback": [
+    "City boundary unavailable; region fallback",
+    "Граница города недоступна; используется регион"
+  ],
+  "GeoCountryFallback": [
+    "City boundary unavailable; country fallback",
+    "Граница города недоступна; используется страна"
+  ],
+  "GeoUnknownLocation": [
+    "No reliable boundary match; edit destination manually",
+    "Надёжное совпадение с границами отсутствует; измените папку вручную"
+  ],
+  "GeoBorderUncertain": [
+    "Point is on or near a boundary; review the proposed location",
+    "Точка находится на границе или рядом с ней; проверьте предлагаемое место"
+  ],
+  "GeoAdministrativeCityExtent": [
+    "Administrative municipal/metropolitan boundary; includes more than the urban footprint",
+    "Административная граница муниципалитета или мегаполиса; она шире городской застройки"
+  ],
+  "GeoDatasetChanged": [
+    "Package file changed; validate or reimport",
+    "Файл пакета изменён; проверьте или импортируйте его заново"
+  ],
+  "GeoNeighborhoodExtent": [
+    "Provider-defined neighborhood extent; not necessarily an administrative district",
+    "Граница квартала из набора данных; не обязательно административный район"
+  ],
+  "GeoPublicDomain": [
+    "Public domain",
+    "Общественное достояние"
+  ]
+}

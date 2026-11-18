@@ -1,0 +1,16 @@
+<!-- Copyright 2026 shinKatana0 | SPDX-License-Identifier: Apache-2.0 -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><StartupObject>GeoStack.App.Program</StartupObject><Version>0.5.5</Version></PropertyGroup>
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><AssemblyName>GeoStack</AssemblyName><RootNamespace>GeoStack.App</RootNamespace><ApplicationManifest>app.manifest</ApplicationManifest><ApplicationIcon>../../assets/branding/GeoStack.ico</ApplicationIcon></PropertyGroup>
+  <ItemGroup><Resource Include="../../assets/branding/GeoStack.ico" Link="Branding/GeoStack.ico"/><Resource Include="../../assets/branding/GeoStack-256.png" Link="Branding/GeoStack.png"/></ItemGroup>
+  <PropertyGroup><GeoStackChannel Condition="'$(GeoStackChannel)' == ''">Preview</GeoStackChannel></PropertyGroup>
+  <ItemGroup><AssemblyMetadata Include="GeoStackChannel" Value="$(GeoStackChannel)"/></ItemGroup>
+  <ItemGroup><ProjectReference Include="../GeoStack.Core/GeoStack.Core.csproj"/><Content Include="../../assets/geography/**" Link="geography/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"/><Content Include="../../licenses/**" Link="licenses/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"/></ItemGroup>
+  <ItemGroup>
+    <Content Include="../../README.md" Link="README.md" CopyToOutputDirectory="PreserveNewest"/>
+    <Content Include="../../docs/GEOGRAPHIC_ORGANIZATION.md;../../docs/OFFLINE_MAPS.md;../../docs/PHYSICAL_ACCEPTANCE.md;../../docs/REDISTRIBUTION_STATUS.md" Link="docs/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"/>
+    <EmbeddedResource Update="Resources/Strings.en-US.resx" WithCulture="false" LogicalName="GeoStack.App.Resources.English.resources"/>
+    <EmbeddedResource Update="Resources/Strings.ru-RU.resx" WithCulture="false" LogicalName="GeoStack.App.Resources.Russian.resources"/>
+  </ItemGroup>
+  <ItemGroup><Content Include="../../offline-maps/atlas-pilot-compact/*.gsatlas;../../offline-maps/atlas-pilot-compact/MANIFEST.json" Link="atlas/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest"/></ItemGroup>
+</Project>

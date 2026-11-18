@@ -1,0 +1,160 @@
+{
+  "Schema": 1,
+  "Packages": [
+    {
+      "Id": "world",
+      "File": "world.gsatlas",
+      "Bytes": 1572107,
+      "ExpandedBytes": 4809261,
+      "SHA256": "05bb5d14584a7cab7d38ccead93b28b7968c404988d8ff1da4a40e187af495ec",
+      "Features": 3265,
+      "Vertices": 132180,
+      "Labels": 7519,
+      "Coverage": [
+        -180,
+        -85.05113,
+        180,
+        85.05113
+      ],
+      "Source": {
+        "Name": "Natural Earth",
+        "Version": "ca96624a56bd078437bca8184e78163e5039ad19",
+        "License": "Public domain",
+        "URL": "https://www.naturalearthdata.com/about/terms-of-use/"
+      },
+      "InputSHA256": "96b0af035835346b13978224363f4d0b7b467c68d9178725162562a66c43a1ea",
+      "Generalization": "Park/urban rings: 1 native pixel at LOD8, 1.5 at LOD10; sub-pixel islands/holes omitted. Roads, water, rivers and boundaries unchanged. Visual map only, never administrative lookup."
+    },
+    {
+      "Id": "zurich",
+      "File": "zurich.gsatlas",
+      "Bytes": 1992989,
+      "ExpandedBytes": 7662641,
+      "SHA256": "f68a08301a3d6883960faff74d89f50d24513abad3e24a5214e66e43b4efa1f5",
+      "Features": 218,
+      "Vertices": 285741,
+      "Labels": 1328,
+      "Coverage": [
+        7.940200000000001,
+        46.8782,
+        9.1402,
+        47.8782
+      ],
+      "Source": {
+        "Name": "Protomaps OSM",
+        "Version": "4.14.3 / 2026-03-31",
+        "License": "OSM ODbL Produced Work; attribution required; derivative geometry licensing review before public redistribution",
+        "URL": "https://data.source.coop/protomaps/openstreetmap/v4.pmtiles",
+        "SourceIdentity": {
+          "Source": "https://data.source.coop/protomaps/openstreetmap/v4.pmtiles",
+          "ETag": "\"9e09dd251e816c0ea9208e1e34c28eba-2572\""
+        },
+        "OriginalFeatures": {
+          "land": 25,
+          "urban": 4441,
+          "park": 9998,
+          "water": 91,
+          "boundary": 87,
+          "road-major": 144,
+          "road-secondary": 413,
+          "river": 348
+        },
+        "SourceTiles": 24
+      },
+      "InputSHA256": "b78fd38bfb62fc0e8de52d828decf5c6239ee5078a196c5d0c2aa53cde371057",
+      "Generalization": "Park/urban rings: 1 native pixel at LOD8, 1.5 at LOD10; sub-pixel islands/holes omitted. Roads, water, rivers and boundaries unchanged. Visual map only, never administrative lookup."
+    },
+    {
+      "Id": "warsaw",
+      "File": "warsaw.gsatlas",
+      "Bytes": 1648390,
+      "ExpandedBytes": 6530486,
+      "SHA256": "3bdfca843c5f27a57d64486bed85877eac3a3ffa7b9cda53e4f88bb06578c399",
+      "Features": 248,
+      "Vertices": 233102,
+      "Labels": 2750,
+      "Coverage": [
+        20.4122,
+        51.7297,
+        21.6122,
+        52.7297
+      ],
+      "Source": {
+        "Name": "Protomaps OSM",
+        "Version": "4.14.3 / 2026-03-31",
+        "License": "OSM ODbL Produced Work; attribution required; derivative geometry licensing review before public redistribution",
+        "URL": "https://data.source.coop/protomaps/openstreetmap/v4.pmtiles",
+        "SourceIdentity": {
+          "Source": "https://data.source.coop/protomaps/openstreetmap/v4.pmtiles",
+          "ETag": "\"9e09dd251e816c0ea9208e1e34c28eba-2572\""
+        },
+        "OriginalFeatures": {
+          "land": 28,
+          "park": 10363,
+          "urban": 4547,
+          "water": 105,
+          "boundary": 83,
+          "road-major": 86,
+          "road-secondary": 168,
+          "river": 229
+        },
+        "SourceTiles": 28
+      },
+      "InputSHA256": "66f6643b1ce3ffc812862fe984081439d2f451bfe1838978368d7c80a259f034",
+      "Generalization": "Park/urban rings: 1 native pixel at LOD8, 1.5 at LOD10; sub-pixel islands/holes omitted. Roads, water, rivers and boundaries unchanged. Visual map only, never administrative lookup."
+    }
+  ],
+  "NewSourceDownloadedBytes": 1383426,
+  "NaturalEarthSources": [
+    {
+      "URL": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_ocean.geojson",
+      "Bytes": 1383426,
+      "SHA256": "5b810162af4b20805838cfd766ef1a445c350cf6aafc8b589515daef30033adf",
+      "License": "Natural Earth public domain"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_land.geojson",
+      "Bytes": 1636166,
+      "SHA256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b",
+      "License": "Natural Earth public domain"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_lakes.geojson",
+      "Bytes": 876018,
+      "SHA256": "d350b75978b26fe839b797c2c529b2fb8f47fb3983c03f4964e36d5df9378a52",
+      "License": "Natural Earth public domain"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_rivers_lake_centerlines.geojson",
+      "Bytes": 827318,
+      "SHA256": "f286e0ce978fde999ca2d7a78c764be08542e19b63cded52b05c12d5173ccc51",
+      "License": "Natural Earth public domain"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_admin_0_boundary_lines_land.geojson",
+      "Bytes": 760189,
+      "SHA256": "2faac4f6b34386f3d21b6e018cf151f241f00e5c936d44dd17d7d9bfb147fa48",
+      "License": "Natural Earth public domain"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_50m_admin_1_states_provinces_lines.geojson",
+      "Bytes": 882513,
+      "SHA256": "72cca93c850d412628a5da4bc5ebfe21ba4d376eb34611bde6b623ee73f0fdcf",
+      "License": "Natural Earth public domain"
+    }
+  ],
+  "RegionalDownloads": 0,
+  "Variant": "Compact cartographic areas",
+  "AdditionalDownloads": 0,
+  "DevelopmentDependencies": {
+    "shapely": "2.1.2",
+    "mapbox-vector-tile": "2.2.0",
+    "pmtiles": "3.8.1"
+  },
+  "RuntimeDependenciesAdded": [],
+  "NaturalEarthSourceBytes": 6365630,
+  "WorldLabelSources": {
+    "assets\\geography\\countries.geojson": "aadc4c0b305047e87db2e1e207a63830563bdc8cd18f3b0a064ded6d316ff448",
+    "assets\\geography\\cities.geojson": "79c7fa2bca91d6fed94445cf843b2eeb2229718d126c2b257f2436472d8facd4"
+  }
+}

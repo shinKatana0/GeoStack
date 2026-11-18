@@ -1,0 +1,22 @@
+GeoStack optional geographic data — local development bundle
+
+Derived from Overture Maps release 2026-10-21.0. Database licensed under ODbL 1.0.
+Attribution: OpenStreetMap contributors; Overture Maps Foundation; geoBoundaries;
+Esri Community Maps contributors. Applicable source name attributes use CC BY 4.0.
+Wikidata structured semantic metadata uses CC0 1.0.
+
+Changes: selection of complete source polygons, hierarchy/role normalization,
+recorded topology-preserving simplification, warning metadata, and SQLite R-tree indexing.
+This bundle provides selected city/region coverage, not complete country-wide city coverage.
+Tokyo is a region fallback; Shanghai uses its actual direct-administered municipality.
+No point location or nearest-city calculation generated any geometry.
+
+The complete derived database is in the .gsgeo files. Readable conversion inputs,
+source IDs, semantic entity revisions and source-containment evidence are supplied.
+Source distribution: https://docs.overturemaps.org/guides/divisions/
+Attribution: https://docs.overturemaps.org/attribution/#divisions
+Licenses: see licenses/. Public application redistribution remains a separate unresolved gate.
+
+Installation: Maps → Geographic data → Import boundary package. Import each desired
+.gsgeo by reference. Disabling/removing a catalog entry never deletes these files.
+Normal operation is fully offline; no Python, PyArrow, Shapely or Wikidata service is required.
