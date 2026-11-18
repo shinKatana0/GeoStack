@@ -11,4 +11,4 @@ English | [Russian](CHANGELOG.ru.md)
 - Copy or move selected media into country/city folders with destination previews, file verification and recovery records.
 - Use English or Russian, with System, Light and Dark themes.
 
-This repository provides source code under Apache-2.0, Copyright 2026 shinKatana0. Official Windows binaries are not yet distributed; see [distribution status](docs/REDISTRIBUTION_STATUS.md).
+The Windows 0.5.5 portable package is prepared; publication is pending. GeoStack-owned source is Apache-2.0, Copyright 2026 shinKatana0. See [Windows release materials](docs/WINDOWS_RELEASE.md).

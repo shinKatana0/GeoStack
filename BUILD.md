@@ -44,6 +44,13 @@ The script uses synthetic/licensed fixtures and may download missing samples. Th
 <!-- section:portable -->
 ## Portable packaging
 
-Compiling and running from source is separate from producing a portable package. `scripts/build-portable.ps1` remains a release-engineering script and needs additional packaging inputs and local tools; it is not a complete public packaging procedure for this source-only snapshot.
+The Windows RC4 reproduction inputs and exact media-tool lock are described in [Windows release materials](docs/WINDOWS_RELEASE.md). Download the pinned compiler-input archive when the release is published. This archive preserves the original build revision without importing private Git history. From the public source root, the following command verifies every compiler input and all corresponding public product sources; add --build to compile into a separate experimental directory. It never replaces the release ZIP.
 
-Windows binary distribution still has unresolved tool/source and notice requirements. Do not upload a locally generated portable package. See [distribution status](docs/REDISTRIBUTION_STATUS.md).
+```powershell
+python scripts/reproduce-windows-rc4.py --inputs GeoStack-0.5.5-RC4-build-sources.zip --output .local/rc4-reproduction
+```
+
+
+```powershell
+./scripts/build-portable.ps1 -RC4InputsArchive GeoStack-0.5.5-RC4-build-sources.zip -RC4ReferenceArchive GeoStack-0.5.5-windows-x64.zip -OutputFolder dist/rc4-reproduction -Channel Production -SkipTests
+```

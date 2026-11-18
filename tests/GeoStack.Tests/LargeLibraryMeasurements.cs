@@ -21,7 +21,7 @@ public sealed class LargeLibraryMeasurements
         foreach(var size in new[]{40,160})
         {
             var data=Path.Combine(root,".local",$"profile05-{count}-{size}-"+Guid.NewGuid().ToString("N"));Directory.CreateDirectory(data);
-            using var index=new MediaIndex(Path.Combine(data,"index.db"));var service=new ScanService(Path.Combine(root,"tools/ExifTool/ExifTool.exe")){BatchSize=size};
+            using var index=new MediaIndex(Path.Combine(data,"index.db"));var service=new ScanService(TestMediaTools.ExifTool){BatchSize=size};
             var clock=Stopwatch.StartNew();var result=await service.ScanAsync(folder,index,null,TestContext.Current.CancellationToken);
             File.WriteAllText(Path.Combine(data,"errors.json"),JsonSerializer.Serialize(result.Errors));
             Assert.Equal(count,result.Discovered);Assert.Equal(count,result.Items.Count);Assert.Empty(result.Errors);var cold=clock.Elapsed.TotalMilliseconds;var measurements=service.Measurements;

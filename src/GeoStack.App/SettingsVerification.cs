@@ -39,7 +39,9 @@ public partial class MainWindow
                 var themeText = ((SolidColorBrush)App.Current.Resources["Text"]).Color;
                 if (preferenceLabels.Length != 2 || preferenceLabels.Any(l => l.Foreground is not SolidColorBrush brush || brush.Color != themeText)) throw new InvalidOperationException("Preference label theme contrast regression");
                 if (!texts.Contains(Strings.Get("About")) || !texts.Contains(Strings.Get("Help")) || !texts.Contains(Strings.Get("AboutText")) || !texts.Contains(string.Format(Strings.Get("InstalledVersion"), ApplicationInformation.InstalledVersion))) throw new InvalidOperationException("Missing Settings information");
-                var links = Descendants(settings).OfType<Button>().Where(b => b != settings.CloseButton).ToArray();
+                var documentNames = ApplicationInformation.HelpDocuments.Select(d => Strings.Get(d.Label))
+                    .Concat(new[] { Strings.Get("ThirdPartyLicenses"), Strings.Get("RedistributionNotes") }).ToHashSet();
+                var links = Descendants(settings).OfType<Button>().Where(b => documentNames.Contains(AutomationProperties.GetName(b))).ToArray();
                 if (links.Length != 6 || links.Any(b => !b.IsEnabled || string.IsNullOrWhiteSpace(AutomationProperties.GetName(b)))) throw new InvalidOperationException("Unavailable Settings documentation link");
                 if (settings.SelectedLanguage != language || settings.SelectedTheme != theme || !settings.CloseButton.IsCancel) throw new InvalidOperationException("Preferences/keyboard close regression");
                 var focusable = new[] { settings.LanguagePicker, settings.ThemePicker }.Cast<Control>().Concat(links).Append(settings.CloseButton).ToArray();

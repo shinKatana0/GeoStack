@@ -80,7 +80,7 @@ public sealed class CoreTests
         var fixtures=Path.Combine(Root,".local/fixtures"); Assert.True(Directory.Exists(fixtures),"Run scripts/create-fixtures.ps1 first");
         var before=Directory.GetFiles(fixtures,"*",SearchOption.AllDirectories).ToDictionary(p=>p,p=>Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(p))));
         using var db=new MediaIndex(Path.Combine(Temporary(),"index.db"));
-        var result=await new ScanService(Path.Combine(Root,"tools/ExifTool/ExifTool.exe")).ScanAsync(fixtures,db,null,CancellationToken.None);
+        var result=await new ScanService(TestMediaTools.ExifTool).ScanAsync(fixtures,db,null,CancellationToken.None);
         Assert.Contains(result.Items,m=>m.Name=="Paris-01.jpg" && m.HasLocation && Math.Abs(m.Latitude!.Value-48.8566)<.0001);
         Assert.Contains(result.Items,m=>m.Name=="Moscow.mov" && m.HasLocation && Math.Abs(m.Longitude!.Value-37.6173)<.0001);
         Assert.Contains(result.Items,m=>m.Name=="No-GPS.png" && !m.HasLocation);

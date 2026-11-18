@@ -7,7 +7,8 @@
   "IntendedRepository": "shinKatana0/GeoStack",
   "PublicEmail": "shinKatana0@users.noreply.github.com",
   "Branding": "APACHE_2_0",
-  "DependencyRedistribution": "BLOCKED",
+  "DependencyRedistribution": "SELECTED_RC4_MATERIALS_PREPARED",
   "SourceGate": "SOURCE_RELEASE_READY_FOR_PUBLICATION",
-  "BinaryGate": "BINARY_RELEASE_BLOCKED_LICENSING"
+  "BinaryGate": "PENDING_OWNER_PUBLICATION_AUTHORIZATION",
+  "PhysicalCrossVolume": "NOT_TESTED"
 }

@@ -10,13 +10,4 @@ GeoStack-owned source and original branding are licensed under Apache-2.0, Copyr
 <!-- section:binary -->
 ## Windows packages
 
-Official Windows binaries are not yet distributed. The outstanding requirements apply to the exact bundled tools and data, independently of GeoStack's source license.
-
-| Component | Status and missing material |
-|---|---|
-| FFmpeg GPL-3.0-or-later | BLOCKED: matching complete corresponding source, patches and build/install recipes. |
-| ExifTool/Perl native modules | BLOCKED: matching native source/build provenance and required notices for Brotli, Win32::FindFile and other components. |
-| Geographic data | A binary package must include its own required attribution and data-access materials; the source tree already includes the source-scope materials. |
-| Code signing | Public signing is not established. Do not use a self-signed certificate as a public trust mechanism. |
-
-An LGPL-labelled replacement still needs its exact binary, source and redistribution obligations checked. A successful local build does not clear a package for redistribution.
+The selected Windows 0.5.5 RC4 package is prepared for publication. Official download availability remains pending. The exact runtime lock and accompanying source/notice assets replace the older FFmpeg GPL and native-module gaps; this is not permission to redistribute arbitrary tool builds. FFmpeg 9.0.1 is LGPL-2.1-or-later with matching complete sources and build inputs. ExifTool/Perl retains standard-object, source-built and permissive component arrangements, with exact notices and source access. Complete bundled ODbL adapted databases, attribution and readable export tools are included. Executables are unsigned; no trusted Authenticode signing is claimed. Physical cross-volume testing remains NOT_TESTED by owner choice. See [Windows release materials](WINDOWS_RELEASE.md) and [the exact lock](../release/dependencies.lock.json).

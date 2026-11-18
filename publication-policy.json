@@ -89,6 +89,10 @@
     {
       "English": "THIRD_PARTY_NOTICES.md",
       "Russian": "THIRD_PARTY_NOTICES.ru.md"
+    },
+    {
+      "English": "docs/WINDOWS_RELEASE.md",
+      "Russian": "docs/WINDOWS_RELEASE.ru.md"
     }
   ],
   "MachineMarkdown": {
@@ -171,7 +175,7 @@
       "MapConfirmation"
     ],
     "THIRD_PARTY_NOTICES.md": [
-      "BinaryBlocked"
+      "SelectedRuntime"
     ]
   },
   "ReservedSyntheticPaths": "Tests may use virtual C:/synthetic or destination paths without reading them; never owner filesystem paths."

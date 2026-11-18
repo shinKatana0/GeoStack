@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "version": "0.5.5",
+  "proposed_tag": "v0.5.5",
+  "publication": "PENDING_OWNER_AUTHORIZATION",
+  "public_base": "bb604125e310b6b11cd988a8da4479ad2ace9735",
+  "original_build_revision": "df4a9d7e4913db3f6eeb74045149ba2f9a40c8d6",
+  "original_informational_version": "0.5.5+df4a9d7e4913db3f6eeb74045149ba2f9a40c8d6",
+  "compiler_inputs": {
+    "file": "GeoStack-0.5.5-RC4-build-sources.zip",
+    "bytes": 23682689,
+    "sha256": "2028E95DC6B935CBB33FFCC4E24573EDE0A6BF0E13BD1D20E65DE9133E1C6A17",
+    "compiler_source_files": 116,
+    "input_files": 164
+  },
+  "application_binaries": {
+    "GeoStack.exe": "E3B8D3CF42B30FFD1D191772BF604BBFA99F515993E3AE3BF7280BE69977946A",
+    "GeoStack.dll": "986E0F933B3507667040D447661D38674635334556A3F9F79F05B1858B14073F",
+    "GeoStack.Core.dll": "AABB46F741B0E0E73E04D1B1C1F1FF29C0D437C8FA60AE50E35E7EEFDD9FE604"
+  },
+  "assets": [
+    {
+      "file": "GeoStack-0.5.5-windows-x64.zip",
+      "bytes": 111425302,
+      "sha256": "671ADC76C39CCA5E4A14FAA8720DC132312B7A36A877647FC22D925B778F1063"
+    },
+    {
+      "file": "GeoStack-0.5.5-ffmpeg-sources-RC4.zip",
+      "bytes": 13620279,
+      "sha256": "7D0D0CEE582C0A7929BEE9CE30F5D2E45EA02B641A16DFB76200CC9452BB0615"
+    },
+    {
+      "file": "GeoStack-0.5.5-perl-notices-and-sources-RC4.zip",
+      "bytes": 28808423,
+      "sha256": "B3547AE94A1B6D52050950A40BCA9C855AE9313D25624930F2EC592414DF5C4F"
+    }
+  ],
+  "source_relationship": "Public counterpart differs only by owner license headers and line endings from the archived exact product sources. The original build revision is archival provenance, not a claim that private Git history is public. Verify all source bytes with reproduce-windows-rc4.py. Windows working-file line endings are preserved in the archive after verification against Git-normalized original revision content; PE manifest bytes are build inputs.",
+  "geographic_materials": "Complete bundled adapted databases plus notices and readable reader remain inside portable ZIP. Optional downloaded maps retain separate terms."
+}

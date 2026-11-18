@@ -13,7 +13,7 @@ public sealed class CatalogRemovalTests
 {
     private static string Root=>Environment.GetEnvironmentVariable("GEOSTACK_ROOT")!;
     private static string Temporary(){var p=Path.GetFullPath(TestStorage.Create(Root));Directory.CreateDirectory(p);return p;}
-    private static ScanService Scanner=>new(Path.Combine(Root,"tools/ExifTool/ExifTool.exe"));
+    private static ScanService Scanner=>new(TestMediaTools.ExifTool);
     private sealed class InlineProgress(Action<ScanProgress> action):IProgress<ScanProgress>{public void Report(ScanProgress value)=>action(value);}
 
     [Theory]

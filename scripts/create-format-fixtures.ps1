@@ -5,7 +5,8 @@ python "$PSScriptRoot/fetch-format-fixtures.py"
 if ($LASTEXITCODE -ne 0) { throw 'Licensed fixture acquisition failed' }
 $folder = Join-Path $repo '.local/format-fixtures'
 $exif = Join-Path $repo 'tools/ExifTool/ExifTool.exe'
-$ffmpeg = Join-Path $repo 'tools/FFmpeg/ffmpeg.exe'
+# A separate approved fixture producer may supply encoders absent from a decoder build.
+$ffmpeg = if ($env:GEOSTACK_FIXTURE_FFMPEG) { $env:GEOSTACK_FIXTURE_FFMPEG } else { Join-Path $repo 'tools/FFmpeg/ffmpeg.exe' }
 $env:LC_ALL = 'C'; $env:LC_CTYPE = 'C'; $env:LANG = 'C'
 Copy-Item "$folder/libheif-example.heic" "$folder/HEIC-GPS.heic" -Force
 Copy-Item "$folder/libheif-example.heic" "$folder/HEIF-noGPS.heif" -Force

@@ -12,7 +12,7 @@ public sealed class MediaImportTests
     private static string Root => Environment.GetEnvironmentVariable("GEOSTACK_ROOT")!;
     private static string Temporary() { var p=Path.GetFullPath(TestStorage.Create(Root));Directory.CreateDirectory(p);return p; }
     private static string Fixture(string name) => Path.Combine(Root,".local/format-fixtures",name);
-    private static ScanService Scanner => new(Path.Combine(Root,"tools/ExifTool/ExifTool.exe"));
+    private static ScanService Scanner => new(TestMediaTools.ExifTool);
 
     [Theory]
     [InlineData("Generated.jpg")][InlineData("HEIC-GPS.heic")][InlineData("Generated.MOV")][InlineData("Generated.MP4")]

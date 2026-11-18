@@ -59,7 +59,7 @@ public sealed class HardeningTests
     [Fact] public async Task UnchangedRescanReusesMetadataAndChangedFilesInvalidateCache()
     {
         var folder=Temporary(); var source=Path.Combine(folder,"photo.jpg"); File.Copy(Path.Combine(Root,".local/fixtures/Paris-01.jpg"),source);
-        using var db=new MediaIndex(Path.Combine(Temporary(),"index.db")); var scanner=new ScanService(Path.Combine(Root,"tools/ExifTool/ExifTool.exe"));
+        using var db=new MediaIndex(Path.Combine(Temporary(),"index.db")); var scanner=new ScanService(TestMediaTools.ExifTool);
         var first=await scanner.ScanAsync(folder,db,null,CancellationToken.None); Assert.Equal(0,first.Reused);
         var second=await scanner.ScanAsync(folder,db,null,CancellationToken.None); Assert.Equal(1,second.Reused); Assert.Equal(first.Items[0],second.Items[0]);
         File.SetLastWriteTimeUtc(source,File.GetLastWriteTimeUtc(source).AddSeconds(2)); var third=await scanner.ScanAsync(folder,db,null,CancellationToken.None); Assert.Equal(0,third.Reused);
@@ -67,7 +67,7 @@ public sealed class HardeningTests
     [Fact] public async Task ValidHeicMetadataAndPortableDecoding()
     {
         var folder=Path.Combine(Root,".local/format-fixtures"); Assert.True(File.Exists(Path.Combine(folder,"HEIC-GPS.heic")),"Run scripts/create-format-fixtures.ps1");
-        using var db=new MediaIndex(Path.Combine(Temporary(),"index.db")); var result=await new ScanService(Path.Combine(Root,"tools/ExifTool/ExifTool.exe")).ScanAsync(folder,db,null,CancellationToken.None);
+        using var db=new MediaIndex(Path.Combine(Temporary(),"index.db")); var result=await new ScanService(TestMediaTools.ExifTool).ScanAsync(folder,db,null,CancellationToken.None);
         var heic=Assert.Single(result.Items,m=>m.Name=="HEIC-GPS.heic"); Assert.Equal(51.4778,heic.Latitude!.Value,4); Assert.Equal(-.0015,heic.Longitude!.Value,4);
         Assert.False(Assert.Single(result.Items,m=>m.Name=="HEIF-noGPS.heif").HasLocation);
         var cache=Temporary(); var preview=new PreviewService(cache); var image=await preview.GetAsync(heic.Path); Assert.NotNull(image); Assert.True(image.Width>=256);
@@ -125,7 +125,7 @@ public sealed class HardeningTests
     }
     [Fact] public async Task PackagedLocationStructuresReadExpectedSigns()
     {
-        var tool=Path.Combine(Root,"tools/ExifTool/ExifTool.exe"); var folder=Path.Combine(Root,".local/format-fixtures");
+        var tool=TestMediaTools.ExifTool; var folder=Path.Combine(Root,".local/format-fixtures");
         var response=await ToolProcess.Run(tool,["-config","","-json","-n","-GPSLatitude","-GPSLongitude",Path.Combine(folder,"Generated.MOV"),Path.Combine(folder,"Generated.MP4")],CancellationToken.None);
         var items=ExifParser.Parse(response.Output); Assert.Equal(37.7749,items[0].Latitude!.Value,4); Assert.Equal(-122.4194,items[0].Longitude!.Value,4); Assert.Equal(-33.86,items[1].Latitude!.Value,4); Assert.Equal(151.2,items[1].Longitude!.Value,4);
     }
@@ -195,7 +195,7 @@ public sealed class HardeningTests
         File.Copy(Path.Combine(Root,".local/fixtures/Paris-01.jpg"),Path.Combine(folder,"\u0444\u043e\u0442\u043e.jpg"));
         File.Copy(Path.Combine(Root,".local/format-fixtures/HEIC-GPS.heic"),Path.Combine(folder,"\u043c\u0435\u0441\u0442\u043e.heic"));
         File.Copy(Path.Combine(Root,".local/format-fixtures/Nikon-Z6.NEF"),Path.Combine(folder,"\u043a\u0430\u043c\u0435\u0440\u0430.nef"));
-        using var db=new MediaIndex(Path.Combine(Temporary(),"index.db")); var result=await new ScanService(Path.Combine(Root,"tools/ExifTool/ExifTool.exe")).ScanAsync(folder,db,null,CancellationToken.None);
+        using var db=new MediaIndex(Path.Combine(Temporary(),"index.db")); var result=await new ScanService(TestMediaTools.ExifTool).ScanAsync(folder,db,null,CancellationToken.None);
         Assert.Equal(3,result.Items.Count); Assert.Empty(result.Errors); Assert.Equal(2,result.Items.Count(m=>m.HasLocation));
         var previews=new PreviewService(Temporary()); foreach(var item in result.Items) Assert.NotNull(await previews.GetAsync(item.Path,true));
     }

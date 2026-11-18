@@ -1,12 +1,12 @@
 {
   "Schema": 1,
-  "Status": "BLOCKED_REDISTRIBUTION",
-  "SourceCommit": "a6c878ceff8d533ba82c758946394a2b87cd4b50",
+  "Status": "SELECTED_WINDOWS_RC4",
+  "SourceCommit": "df4a9d7e4913db3f6eeb74045149ba2f9a40c8d6",
   "Files": [
     {
       "Path": "tools/FFmpeg/ffmpeg.exe",
-      "Bytes": 222229504,
-      "SHA256": "57C56E369D5B4873B4D93FC1A1D833CB7CD8BC9325C14B05C34CE60B22842D8A",
+      "Bytes": 27853824,
+      "SHA256": "39FBFE354975ADC48CA57713634BAEF31C6E725ED827CA8C7B9DA570F6380386",
       "ComponentGroup": "FFmpeg"
     },
     {
@@ -49,12 +49,6 @@
       "Path": "tools/ExifTool/exiftool_files/libgcc_s_seh-1.dll",
       "Bytes": 76288,
       "SHA256": "5C67505C405F717D59FF2C583A11F54300DC9BF1577713B5DBBD00588C957325",
-      "ComponentGroup": "ExifTool and Strawberry Perl"
-    },
-    {
-      "Path": "tools/ExifTool/exiftool_files/liblzma-5__.dll",
-      "Bytes": 154319,
-      "SHA256": "F8863EDC9C330456F1914AB054EF1EC839042CA3E5F172019C53760880D550E0",
       "ComponentGroup": "ExifTool and Strawberry Perl"
     },
     {
@@ -949,12 +943,6 @@
       "Path": "tools/ExifTool/exiftool_files/lib/Math/BigInt/FastCalc.pm",
       "Bytes": 4111,
       "SHA256": "BA4C6959B14456116641DD5F91C73F8AA6071A469F5CDCE03A60B2C7C83C17D3",
-      "ComponentGroup": "ExifTool and Strawberry Perl"
-    },
-    {
-      "Path": "tools/ExifTool/exiftool_files/lib/Math/BigInt/GMP.pm",
-      "Bytes": 1058,
-      "SHA256": "27DE490AD31EB995D59A7C0413C7BAACED3127B63A4DA321250A1FD379FC8669",
       "ComponentGroup": "ExifTool and Strawberry Perl"
     },
     {
@@ -2836,12 +2824,6 @@
       "ComponentGroup": "ExifTool and Strawberry Perl"
     },
     {
-      "Path": "tools/ExifTool/exiftool_files/lib/Compress/Raw/Lzma.pm",
-      "Bytes": 24792,
-      "SHA256": "9CDFFB9E4AB5B5F8DF1F75312628BC82125186222DF7D0F54D1520E773F76836",
-      "ComponentGroup": "ExifTool and Strawberry Perl"
-    },
-    {
       "Path": "tools/ExifTool/exiftool_files/lib/Compress/Raw/Zlib.pm",
       "Bytes": 47387,
       "SHA256": "90D1885CD4F0E91017E1392F0B164E88C4C254C89168BFCEC3DEBF1C7380366E",
@@ -2874,7 +2856,7 @@
     {
       "Path": "tools/ExifTool/exiftool_files/lib/auto/Win32/FindFile/FindFile.xs.dll",
       "Bytes": 48640,
-      "SHA256": "570366FF7C5C120D28D8D2719B76B91A08925EC77D18CF91986E832AD5B08D79",
+      "SHA256": "D74F80FBEC4DFA02BF5BBD0C803C8126E54C5C37333958A8EF0B7FBB52EBD488",
       "ComponentGroup": "ExifTool and Strawberry Perl"
     },
     {
@@ -2944,12 +2926,6 @@
       "ComponentGroup": "ExifTool and Strawberry Perl"
     },
     {
-      "Path": "tools/ExifTool/exiftool_files/lib/auto/Math/BigInt/GMP/GMP.xs.dll",
-      "Bytes": 251392,
-      "SHA256": "9B933A611C03049291BAA282A72299FEA6CC4D45895D17077A522BB0A2816DE2",
-      "ComponentGroup": "ExifTool and Strawberry Perl"
-    },
-    {
       "Path": "tools/ExifTool/exiftool_files/lib/auto/Math/BigInt/FastCalc/FastCalc.xs.dll",
       "Bytes": 22016,
       "SHA256": "5E5420CF0127859738E15F54B9497455FF492A4BB546BBCF3DCF1189FCEB463A",
@@ -2969,8 +2945,8 @@
     },
     {
       "Path": "tools/ExifTool/exiftool_files/lib/auto/IO/Compress/Brotli/Brotli.xs.dll",
-      "Bytes": 714752,
-      "SHA256": "7A2D367A0DDEA0C422647B85F51A43482679826D64B7616212D06BF3D3EF2B1E",
+      "Bytes": 714240,
+      "SHA256": "242A6778A1873F013D4AE506D047A0DA2623149F248DACD752115617C17E0A6D",
       "ComponentGroup": "ExifTool and Strawberry Perl"
     },
     {
@@ -3031,12 +3007,6 @@
       "Path": "tools/ExifTool/exiftool_files/lib/auto/Compress/Raw/Lzma/autosplit.ix",
       "Bytes": 99,
       "SHA256": "0B59B1F1EF51E9E4DA5292FD8359EF093CBDF3371E27E853D031ECF6FA00D851",
-      "ComponentGroup": "ExifTool and Strawberry Perl"
-    },
-    {
-      "Path": "tools/ExifTool/exiftool_files/lib/auto/Compress/Raw/Lzma/Lzma.xs.dll",
-      "Bytes": 51712,
-      "SHA256": "1ABC3AAE3A51618B1FDB91C4201F478368A1173A5930ACE283EE7DEBE7C6DFC2",
       "ComponentGroup": "ExifTool and Strawberry Perl"
     },
     {
@@ -3327,5 +3297,16 @@
       "SHA256": "0AD4F2F067B8FA62504E051F0D358D9B4B2D937D41AC8F7A3ACCC27082B7F845",
       "ComponentGroup": "FFmpeg"
     }
+  ],
+  "RequiredSourceAssets": [
+    "GeoStack-0.5.5-ffmpeg-sources-RC4.zip",
+    "GeoStack-0.5.5-perl-notices-and-sources-RC4.zip"
+  ],
+  "ExcludedFiles": [
+    "tools/ExifTool/exiftool_files/lib/auto/Math/BigInt/GMP/GMP.xs.dll",
+    "tools/ExifTool/exiftool_files/lib/Math/BigInt/GMP.pm",
+    "tools/ExifTool/exiftool_files/lib/auto/Compress/Raw/Lzma/Lzma.xs.dll",
+    "tools/ExifTool/exiftool_files/liblzma-5__.dll",
+    "tools/ExifTool/exiftool_files/lib/Compress/Raw/Lzma.pm"
   ]
 }

@@ -3,8 +3,12 @@
   "Copyright": "Copyright 2026 shinKatana0",
   "FirstPartyHeaderFiles": [
     ".github/workflows/source.yml",
+    "scripts/assemble-windows-rc4.py",
     "scripts/audit-portable.py",
     "scripts/build-portable.ps1",
+    "scripts/build-release-ffmpeg.ps1",
+    "scripts/build-release-ffmpeg.sh",
+    "scripts/build-release-perl-modules.py",
     "scripts/check-public-tree.py",
     "scripts/cleanup-workspace.py",
     "scripts/compact-atlas-pilot.py",
@@ -34,6 +38,8 @@
     "scripts/read-adapted-geography.py",
     "scripts/refresh-geographic-names.py",
     "scripts/report-storage.py",
+    "scripts/reproduce-windows-rc4.py",
+    "scripts/stage-rc4-tools.py",
     "scripts/test-workspace.py",
     "scripts/test.ps1",
     "scripts/unpack-reviewed-tools.py",
@@ -184,10 +190,12 @@
     "tests/GeoStack.Tests/RegionalLodCoverageTests.cs",
     "tests/GeoStack.Tests/RuntimeIdentityTests.cs",
     "tests/GeoStack.Tests/SettingsNavigationTests.cs",
+    "tests/GeoStack.Tests/TestMediaTools.cs",
     "tests/GeoStack.Tests/TestStorage.cs",
     "tests/GeoStack.Tests/UiSchedulingTests.cs",
     "tests/GeoStack.Tests/UrbanLiteTests.cs",
-    "tests/GeoStack.Tests/WindowBoundsTests.cs"
+    "tests/GeoStack.Tests/WindowBoundsTests.cs",
+    "tests/GeoStack.Tests/WindowsReleaseTests.cs"
   ],
   "Excluded": "Third-party source data, resources, fixtures and legal notices"
 }

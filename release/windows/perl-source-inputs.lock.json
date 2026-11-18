@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Win32-FindFile-0.15",
+    "URL": "https://cpan.metacpan.org/authors/id/G/GR/GRIAN/Win32-FindFile-0.15.tar.gz",
+    "Bytes": 54614,
+    "SHA256": "BFD4EF029F0A0E0D0C952D8BDC1BBFDF1CA63E4BB120752D35597E4E9A6E9578"
+  },
+  {
+    "Name": "IO-Compress-Brotli-0.004001",
+    "URL": "https://cpan.metacpan.org/authors/id/M/MG/MGV/IO-Compress-Brotli-0.004001.tar.gz",
+    "Bytes": 7674244,
+    "SHA256": "8BA5C0167E966F487BDE159C18BC1B3486528013B3235D39F2FCB375CA4BF410"
+  },
+  {
+    "Name": "CryptX-0.069",
+    "URL": "https://cpan.metacpan.org/authors/id/M/MI/MIK/CryptX-0.069.tar.gz",
+    "Bytes": 1644304,
+    "SHA256": "B5503A35046A973174234A823DBA63403B080957C4A370D60D66AA7C7587D850"
+  },
+  {
+    "Name": "Math-BigInt-GMP-1.6007",
+    "URL": "https://cpan.metacpan.org/authors/id/P/PJ/PJACKLAM/Math-BigInt-GMP-1.6007.tar.gz",
+    "Bytes": 2459995,
+    "SHA256": "5D725E6D20CCB37E072673628F0B0DD10E5DD011619F70F50AD58ADED454C01F"
+  },
+  {
+    "Name": "Unicode-LineBreak-2019.001",
+    "URL": "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz",
+    "Bytes": 312225,
+    "SHA256": "486762E4CACDDCC77B13989F979A029F84630B8175E7FEF17989E157D4B6318A"
+  },
+  {
+    "Name": "Compress-Raw-Lzma-2.100",
+    "URL": "https://cpan.metacpan.org/authors/id/P/PM/PMQS/Compress-Raw-Lzma-2.100.tar.gz",
+    "Bytes": 117490,
+    "SHA256": "5CEF2D8FF53AB0361B5AFB827B9D7E00D230BDBAD577955622C43F933294F42B"
+  }
+]

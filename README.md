@@ -8,7 +8,7 @@ English | [Русский](README.ru.md)
 
 GeoStack puts your photos and videos on a map using the GPS information saved in each file. Browse a trip by place, view photos taken near one another, and copy or move selected files into country/city folders. Use JPEG, HEIC, supported RAW files and videos together, and download more detailed maps when you need them.
 
-**Source code is available. Official Windows binaries are not yet distributed.** [Build and run locally](BUILD.md).
+**The Windows 0.5.5 portable package is prepared for publication; the official download is pending.** [Installation and release materials](docs/WINDOWS_RELEASE.md).
 
 ![World map with photo groups and the Media Library](docs/screenshots/world-Light.png)
 

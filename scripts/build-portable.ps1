@@ -1,7 +1,21 @@
 # Copyright 2026 shinKatana0
 # SPDX-License-Identifier: Apache-2.0
-param([switch]$SkipTests,[string]$OutputFolder='dist/GeoStack-portable-win-x64',[switch]$KeepUnacceptedCandidate,[ValidateSet('Preview','Production')][string]$Channel='Preview')
+param([switch]$SkipTests,[string]$OutputFolder='dist/GeoStack-portable-win-x64',[switch]$KeepUnacceptedCandidate,[ValidateSet('Preview','Production')][string]$Channel='Preview',[string]$MediaToolsDirectory='tools',[string]$RC4InputsArchive,[string]$RC4ReferenceArchive)
 . "$PSScriptRoot/environment.ps1"
+if($RC4InputsArchive -or $RC4ReferenceArchive){
+    if(!$RC4InputsArchive -or !$RC4ReferenceArchive -or $Channel -ne 'Production'){throw 'RC4 reproduction requires both pinned archives and Production channel'}
+    python "$PSScriptRoot/assemble-windows-rc4.py" --inputs $RC4InputsArchive --reference $RC4ReferenceArchive --output (Join-Path $repo $OutputFolder)
+    if($LASTEXITCODE -ne 0){throw 'RC4 source/runtime correspondence failed; original release preserved'}
+    if(!$SkipTests){
+        $priorExecutable=$env:GEOSTACK_EXE
+        try{$env:GEOSTACK_EXE=Join-Path $repo "$OutputFolder/GeoStack.exe";& "$PSScriptRoot/test.ps1"}
+        finally{$env:GEOSTACK_EXE=$priorExecutable}
+    }
+    return
+}
+$mediaTools=[IO.Path]::GetFullPath((Join-Path $repo $MediaToolsDirectory))
+if(!$mediaTools.StartsWith($repo.TrimEnd('\')+'\',[StringComparison]::OrdinalIgnoreCase)){throw 'Media tools must be explicitly staged inside this checkout'}
+if($MediaToolsDirectory -ne 'tools' -and (!(Test-Path "$mediaTools/ExifTool/ExifTool.exe") -or !(Test-Path "$mediaTools/FFmpeg/ffmpeg.exe"))){throw 'Explicit staged media tools are incomplete'}
 $finalDestination=[IO.Path]::GetFullPath((Join-Path $repo $OutputFolder))
 $distributionPrefix=[IO.Path]::GetFullPath((Join-Path $repo 'dist')).TrimEnd('\')+'\'
 if(!$finalDestination.StartsWith($distributionPrefix,[StringComparison]::OrdinalIgnoreCase)){throw 'Portable destination must be a named folder inside repository dist'}
@@ -15,29 +29,29 @@ python "$PSScriptRoot/fetch-runtime.py"
 if ($LASTEXITCODE -ne 0) { throw 'Runtime package acquisition failed' }
 
 # Build outputs and local tools are deliberately excluded from Git.
-if (!(Test-Path "$repo/tools/ExifTool/ExifTool.exe")) {
+if (!(Test-Path "$mediaTools/ExifTool/ExifTool.exe")) {
     $installedExif = (Get-Command exiftool -ErrorAction Stop).Source
-    New-Item -ItemType Directory -Force "$repo/tools/ExifTool" | Out-Null
-    Copy-Item -Path (Join-Path (Split-Path $installedExif) '*') -Destination "$repo/tools/ExifTool" -Recurse -Force
+    New-Item -ItemType Directory -Force "$mediaTools/ExifTool" | Out-Null
+    Copy-Item -Path (Join-Path (Split-Path $installedExif) '*') -Destination "$mediaTools/ExifTool" -Recurse -Force
 }
-if (!(Test-Path "$repo/tools/FFmpeg/ffmpeg.exe")) {
-    New-Item -ItemType Directory -Force "$repo/tools/FFmpeg" | Out-Null
-    Copy-Item -LiteralPath (Get-Command ffmpeg -ErrorAction Stop).Source -Destination "$repo/tools/FFmpeg/ffmpeg.exe"
+if (!(Test-Path "$mediaTools/FFmpeg/ffmpeg.exe")) {
+    New-Item -ItemType Directory -Force "$mediaTools/FFmpeg" | Out-Null
+    Copy-Item -LiteralPath (Get-Command ffmpeg -ErrorAction Stop).Source -Destination "$mediaTools/FFmpeg/ffmpeg.exe"
 }
 dotnet restore GeoStack.sln --ignore-failed-sources -p:NuGetAudit=false
 if ($LASTEXITCODE -ne 0) { throw 'Restore failed' }
 # Never republish over a used portable directory: indexes, settings and caches are private.
 $destination = Join-Path $repo ('.local/publish-' + [Guid]::NewGuid().ToString('N'))
-dotnet publish src/GeoStack.App/GeoStack.App.csproj -c Release -r win-x64 --self-contained true -p:RuntimeFrameworkVersion=10.0.14 -p:GeoStackChannel=$Channel -p:PublishSingleFile=false -p:PublishReadyToRun=false -p:NuGetAudit=false -o $destination --ignore-failed-sources
+dotnet publish src/GeoStack.App/GeoStack.App.csproj -c Release -r win-x64 --self-contained true -p:RuntimeFrameworkVersion=10.0.14 -p:GeoStackChannel=$Channel -p:PublishSingleFile=false -p:PublishReadyToRun=false -p:DebugType=None -p:DebugSymbols=false "-p:PathMap=$repo=/_/" -p:NuGetAudit=false -o $destination --ignore-failed-sources
 if ($LASTEXITCODE -ne 0) { throw 'Portable publish failed' }
 New-Item -ItemType Directory -Force "$destination/tools/ExifTool", "$destination/tools/FFmpeg", "$destination/docs" | Out-Null
-Copy-Item "$repo/tools/ExifTool/*" "$destination/tools/ExifTool" -Recurse -Force
+Copy-Item "$mediaTools/ExifTool/*" "$destination/tools/ExifTool" -Recurse -Force
 foreach ($installerFile in @('unins000.exe', 'unins000.dat')) {
     $unneeded = Join-Path "$destination/tools/ExifTool/exiftool_files" $installerFile
     if (Test-Path -LiteralPath $unneeded) { Remove-Item -LiteralPath $unneeded }
 }
-Copy-Item "$repo/tools/FFmpeg/ffmpeg.exe" "$destination/tools/FFmpeg/ffmpeg.exe" -Force
-& "$repo/tools/FFmpeg/ffmpeg.exe" -version 2>&1 | Out-File "$destination/tools/FFmpeg/build-info.txt" -Encoding utf8
+Copy-Item "$mediaTools/FFmpeg/ffmpeg.exe" "$destination/tools/FFmpeg/ffmpeg.exe" -Force
+& "$mediaTools/FFmpeg/ffmpeg.exe" -version 2>&1 | Out-File "$destination/tools/FFmpeg/build-info.txt" -Encoding utf8
 # Ship user guidance, not engineering screenshots, traces, test reports or development fixtures.
 Copy-Item "$repo/docs/PORTABLE_README.md" "$destination/README.md" -Force
 Copy-Item "$repo/THIRD_PARTY_NOTICES.md" "$destination/THIRD_PARTY_NOTICES.md" -Force
