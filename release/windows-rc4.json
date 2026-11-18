@@ -8,8 +8,8 @@
   "original_informational_version": "0.5.5+df4a9d7e4913db3f6eeb74045149ba2f9a40c8d6",
   "compiler_inputs": {
     "file": "GeoStack-0.5.5-RC4-build-sources.zip",
-    "bytes": 23682689,
-    "sha256": "2028E95DC6B935CBB33FFCC4E24573EDE0A6BF0E13BD1D20E65DE9133E1C6A17",
+    "bytes": 23682077,
+    "sha256": "A18AB3922146F5A03A4EE3EC7C77F430F022EE303CFFEDE13F8BDB7B4B0439B9",
     "compiler_source_files": 116,
     "input_files": 164
   },
@@ -21,8 +21,8 @@
   "assets": [
     {
       "file": "GeoStack-0.5.5-windows-x64.zip",
-      "bytes": 111425302,
-      "sha256": "671ADC76C39CCA5E4A14FAA8720DC132312B7A36A877647FC22D925B778F1063"
+      "bytes": 111424742,
+      "sha256": "E65AFD945FFAE424955F8EC46479AEE979A8DF90267242B55EC5A24030A0D448"
     },
     {
       "file": "GeoStack-0.5.5-ffmpeg-sources-RC4.zip",
@@ -36,5 +36,18 @@
     }
   ],
   "source_relationship": "Public counterpart differs only by owner license headers and line endings from the archived exact product sources. The original build revision is archival provenance, not a claim that private Git history is public. Verify all source bytes with reproduce-windows-rc4.py. Windows working-file line endings are preserved in the archive after verification against Git-normalized original revision content; PE manifest bytes are build inputs.",
-  "geographic_materials": "Complete bundled adapted databases plus notices and readable reader remain inside portable ZIP. Optional downloaded maps retain separate terms."
+  "geographic_materials": "Complete bundled adapted databases plus notices and readable reader remain inside portable ZIP. Optional downloaded maps retain separate terms.",
+  "original_rc4_zip": {
+    "bytes": 111425302,
+    "sha256": "671ADC76C39CCA5E4A14FAA8720DC132312B7A36A877647FC22D925B778F1063"
+  },
+  "publication_packaging_revision": {
+    "changed_files": [
+      "README.md",
+      "START-HERE.txt",
+      "docs/PORTABLE.md"
+    ],
+    "application_dependency_bytes_changed": false,
+    "reason": "Remove stale review-only redistribution wording; ordinary user and unsigned guidance. No application/dependency change."
+  }
 }
