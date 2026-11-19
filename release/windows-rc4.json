@@ -1,8 +1,7 @@
 {
   "schema": 1,
   "version": "0.5.5",
-  "proposed_tag": "v0.5.5",
-  "publication": "PENDING_OWNER_AUTHORIZATION",
+  "publication": "PUBLISHED_V0_5_5",
   "public_base": "bb604125e310b6b11cd988a8da4479ad2ace9735",
   "original_build_revision": "df4a9d7e4913db3f6eeb74045149ba2f9a40c8d6",
   "original_informational_version": "0.5.5+df4a9d7e4913db3f6eeb74045149ba2f9a40c8d6",
@@ -49,5 +48,7 @@
     ],
     "application_dependency_bytes_changed": false,
     "reason": "Remove stale review-only redistribution wording; ordinary user and unsigned guidance. No application/dependency change."
-  }
+  },
+  "release_tag": "v0.5.5",
+  "tagged_public_source_commit": "40ac2532f0a2348de5b8782f2953e5facef29963"
 }

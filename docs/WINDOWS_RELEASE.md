@@ -5,7 +5,7 @@ English | [Russian](WINDOWS_RELEASE.ru.md)
 <!-- section:download -->
 ## Download status
 
-GeoStack 0.5.5 for Windows 11 x64 is prepared for publication. The official download is not yet published. Once announced, obtain the complete ZIP and SHA-256 checksums from the project's [Releases page](https://github.com/shinKatana0/GeoStack/releases). Do not use a locally compiled development folder as an official release.
+GeoStack 0.5.5 for Windows 11 x64 is available from the [official v0.5.5 release](https://github.com/shinKatana0/GeoStack/releases/tag/v0.5.5). Obtain the complete ZIP and SHA-256 checksums there. Do not use a locally compiled development folder as an official release.
 
 <!-- section:install -->
 ## Install and start
@@ -24,4 +24,4 @@ Keep the application, checksums, GeoStack-0.5.5-ffmpeg-sources-RC4.zip and GeoSt
 
 The original portable binary records compiler-input revision df4a9d7e4913db3f6eeb74045149ba2f9a40c8d6. This is an archival build identifier, not a commit imported into the public repository. The public release tag identifies the corresponding reviewed public-source snapshot. Public license headers and line endings differ from the original compiler inputs; the only application-code integration is the settings self-check correction. The separate GeoStack-0.5.5-RC4-build-sources.zip supplies the exact original compiler inputs without private history. [Release provenance](../release/windows-rc4.json) pins both that archive and the unchanged binary. Reproduction commands are in [BUILD](../BUILD.md). Rebuild output is separate from the original RC4; differing hashes must be recorded and must not silently replace it.
 
-Physical cross-volume testing is NOT_TESTED by owner choice. Automated checks are separate from physical owner acceptance. No binary is uploaded by the build or verification scripts.
+Extended physical cross-volume transfer testing was not performed for this version. Build and verification scripts do not publish binaries.

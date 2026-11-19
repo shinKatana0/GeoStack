@@ -8,7 +8,7 @@ English | [Русский](README.ru.md)
 
 GeoStack puts your photos and videos on a map using the GPS information saved in each file. Browse a trip by place, view photos taken near one another, and copy or move selected files into country/city folders. Use JPEG, HEIC, supported RAW files and videos together, and download more detailed maps when you need them.
 
-**The Windows 0.5.5 portable package is prepared for publication; the official download is pending.** [Installation and release materials](docs/WINDOWS_RELEASE.md).
+**Download GeoStack 0.5.5 portable for Windows.** [Official release](https://github.com/shinKatana0/GeoStack/releases/tag/v0.5.5) · [Installation and release materials](docs/WINDOWS_RELEASE.md).
 
 ![World map with photo groups and the Media Library](docs/screenshots/world-Light.png)
 
@@ -25,17 +25,25 @@ GeoStack puts your photos and videos on a map using the GPS information saved in
 The interface is available in English and Russian, with System, Light and Dark themes. Folder-naming language is a separate setting.
 
 <!-- section:source -->
-## Try it from source
+## Start on Windows
 
-GeoStack 0.5.5 uses C#, .NET 10 and WPF and runs on Windows 11 x64. Install the SDK selected in `global.json`, then run these commands from the repository root:
+GeoStack 0.5.5 is portable and runs on Windows 11 x64. The .NET 10 runtime is included.
+
+1. [Download the Windows x64 ZIP](https://github.com/shinKatana0/GeoStack/releases/download/v0.5.5/GeoStack-0.5.5-windows-x64.zip) from the [official release](https://github.com/shinKatana0/GeoStack/releases/tag/v0.5.5).
+2. Extract the complete ZIP into a writable folder and keep its subfolders together.
+3. Launch `GeoStack.exe`; no installer is required.
+4. Add photos, videos or folders with **Open folder** or drag them from Explorer.
+5. Browse the offline map and Media Library; select files and filter by GPS.
+6. When you need more map detail, review and confirm optional packages in **Maps**.
+7. Use **Copy to Location** or deliberately choose **Move to Location**, review the country/city destinations and confirm the operation.
+
+Download `SHA256SUMS.txt` from the same release and compare its ZIP entry with:
 
 ```powershell
-. ./scripts/environment.ps1
-dotnet restore GeoStack.sln --ignore-failed-sources -p:NuGetAudit=false
-dotnet build GeoStack.sln -c Release --no-restore
+Get-FileHash GeoStack-0.5.5-windows-x64.zip -Algorithm SHA256
 ```
 
-The offline world atlas is included. Import and previews need separately supplied ExifTool and FFmpeg tools. [BUILD](BUILD.md) explains setup and launch with an isolated profile.
+The executables are unsigned. Windows SmartScreen or Smart App Control may warn or block them. Do not disable Windows security protections. For source builds and dependency details, see [BUILD](BUILD.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
 <!-- section:maps -->
 ## Maps for your library

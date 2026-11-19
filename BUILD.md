@@ -44,7 +44,7 @@ The script uses synthetic/licensed fixtures and may download missing samples. Th
 <!-- section:portable -->
 ## Portable packaging
 
-The Windows RC4 reproduction inputs and exact media-tool lock are described in [Windows release materials](docs/WINDOWS_RELEASE.md). Download the pinned compiler-input archive when the release is published. This archive preserves the original build revision without importing private Git history. From the public source root, the following command verifies every compiler input and all corresponding public product sources; add --build to compile into a separate experimental directory. It never replaces the release ZIP.
+The Windows RC4 reproduction inputs and exact media-tool lock are described in [Windows release materials](docs/WINDOWS_RELEASE.md). Download the pinned compiler-input archive from the official release. This archive preserves the original build revision without importing private Git history. From the public source root, the following command verifies every compiler input and all corresponding public product sources; add --build to compile into a separate experimental directory. It never replaces the release ZIP.
 
 ```powershell
 python scripts/reproduce-windows-rc4.py --inputs GeoStack-0.5.5-RC4-build-sources.zip --output .local/rc4-reproduction
